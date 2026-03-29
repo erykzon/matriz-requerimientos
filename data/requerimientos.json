@@ -1,0 +1,3067 @@
+{
+  "version": "2026",
+  "updated": "2026-03-28",
+  "total": 90,
+  "clientes": [
+    {
+      "nombre": "AMAZON WE PAY",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "1.80 Mts"
+      },
+      "tarima": {
+        "std": true,
+        "origen": "APARTIR DE 60\"",
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": true,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "No Aplica",
+      "comentarios": "Control de tarimas: La cantidad de tarimas debe corresponder a lo indicado en el BOL; únicamente se permite cambio de BOL en tarimas de origen con autorización del Team Hisense.\nIdentificación de piezas: Cada pieza debe llevar papeleta (carton label) colocada con cinta en los laterales, cubriendo el código UPC del lado aplicado, y en secuencia consecutiva de bulto.\nIdentificación de tarima: Colocar la papeleta de OC y papeleta de destino en las 4 caras de la tarima.\nEmplayado: El pallet debe estar emplayado con película transparente bajo el estándar 4-3-4.\nSeguridad: Después del emplayado, colocar cinta de seguridad Hisense en forma de cruz, desde la parte inferior del pallet hacia el extremo opuesto.\nCondiciones adicionales: El uso de cincho de playo será únicamente cuando sea necesario para mejorar la estabilidad. Las cargas deben completarse en un máximo de 2 horas para evitar penalizaciones."
+    },
+    {
+      "nombre": "BODESA AC",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": null
+      },
+      "tarima": {
+        "std": true,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": true,
+        "series": true
+      },
+      "insumos": "",
+      "comentarios": "Control de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nControl de secuencia de bulto – Combos\nEn caso de combo, colocar etiqueta de secuencia de bulto conforme a lo siguiente:\n1/x: Para la pieza del SET cuyo UPC coincida con el indicado en la orden de compra o archivo de insumos.\n2/x: Para la pieza restante del SET.\nGenerar evidencia fotográfica del proceso de validación y reetiquetado.\nGenerar y colocar, en la esquina superior derecha de cada pallet( en las 4 caras), una etiqueta con la siguiente información: BODESA, modelo y cantidad de piezas.\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
+    },
+    {
+      "nombre": "BODESA LB",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": true,
+        "series": true
+      },
+      "insumos": "",
+      "comentarios": "Control de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nAsegurar que el formato del código de barras corresponda al requerido (EAN o UPC).\nGenerar evidencia fotográfica del proceso de validación y reetiquetado."
+    },
+    {
+      "nombre": "BODESA TV",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": null
+      },
+      "tarima": {
+        "std": true,
+        "origen": "APARTIR DE 60\"",
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": true,
+        "series": true
+      },
+      "insumos": "",
+      "comentarios": "Control de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nAsegurar que el formato del código de barras corresponda al requerido (EAN o UPC).\nGenerar evidencia fotográfica del proceso de validación y reetiquetado.\nGenerar y colocar, en la esquina superior derecha de cada pallet, una etiqueta con la siguiente información: BODESA, modelo y cantidad de piezas.\nCada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado."
+    },
+    {
+      "nombre": "CENTRO MUEBLERO DE URUAPAN",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "Sin Insumos",
+      "comentarios": ""
+    },
+    {
+      "nombre": "CIA COMERCIAL CIMACO S.A DE C.V. DURANGO LB",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": true
+      },
+      "insumos": "",
+      "comentarios": "Enviar Números de Serie por Correo al Team de Embarques Hisense"
+    },
+    {
+      "nombre": "CIA COMERCIAL CIMACO S.A DE C.V. DURANGO TV",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "1.80 Mts"
+      },
+      "tarima": {
+        "std": true,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": true
+      },
+      "insumos": "",
+      "comentarios": "Enviar Números de Serie por Correo al Team de Embarques Hisense"
+    },
+    {
+      "nombre": "CITY FRESKO (DISTRIBUCION) TV,LB,AC",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "1.80 Mts"
+      },
+      "tarima": {
+        "std": null,
+        "origen": true,
+        "chep": true,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": true,
+        "predistribuido": true
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": true,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "Armar En Tarima Chep o Tipo chep, Pantallas De 65\" En Adelante Puede Ir En Tarima De Origen",
+      "comentarios": "Armado contra la OC / distribución: Los pallets blindados se distribuirán sin emplayar hasta la inspección del Auditor City Fresco. Posteriormente, se realizará el emplayado, el blindaje y el embarque correspondientes.\nControl de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nAsegurar que el formato del código de barras corresponda al requerido (EAN o UPC).\nGenerar evidencia fotográfica del proceso de validación y reetiquetado."
+    },
+    {
+      "nombre": "CITY FRESKO LB / TV´s",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "1.80 Mts"
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": true,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": true,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "Armar En Tarima Chep",
+      "comentarios": "Colocar fleje únicamente si es necesario para asegurar el producto. Incluir la confirmación de cita en el último pallet y en uno de los costados de la caja. Validar el armado contra la orden de compra. La carga debe realizarse con el pallet orientado de punta.\nControl de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nAsegurar que el formato del código de barras corresponda al requerido (EAN o UPC).\nGenerar evidencia fotográfica del proceso de validación y reetiquetado."
+    },
+    {
+      "nombre": "Xaze CITY Club | Soriana",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "2.20 mts"
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": true,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": true,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": true,
+        "series": true
+      },
+      "insumos": "Armar En Tarima Chep",
+      "comentarios": "Armado de tarimas: Realizar el armado conforme al plan de carga, respetando la cantidad de piezas por tarima indicada. No exceder las dimensiones de la tarima; en caso de exceder, armar en dos tarimas unidas de punta por la base, formando un pallet de 1 x 2.4 m, asegurando con tirantes de fleje y esquineros, sin exceder la altura permitida.\nEmplayado: El pallet debe estar emplayado bajo el estándar 6-5-6.\nDocumentación: Imprimir 3 copias del formato; el operador deberá presentarlas en caseta de vigilancia junto con las copias de las facturas.\nAcomodo de producto: El producto debe colocarse de frente, asegurando que las etiquetas de modelo / UPC / EAN queden del mismo lado."
+    },
+    {
+      "nombre": "CLARO SHOP",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": true,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "",
+      "comentarios": "Cada pieza debe llevar una papeleta.\nTodas las pantallas deben colocarse de punta, de forma que la identificación de la etiqueta o papeleta quede visible.\nEl producto debe estar limpio para su envío."
+    },
+    {
+      "nombre": "CLIMAPROYECTOS",
+      "clasificacion": "B y C",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": true
+      },
+      "insumos": "No Aplica",
+      "comentarios": "Enviar Números de Serie por Correo al Team de Embarques Hisense"
+    },
+    {
+      "nombre": "ComGomez",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": true
+      },
+      "insumos": "",
+      "comentarios": "Enviar Números de Serie por Correo al Team de Embarques Hisense"
+    },
+    {
+      "nombre": "COPPEL TV",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "",
+      "comentarios": "Reetiquetado: El Team Hisense notificará previamente los modelos que requieran reetiquetado, incluyendo modelo, EAN/UPC y NOM.\nValidación previa: Antes de embarcar, validar si existe solicitud de reetiquetado y asegurar su correcta aplicación."
+    },
+    {
+      "nombre": "CORPORACION TACTICA AC",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": true
+      },
+      "insumos": "Se Envía Insumos (Tarima) Conforme Se Indica en plan de carga Mas 1 Playo C/7 Tarimas",
+      "comentarios": "El envío a granel deberá realizarse con el insumo correspondiente, previamente compartido por el Team Hisense. En caso de no enviar el insumo, la mercancía será rechazada. \nAdemás, se deberán enviar los números de serie por correo electrónico al Team de Embarques Hisense."
+    },
+    {
+      "nombre": "CORPORACION TACTICA LB",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": true
+      },
+      "insumos": "Se Envía Insumos (Tarima) Conforme Se Indica en plan de carga Mas 1 Playo C/7 Tarimas",
+      "comentarios": "El envío a granel deberá realizarse con el insumo correspondiente, previamente compartido por el Team Hisense. En caso de no enviar el insumo, la mercancía será rechazada. Además, se deberán enviar los números de serie por correo electrónico al Team de Embarques Hisense."
+    },
+    {
+      "nombre": "CORPORACION TACTICA TV",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": true
+      },
+      "insumos": "Se Envía Insumos (Tarima) Conforme Se Indica en plan de carga Mas 1 Playo C/7 Tarimas",
+      "comentarios": "El envío a granel deberá realizarse con el insumo correspondiente, previamente compartido por el Team Hisense. En caso de no enviar el insumo, la mercancía será rechazada. Además, se deberán enviar los números de serie por correo electrónico al Team de Embarques Hisense."
+    },
+    {
+      "nombre": "COSTCO TV",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "No Max"
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": true,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": true,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "Armar En Tarima Chep  o Tipo Chep ( con autorización de Team Hisense)",
+      "comentarios": "Armado conforme a la orden de compra\nFlejado: Todo producto debe ir correctamente flejado (mínimo 2 flejes).\nPantallas de 60” en adelante:\nEnviar en tarima doble, unidas de punta, formando un pallet de 1 x 2.4 m.\nAsegurar la unión con dos cinchos elaborados con el mismo fleje.\nEsquineros: No utilizar esquineros que excedan las dimensiones del producto paletizado.\nRegistro: Anotar en el diagrama la cantidad de tarimas Chep originales embarcadas.\nPantallas de 100”: Enviar sin base de madera, retirándola con cuidado para no dañar el corrugado.\nRestricciones: No utilizar barra logística como sujeción.\nControl de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nAsegurar que el formato del código de barras corresponda al requerido (EAN o UPC).\nGenerar evidencia fotográfica del proceso de validación y reetiquetado."
+    },
+    {
+      "nombre": "COSTCO LB",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "No Max"
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": true,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": true,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "Armar En Tarima Chep  o Tipo Chep ( con autorización de Team Hisense)",
+      "comentarios": "Armado conforme a la orden de compra\nFlejado: Todo producto debe ir correctamente flejado (mínimo 2 flejes).\nEsquineros: No utilizar esquineros que excedan las dimensiones del producto paletizado.\nRegistro: Anotar en el diagrama la cantidad de tarimas Chep originales embarcadas.\nRestricciones: No utilizar barra logística como sujeción.\nControl de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nAsegurar que el formato del código de barras corresponda al requerido (EAN o UPC).\nGenerar evidencia fotográfica del proceso de validación y reetiquetado."
+    },
+    {
+      "nombre": "COSTCO 75\"",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "No Max"
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": true,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": true,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "Armar En Tarima Chep  o Tipo Chep ( con autorización de Team Hisense)",
+      "comentarios": "Uso de tarima doble unida de costado\nFormación del pallet: Unir dos tarimas por el costado para formar un pallet de 2 m x 1.2 m.\nAsegurado: Colocar dos cinchos en la unión, elaborados con el mismo fleje.\nEsquineros: No utilizar esquineros que excedan las dimensiones del producto paletizado.\nRegistro: Anotar en el diagrama la cantidad total de tarimas embarcadas y validar las órdenes de compra antes del armado (consultar con Hisense en caso de dudas).\nControl de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nAsegurar que el formato del código de barras corresponda al requerido (EAN o UPC).\nGenerar evidencia fotográfica del proceso de validación y reetiquetado.\nRestricciones: No utilizar barra logística como método de sujeción."
+    },
+    {
+      "nombre": "COSTCO CAJONES/BASES 100\"",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "No Max"
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": true,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": true,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "Armar En Tarima Chep",
+      "comentarios": "Control de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nAsegurar que el formato del código de barras corresponda al requerido (EAN o UPC).\nGenerar evidencia fotográfica del proceso de validación y reetiquetado.\nFormación de pallet\nEmplayado: Todo producto debe ir debidamente emplayado, con su papeleta de destino proporcionada por el cliente.\nConfiguración: Cuando aplique por dimensiones, el producto debe armarse en doble tarima (Chep) con doble flejado."
+    },
+    {
+      "nombre": "COSTCO.COM",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "1.80 mts"
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": true,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": true,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "Armar En Tarima Chep  o Tipo Chep ( con autorización de Team Hisense)",
+      "comentarios": "Armado y asegurado de tarimas\nCapacidad máxima: Cada tarima debe armarse con la mayor cantidad de producto posible, ocupando completamente la base, sin que ningún artículo sobresalga de los bordes y sin exceder una altura de 1.80 m.\nFijación: Todo producto debe ir flejado.\nPantallas de 60” o mayores: Utilizar tarima doble unida de costado para formar un pallet de 2 x 1.2 m, asegurado con dos cinchos en la unión (elaborados con el mismo fleje).\nRegistro: Anotar en el diagrama la cantidad de tarimas embarcadas.\nPantallas de 100”: Se enviarán sin base de madera, retirándola cuidadosamente para no dañar el corrugado.\nEsquineros: No utilizar esquineros que excedan las dimensiones del producto paletizado.\nRestricciones: No utilizar barra logística como sujeción.\nControl de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nAsegurar que el formato del código de barras corresponda al requerido (EAN o UPC).\nGenerar evidencia fotográfica del proceso de validación y reetiquetado."
+    },
+    {
+      "nombre": "COSTCO AC",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "1.80 mts"
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": true,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": true,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "Armar En Tarima Chep  o Tipo Chep ( con autorización de Team Hisense)",
+      "comentarios": "Armado y aseguramiento de tarimas\nConfiguración de tarima: Armar cada tarima en dos torres, separando los componentes del SET: una torre ODU y una torre IDU. No mezclar ambos componentes dentro de la misma torre del pallet.\nEn caso de combo, colocar etiqueta de secuencia de bulto (1/2 para ODU y 2/2 para IDU).\nControl de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nAsegurar que el formato del código de barras corresponda al requerido (EAN o UPC).\nGenerar evidencia fotográfica del proceso de validación y reetiquetado.\nFijación: Todo producto debe ir flejado.\nRegistro: Registrar en el diagrama la cantidad de tarimas embarcadas.\nEsquineros: No utilizar esquineros que excedan las dimensiones del producto paletizado.\nRestricción: Prohibido utilizar barra logística como método de sujeción."
+    },
+    {
+      "nombre": "COSTCO.DSV",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "No Max"
+      },
+      "tarima": {
+        "std": true,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "Armar En Tarima De Tacón o  Estándar",
+      "comentarios": "Todo producto debe ir debidamente emplayado, colocando la PO impresa y la guía. Ambos documentos deben coincidir en el domicilio indicado en la PO y en la orden."
+    },
+    {
+      "nombre": "CT INTERNACIONAL AC",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "No Max"
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "1 Playo Por Cada 5 Tarimas",
+      "comentarios": "No enviar insumo implica rechazo.\nEnviar Números de Serie por correo al Team de Embarques Hisense."
+    },
+    {
+      "nombre": "CT INTERNACIONAL LB",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "No Max"
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "Se Envía Insumos (Tarima) Conforme Se Indica En Pc Mas 1 Playo C/5 Tarimas",
+      "comentarios": "No enviar insumo implica rechazo.\nEnviar Números de Serie por correo al Team de Embarques Hisense."
+    },
+    {
+      "nombre": "CT INTERNACIONAL TV",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "No Max"
+      },
+      "tarima": {
+        "std": true,
+        "origen": "APARTIR DE 60\"",
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "1 Playo Por Cada 5 Tarimas",
+      "comentarios": "Cada tarima debe armarse con la cantidad máxima de producto que pueda ocupar completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado.\nNo enviar insumo implica rechazo. /\n Enviar Números de Serie por correo al Team de Embarques Hisense."
+    },
+    {
+      "nombre": "CVA ۰ CEDIS",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "No Max"
+      },
+      "tarima": {
+        "std": true,
+        "origen": "APARTIR DE 60\"",
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": true
+      },
+      "insumos": "",
+      "comentarios": "Enviar Números de Serie por correo al Team de Embarques Hisense."
+    },
+    {
+      "nombre": "DGL LATAM | clientes",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": null
+      },
+      "tarima": {
+        "std": true,
+        "origen": "APARTIR DE 60\"",
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": true
+      },
+      "insumos": "",
+      "comentarios": "Envío de información y documentación\nCompartir números de serie por modelo vía correo electrónico.\nGenerar remisión a ciegas (sin precio).\nProhibido entregar facturas al momento de la entrega."
+    },
+    {
+      "nombre": "DGL LATAM | Polanco",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": true
+      },
+      "insumos": "",
+      "comentarios": "Compartir números de serie por correo electrónico.\nLa entrega solo se realiza en unidad de 3.5 toneladas."
+    },
+    {
+      "nombre": "DGL LATAM | HOME Depot",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "2.0 Mts"
+      },
+      "tarima": {
+        "std": true,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": true,
+        "predistribuido": true
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": true,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": true,
+        "series": true
+      },
+      "insumos": "",
+      "comentarios": "Armado de pallets: El armado debe realizarse conforme al plan de carga, respetando la cantidad de piezas por tarima indicada.\nConfiguración de tarima: Utilizar tarima estándar (1.20 m x 1.00 m) en óptimas condiciones. Las cajas deben estar perfectamente cerradas (fleje y/o cinta resistente). Se permite un solo SKU por tarima. La mercancía debe mantenerse dentro de las dimensiones de la tarima; en caso de sobredimensión, utilizar tarima acorde sin permitir producto sobresaliente.\nControl de series: Enviar Números de Serie por tarima via correo al Team de Embarques Hisense.\nArmado y aseguramiento: Colocar el producto alineado y estable. Aplicar flejado (tirantes de fleje) para sujeción. Emplayar desde la base cumpliendo mínimo 10 vueltas en base, 6 en el centro y 10 en la parte superior, incluyendo tapa de playo. El emplayado debe asegurar que la carga no se mueva ni represente riesgo de colapso.\nIdentificación de tarima: Colocar 2 papeletas ( hoja tamaño carta) de pallet en la parte superior derecha sobre el playo (1 frontal superior derecha y 1 en cara opuesta), visibles y ubicadas del lado de entrada de uñas del patín.\nCondiciones de carga: Realizar la carga en secuencia descendente, colocando mayor al fondo y menor hacia la puerta.\nCondiciones críticas (Motivo de rechazo): No se permite producto fuera de tarima, tarimas dañadas, emplayado insuficiente, falta de flejado, mezcla de SKUs o etiquetas incorrectas/mal colocadas."
+    },
+    {
+      "nombre": "DGL LATAM | Office Depot",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "1.60 Mts"
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": true,
+        "predistribuido": true
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": true,
+        "upc": true,
+        "series": true
+      },
+      "insumos": "",
+      "comentarios": "Configuración de tarima: Utilizar tarima de madera tipo tacón (4 entradas) de 1.00 x 1.20 m, en óptimas condiciones (sin daños, clavos, humedad o plaga). Prohibido uso de tarimas dañadas o envío a granel/piso. Para productos sobredimensionados, usar tarima proporcional.\nDistribución por pieza: Surtir conforme al archivo de distribución (Excel) del cliente, separando previamente por tienda.\nEtiquetado por pieza: Colocar etiqueta Manhattan (parte inferior del producto, mismo lado de la tarima). Generar etiqueta UPC (102x51 mm) con código visible y colocar en parte central sin obstruir orejillas.\nDistribución por  tarima: Colocar etiqueta de sistema (full pallet), número de tienda en 4 caras y cantidad de cajas. Ubicar en frente o esquina superior derecha.\nArmado: Acomodar producto alineado y frenteado, con etiquetas visibles. No ocultar cajas. Colocar esquineros y emplayar bajo estándar 4-3-4 desde la base.\nRechazos: No se permite mercancía a granel, tarimas dañadas, cajas ocultas o reacomodo en cross dock.\nAcomodo por región: Enviar tarimas separadas por región y cargar en orden inverso (primera descarga región 100).\nExcepciones: Tiendas 190, 390, 201, 404, 191 y 400’s deben colocarse al final de la carga o en último camión."
+    },
+    {
+      "nombre": "ELEKTRA AC",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": true,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": true
+      },
+      "insumos": "",
+      "comentarios": "Etiquetado – División AC (ODU / IDU)\nAplicación: El etiquetado se realiza únicamente en el ODU del SET.\nUbicación: Colocar la etiqueta en un costado del producto, asegurando que no cubra simbología ni pictogramas.\nSecuencia de bulto:\n1/2: ODU\n2/2: IDU\nGarantizar la correcta identificación de ambos componentes del combo.\nTiempo de carga (BAZ)\nLas cargas deben completarse en un máximo de 2 horas para evitar penalizaciones."
+    },
+    {
+      "nombre": "ELEKTRA LB",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": true,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "",
+      "comentarios": "Etiquetado de Línea Blanca (LB)\nDatos a incluir: Utilizar la información compartida en el PLP y en el archivo \"TXT\" (SKU, proveedor, case, descripción, OC, fecha).\nUbicación de la etiqueta: Colocar la etiqueta de LB en el respaldo del producto (“atrás” / “back”), a 1 cm de la etiqueta original del producto.\nTiempo de carga (BAZ): Las cargas deben completarse en menos de 2 horas para evitar cualquier penalización."
+    },
+    {
+      "nombre": "ELEKTRA TV",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "1.60 Mts"
+      },
+      "tarima": {
+        "std": true,
+        "origen": "APARTIR DE 65\"",
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": true,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "",
+      "comentarios": "Revisar el proceso \"Elektra_Criterios_Aceptacion_TV\" compartido  vía mail en formato PDF.\nEtiquetado de producto y orden de carga\nDatos a incluir: Utilizar la información compartida en el PLP y en el archivo \"TXT\" (SKU, proveedor, case, descripción, OC, fecha).\nUbicación y orden en producto: El etiquetado para TV debe colocarse en un mismo lado, siguiendo la secuencia de menor a mayor. La etiqueta debe ubicarse a altura media del producto, sin bloquear las orejillas.\nTiempo de carga (BAZ): Las cargas deben completarse en menos de 2 horas para evitar penalizaciones.\nOrden de carga en unidad: La carga debe realizarse colocando al fondo de la unidad la secuencia más alta y cercano a la puerta la secuencia más baja, asegurando así el orden de descarga correcto."
+    },
+    {
+      "nombre": "ELIZONDO LB",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "No Max"
+      },
+      "tarima": {
+        "std": true,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "Armar En Tarima Std",
+      "comentarios": "-"
+    },
+    {
+      "nombre": "ELIZONDO TV",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "2.10 mts"
+      },
+      "tarima": {
+        "std": true,
+        "origen": "APARTIR DE 60\"",
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "Armar En Tarima Std",
+      "comentarios": "Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado."
+    },
+    {
+      "nombre": "ENCANTO FORANEOS",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "Sin Insumos",
+      "comentarios": "-"
+    },
+    {
+      "nombre": "ENCANTO MEXICO / LERMA LB",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "No Max"
+      },
+      "tarima": {
+        "std": true,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": "SOLO APLICA EN TV",
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": true
+      },
+      "insumos": "Armar En Tarima Std",
+      "comentarios": "Solo se podrá embarcar a granel con autorización expresa del cliente.\nEnviar Números de Serie por correo al Team de Embarques Hisense."
+    },
+    {
+      "nombre": "ENCANTO MEXICO / LERMA TV",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "No Max"
+      },
+      "tarima": {
+        "std": true,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": "SOLO APLICA EN TV",
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": true
+      },
+      "insumos": "Armar En Tarima Std",
+      "comentarios": "Enviar Números de Serie por correo al Team de Embarques Hisense.\nCada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado."
+    },
+    {
+      "nombre": "EQUIPSA",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": "No Max"
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": true
+      },
+      "insumos": "",
+      "comentarios": "Condición de embarque: Solo se podrá embarcar a granel con autorización expresa del cliente.\nEnviar Números de Serie por correo al Team de Embarques Hisense."
+    },
+    {
+      "nombre": "EXEL DEL NORTE VALLEJO AC",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "1.80 Mts"
+      },
+      "tarima": {
+        "std": true,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": true
+      },
+      "insumos": "Tráiler Y Mudanza Enviar 6 Playos / Unidad Menor Enviar 3 Playos",
+      "comentarios": "Armado – Aire Acondicionado (AC)\nConfiguración: El armado se realiza por kits completos, colocando todas las piezas del SET en la misma tarima.\nAlcance: Estas especificaciones aplican para destinos locales y foráneos.\nEnviar Números de Serie por correo al Team de Embarques Hisense."
+    },
+    {
+      "nombre": "EXEL DEL NORTE VALLEJO LB",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "No Max"
+      },
+      "tarima": {
+        "std": true,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "Tráiler Y Mudanza Enviar 6 Playos / Unidad Menor Enviar 3 Playos",
+      "comentarios": "Insumos por tipo de unidad:\nTráiler o unidad de mudanza: 6 playos por unidad.\nUnidad de menor tamaño: 3 playos por unidad.\nLas especificaciones aplican para destinos locales y foráneos"
+    },
+    {
+      "nombre": "EXEL DEL NORTE VALLEJO TV",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "No Max"
+      },
+      "tarima": {
+        "std": true,
+        "origen": "APARTIR DE 60\"",
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "Tráiler Y Mudanza Enviar 6 Playos / Unidad Menor Enviar 3 Playos",
+      "comentarios": "Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado. Las especificaciones aplican para destinos locales y foráneos"
+    },
+    {
+      "nombre": "HOME DEPOT ATITALAQUIA",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": true,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "",
+      "comentarios": "Control de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nAsegurar que el formato del código de barras corresponda al requerido (EAN o UPC).\nGenerar evidencia fotográfica del proceso de validación y reetiquetado.\nColocación de papeleta de confirmación de cita:\nAl finalizar la carga, colocar la papeleta de confirmación de cita en el producto más cercano a la puerta, asegurando que esté centrada. Además, fijar otra papeleta en la pared interna de la caja."
+    },
+    {
+      "nombre": "INGRAM",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "1.80 Mts"
+      },
+      "tarima": {
+        "std": true,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": true
+      },
+      "insumos": "(Enviar Tarimas De 5 Palos) 1 Playo Por Cada 5 Tarimas / Pantallas De 60\" Se Envía 1 Playo Por 2 Tarimas / Cada Unidad Debe Llevar 3 Tarimas Como Insumo Aparte De Lo Proporcional Al Armado",
+      "comentarios": "Configuración de tarima: Utilizar tarima reforzada con 5 palos en la base.\nPara pantallas de 60” en adelante, enviar en tarima de origen, incluyendo el mismo número de tarimas de 4 o 5 palos como insumo.\nArmado y protección\nTodo el producto debe llevar esquineros y armarse colocando el producto de punta.\nCada tarima debe armarse con la máxima cantidad de producto, cubriendo completamente su base, sin que ningún artículo sobresalga de los bordes.\nUnidad Transporte: Colocar 2 sellos por unidad (1 por puerta).\nControl de insumos: En caso de no contar con el insumo requerido, el embarque será motivo de rechazo.\nControl de series: Enviar Números de Serie por correo al Team de Embarques Hisense."
+    },
+    {
+      "nombre": "LIVERPOOL MARKET PLACE",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": true,
+        "altura": "2.30 Mts"
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": true,
+        "predistribuido": true
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": true,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "1 Playo Cada 50 Piezas A Granel.",
+      "comentarios": "En el caso de las pantallas, la etiqueta de SKU debe colocarse siempre en el mismo lugar y de forma visible.\nPara la línea blanca, la etiqueta de SKU se colocará en la leyenda “Atrás del producto físico” y cada producto deberá enviarse con un mínimo de tres flejes. La etiqueta de SKU será de color amarillo.\nVerificar que el producto, tanto en la parte frontal como en la trasera, cuente con la simbología que indique que puede manipularse con clamp. En caso de no contar con esta simbología, colocar la etiqueta correspondiente de forma manual.\nEl aire acondicionado modelo AP۰12CR1G debe llevar tres flejes y contar con la simbología de clamp y estiba"
+    },
+    {
+      "nombre": "LIVERPOOL PLAN AC",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": true,
+        "asn": null,
+        "hu": true,
+        "rfid": null,
+        "papeleta": null,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "1 Playo Cada 50 Piezas A Granel",
+      "comentarios": "Revisar el proceso  \"Proceso_Liverpool_&_Suburbia-Plan_AC\" compartido  vía mail en formato PDF\nLa carga se realiza a granel.\nEn caso de no incluir el insumo, el producto será rechazado.\nControl de etiquetado – Modelos sin SET\nAplicación: Para modelos que no estén compuestos por SET (es decir, de más de 2 piezas independientes), el etiquetado deberá aplicarse conforme al estándar de Línea Blanca.\nReferencia: Seguir las instrucciones de etiquetado de Línea Blanca definidas en la presente matriz."
+    },
+    {
+      "nombre": "LIVERPOOL PLAN LB",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": true,
+        "asn": null,
+        "hu": true,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "1 Playo Cada 50 Piezas A Granel",
+      "comentarios": "Etiquetado HU y SKU: Colocar el primer HU al frente del producto en la parte superior derecha, con su etiqueta SKU inmediatamente debajo. Colocar el segundo HU en el costado derecho, parte superior izquierda, alineado en esquina con el primero, y su etiqueta SKU correspondiente debajo, asegurando que ambas etiquetas SKU queden alineadas entre sí.\nCondición de insumo: En caso de no incluir el insumo requerido, el producto será motivo de rechazo.\nIdentificación Línea Blanca: Los productos de Línea Blanca con etiqueta verde (parte inferior) están destinados principalmente a entregas para Liverpool. En caso de no contar con producto con etiqueta verde, se permite surtir producto sin dicha etiqueta.\nCondición especial: Para modelos con peso ≥ 100 kg, utilizar etiqueta naranja para la generación de SKU."
+    },
+    {
+      "nombre": "LIVERPOOL PLAN TV",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": true,
+        "altura": "2.30 Mts"
+      },
+      "tarima": {
+        "std": null,
+        "origen": true,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": true,
+        "asn": null,
+        "hu": true,
+        "rfid": null,
+        "papeleta": null,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "1 Playo Cada 50 Piezas A Granel. 1 Playo Cada 5 Tarimas",
+      "comentarios": "Revisar el proceso  \"Manual-de-Estandares-Liverpool&Suburbia-PLAN-TV\" compartido  vía mail en formato PDF\nEtiquetado: Cada pieza debe llevar la etiqueta de SKU y HU colocada al frente, a la misma altura, visible y a altura media del modelo, evitando cubrir las orejillas del producto.\nInsumos: El insumo se enviará de acuerdo con el tipo de carga (tarima o granel). En caso de no incluirlo, el producto será rechazado.\nPantallas de 100\": Se enviarán sin base de madera; para ello, es necesario retirarla con cuidado, evitando dañar el corrugado."
+    },
+    {
+      "nombre": "LIVERPOOL Softline predistriibuido",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "2.60 Mts"
+      },
+      "tarima": {
+        "std": true,
+        "origen": null,
+        "chep": null,
+        "negra": true,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": true
+      },
+      "etiquetas": {
+        "precio": true,
+        "sku": true,
+        "asn": null,
+        "hu": null,
+        "rfid": true,
+        "papeleta": true,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "3 Playos Por Cada Unidad",
+      "comentarios": "Revisar el proceso \"Especificaciones-Distribucion_Liverpool & Suburbia\" compartido  vía mail en formato PDF"
+    },
+    {
+      "nombre": "LIVERPOOL TIENDA DIRECTA",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": true,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "1 Playo Cada 50 Piezas A Granel. 1 Playo Cada 5 Tarimas",
+      "comentarios": "Condición de carga\nLa carga se realizará a granel o en tarima, de acuerdo con el tipo de unidad asignada.\nEtiquetado – División AC\nEl etiquetado de bulto deberá realizarse conforme al proceso establecido para la división de Aire Acondicionado (AC).\nCondición de calidad\nEl producto debe entregarse en óptimas condiciones de calidad.\nCualquier daño, por mínimo que sea, será motivo de rechazo."
+    },
+    {
+      "nombre": "MASTER LOYALTY GROUP SA de CV TOLUCA",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": null
+      },
+      "tarima": {
+        "std": true,
+        "origen": "APARTIR DE 60\"",
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "Sin insumos",
+      "comentarios": "Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado. Las especificaciones aplican para destinos locales y foráneos"
+    },
+    {
+      "nombre": "MAVI OCCIDENTE LB",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": true
+      },
+      "insumos": "Sin insumos",
+      "comentarios": "Condición de envío – Microondas\nTodos los modelos de hornos de microondas deben enviarse exclusivamente en modalidad entarimada."
+    },
+    {
+      "nombre": "MAVI OCCIDENTE TV",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "No Max"
+      },
+      "tarima": {
+        "std": true,
+        "origen": "APARTIR DE 60\"",
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": true
+      },
+      "insumos": "Sin insumos",
+      "comentarios": "Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado. Las especificaciones aplican para destinos locales y foráneos"
+    },
+    {
+      "nombre": "MEGA AUDIO",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "1 Playo Cada 30 Pz Y Tarima Como Se Indica en el plan de carga.",
+      "comentarios": "Criterio de carga a granel\nLa carga deberá enviarse a granel, utilizando el insumo correspondiente proporcionado por el Team Hisense.\nEn caso de no incluir el insumo requerido, el embarque será motivo de rechazo."
+    },
+    {
+      "nombre": "MERCADO LIBRE LB TEPOTZOTLAN",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "1.8"
+      },
+      "tarima": {
+        "std": true,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": true,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "No Aplica",
+      "comentarios": "Identificación y preparación de bultos (tarimas)\nIdentificación: Cada bulto debe estar identificado con la papeleta de envío proporcionada por el Team Hisense, indicando la cantidad de piezas señalada en dicha papeleta.\nTipo de tarima: Utilizar tarima tipo estándar.\nEmplayado: El pallet debe estar emplayado bajo el estándar 6-5-6.\nValidación: Validar UPC contra papeleta previo a la carga.\nAcomodo en unidad: La última tarima cargada debe colocarse a 30 cm de la puerta."
+    },
+    {
+      "nombre": "MERCADO LIBRE TV (pantallas arriba de 58\") CUAUTITLAN & Arco Norte",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "1.8"
+      },
+      "tarima": {
+        "std": true,
+        "origen": "APARTIR DE 60\"",
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": true,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": true,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "No Aplica",
+      "comentarios": "Identificación y preparación de piezas y bultos (pallets);\nCada pieza debe estar identificada con el código de barras proporcionado por Hisense.\nCada bulto (pallet) debe contar con su número de envío (QR único) correspondiente.\nUtilizar tarima tipo estándar y emplayar el pallet bajo el estándar 4۰3۰4.\nValidar el UPC contra la papeleta antes de la carga.\nColocar fleje de playo en cada tarima como soporte adicional para la carga.\nPara CEDIS Cuautitlán, colocar la hoja de cita (QR) en la caja del transporte.\nLa última tarima en cargarse debe ubicarse a 30 cm de la puerta."
+    },
+    {
+      "nombre": "MERCADO LIBRE TV (pantallas arriba de 58\") TEPOTZOTLAN",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "1.8"
+      },
+      "tarima": {
+        "std": true,
+        "origen": "APARTIR DE 60\"",
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": true,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": true,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "No Aplica",
+      "comentarios": "Identificación y preparación de piezas y bultos (tarimas)\nIdentificación de piezas: Cada pieza debe estar identificada con el código de barras proporcionado por el Team Hisense.\nIdentificación de bultos: Cada bulto debe contar con su número de envío (QR único) correspondiente.\nTipo de tarima: Utilizar tarima tipo estándar.\nEmplayado: El pallet debe estar emplayado bajo el estándar 4-3-4.\nValidación: Validar UPC contra papeleta previo a la carga.\nRefuerzo: Colocar refuerzo con playo en cada tarima como soporte adicional para la carga.\nDocumentación (CEDIS Cuautitlán): Colocar la hoja de cita (QR) en la caja del transporte.\nAcomodo en unidad: La última tarima cargada debe colocarse a 30 cm de la puerta."
+    },
+    {
+      "nombre": "MERCADO LIBRE TV CUAUTITLAN & Arco Norte & Tulti",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "1.8"
+      },
+      "tarima": {
+        "std": true,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": true,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": true,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "No Aplica",
+      "comentarios": "Identificación y preparación de piezas y bultos (tarimas)\nIdentificación de piezas: Cada pieza debe estar identificada con el código de barras proporcionado por el Team Hisense.\nIdentificación de bultos:\nCada bulto debe contar con su número de envío (QR único).\nColocar el QR en la parte superior derecha de cada cara del pallet (4 caras).\nLos 4 QR deben corresponder al mismo número de secuencia de bulto.\nEjemplo: Para el pallet 1/18, las 4 caras deben llevar QR con la secuencia 1/18.\nTipo de tarima: Utilizar tarima tipo estándar.\nEmplayado: El pallet debe estar emplayado bajo el estándar 6-5-6.\nValidación: Validar UPC contra papeleta previo a la carga.\nDocumentación (CEDIS Cuautitlán): Colocar la hoja de cita (QR) en la pared derecha de la caja del transporte, después del último pallet cargado.\nAcomodo en unidad: La última tarima cargada debe colocarse a 30 cm de la puerta"
+    },
+    {
+      "nombre": "MERCADO LIBRE TV TEPOTZOTLAN",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "1.8"
+      },
+      "tarima": {
+        "std": true,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": true,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": true,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "No Aplica",
+      "comentarios": "Identificación y preparación de bultos (tarimas)\nIdentificación: Cada bulto debe estar identificado con la papeleta de envío proporcionada por el Team Hisense, indicando la cantidad de piezas asignadas a la tarima.\nTipo de tarima: Utilizar tarima tipo estándar.\nEmplayado: El pallet debe estar emplayado bajo el estándar 6-5-6.\nValidación: Validar UPC contra papeleta previo a la carga.\nAcomodo en unidad: La última tarima cargada debe colocarse a 30 cm de la puerta."
+    },
+    {
+      "nombre": "ORCE LB / AIRES",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": true
+      },
+      "insumos": "1 Playo Cada 50 Piezas A Granel.",
+      "comentarios": "-"
+    },
+    {
+      "nombre": "ORCE TV",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "No Max"
+      },
+      "tarima": {
+        "std": true,
+        "origen": "APARTIR DE 58\"",
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "1 Playo Cada 7 Tarimas",
+      "comentarios": "Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado."
+    },
+    {
+      "nombre": "PALACIO DE HIERRO C/PREDISTRIBUCIÓN",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "1.60 Mts"
+      },
+      "tarima": {
+        "std": true,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": true
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": true,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "1 Playo Cada 5 Tarimas",
+      "comentarios": "Base de distribución: Realizar la distribución conforme a la orden de compra (OC).\nIdentificación: Es obligatorio colocar la papeleta de tienda, la cual permite identificar la correcta distribución de la carga."
+    },
+    {
+      "nombre": "PALACIO DE HIERRO TV",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "1.60 Mts"
+      },
+      "tarima": {
+        "std": true,
+        "origen": "APARTIR DE 60\"",
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "1 Playo Cada 5 Tarimas",
+      "comentarios": "Control de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nAsegurar que el formato del código de barras corresponda al requerido (EAN o UPC).\nGenerar evidencia fotográfica del proceso de validación y reetiquetado.\nEl producto debe enviarse en óptimas condiciones, sin daños en la imagen del corrugado.\nEn caso de no incluir el insumo correspondiente, el embarque será rechazado."
+    },
+    {
+      "nombre": "PCH MAYOREO SA DE CV",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "1.80 Mts"
+      },
+      "tarima": {
+        "std": true,
+        "origen": "APARTIR DE 60\"",
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "6 Playos Por Unidad",
+      "comentarios": "Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado."
+    },
+    {
+      "nombre": "PLAZA DE LA LINEA BLANCA",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": "No Max"
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "",
+      "comentarios": "-"
+    },
+    {
+      "nombre": "RAC MEXICO",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "No Max"
+      },
+      "tarima": {
+        "std": true,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": true,
+        "series": true
+      },
+      "insumos": "",
+      "comentarios": "Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado."
+    },
+    {
+      "nombre": "SAMS AC",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": true,
+        "series": true
+      },
+      "insumos": "Sin Insumos",
+      "comentarios": "Control de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nAsegurar que el formato del código de barras corresponda al requerido (EAN o UPC).\nGenerar evidencia fotográfica del proceso de validación y reetiquetado.\nControl de secuencia de bulto – Combos\nEn caso de combo, colocar etiqueta de secuencia de bulto conforme a lo siguiente:\n1/x: Para la pieza del SET cuyo UPC coincida con el indicado en la orden de compra o archivo de insumos.\n2/x: Para la pieza restante del SET.\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
+    },
+    {
+      "nombre": "SAMS LB",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "Sin Insumos",
+      "comentarios": "Control de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nAsegurar que el formato del código de barras corresponda al requerido (EAN o UPC).\nGenerar evidencia fotográfica del proceso de validación y reetiquetado.\nDocumentación: Entregar a transporte 4 juegos completos de documentos requeridos.\nTiempo de carga: Back Haul — Las cargas deben completarse en menos de 2 horas para evitar penalizaciones."
+    },
+    {
+      "nombre": "SAMS TV",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "Sin Insumos",
+      "comentarios": "Control de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nAsegurar que el formato del código de barras corresponda al requerido (EAN o UPC).\nGenerar evidencia fotográfica del proceso de validación y reetiquetado.Documentación: Entregar a transporte 4 juegos completos de documentos requeridos.\nTiempo de carga: Back Haul — Las cargas deben completarse en menos de 2 horas para evitar penalizaciones."
+    },
+    {
+      "nombre": "SANBORNS",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "1.60 Mts"
+      },
+      "tarima": {
+        "std": true,
+        "origen": "APARTIR DE 60\"",
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "1 Playo Cada 4 Tarimas",
+      "comentarios": "Revisión de calidad y protección de empaque\nInspección: Realizar revisión de calidad pieza por pieza, generando evidencia fotográfica del estado de cada empaque.\nProtección: Colocar tirantes de playo, asegurando que en los puntos de contacto con el producto se utilice protección adicional para evitar daños.\nControl de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nAsegurar que el formato del código de barras corresponda al requerido (EAN o UPC).\nGenerar evidencia fotográfica del proceso de validación y reetiquetado."
+    },
+    {
+      "nombre": "SEARS | Directo tienda",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": true,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "1 Playo por unidad",
+      "comentarios": "Preparar una papeleta que incluya el número de tienda, destino y total de piezas.\nAl finalizar la carga, en el producto ubicado más cerca de la puerta, colocar la papeleta sobre playo de la pieza centrada, evitando fijarla directamente al producto.\nColocar una copia de la papeleta en la pared interna de la caja.\nControl de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nAsegurar que el formato del código de barras corresponda al requerido (EAN o UPC).\nGenerar evidencia fotográfica del proceso de validación y reetiquetado."
+    },
+    {
+      "nombre": "SEARS AC",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "1.60 Mts"
+      },
+      "tarima": {
+        "std": true,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": true,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "1 Playo Cada 4 Tarimas",
+      "comentarios": "Control de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nAsegurar que el formato del código de barras corresponda al requerido (EAN o UPC).\nGenerar evidencia fotográfica del proceso de validación y reetiquetado.\nEsquineros: No utilizar esquineros que excedan las dimensiones del producto paletizado.\nArmado y aseguramiento de tarimas\nConfiguración de tarima: Armar cada tarima en dos torres, separando los componentes del SET: una torre ODU y una torre IDU. No mezclar ambos componentes dentro de la misma torre del pallet.\nControl de secuencia de bulto – Combos\nEn caso de combo, colocar etiqueta de secuencia de bulto conforme a lo siguiente:\n1/x: Para la pieza del SET cuyo UPC coincida con el indicado en la orden de compra o archivo de insumos.\n2/x: Para la pieza restante del SET."
+    },
+    {
+      "nombre": "SEARS C/PREDISTRIBUCIÓN",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "1.60 Mts"
+      },
+      "tarima": {
+        "std": true,
+        "origen": "APARTIR DE 60\"",
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": true,
+        "esquineros": true,
+        "predistribuido": true
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": true,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "1 Playo Cada 5 Tarimas",
+      "comentarios": "Papeletas por tienda y protección del producto\nIdentificación: Cada tienda debe contar con una papeleta que indique claramente la cantidad de piezas, nombre de la tienda y número de orden de compra (OC).\nOrden de embarque: Realizar el cargado siguiendo el orden por tienda y en consecutivo.\nProtección: Colocar tirantes de playo, asegurando protección en las áreas de contacto con el producto para evitar daños durante su manejo."
+    },
+    {
+      "nombre": "SEARS LB",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "1 Playo Cada 40 Piezas",
+      "comentarios": "En caso de no incluir el insumo, el producto será rechazado."
+    },
+    {
+      "nombre": "SEARS TV",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "1.60 Mts"
+      },
+      "tarima": {
+        "std": true,
+        "origen": "APARTIR DE 60\"",
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": true,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "1 Playo Cada 4 Tarimas",
+      "comentarios": "Revisión de Calidad y Protección del Empaque\nInspección: Realizar una revisión de calidad pieza por pieza, recabando evidencia fotográfica del estado de cada empaque.\nProtección: Colocar “tirantes” de playo asegurando que, en la parte donde hacen contacto con el producto, se utilice protección adicional para evitar daños y preservar la calidad del mismo.\nControl de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nAsegurar que el formato del código de barras corresponda al requerido (EAN o UPC).\nGenerar evidencia fotográfica del proceso de validación y reetiquetado"
+    },
+    {
+      "nombre": "SEARS Vallejo TV & predistribucion",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": null
+      },
+      "tarima": {
+        "std": true,
+        "origen": "APARTIR DE 60\"",
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": true,
+        "esquineros": true,
+        "predistribuido": true
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": true,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": true,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "1 Playo Cada 5 Tarimas",
+      "comentarios": "Revisar  \"Proceso_Sears_Vallejo\" compartido  via mail en formato PDF"
+    },
+    {
+      "nombre": "SUBURBIA PLAN AC",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": true,
+        "asn": null,
+        "hu": true,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "1 Playo Cada 50 Piezas A Granel.",
+      "comentarios": "Revisar el proceso  \"Proceso_Liverpool_&_Suburbia-Plan_AC\" compartido  vía mail en formato PDF\nLa carga se realiza a granel.\nEn caso de no incluir el insumo, el producto será rechazado.\nControl de etiquetado – Modelos sin SET\nAplicación: Para modelos que no estén compuestos por SET (es decir, de más de 2 piezas independientes), el etiquetado deberá aplicarse conforme al estándar de Línea Blanca.\nReferencia: Seguir las instrucciones de etiquetado de Línea Blanca definidas en la presente matriz."
+    },
+    {
+      "nombre": "SUBURBIA PLAN LB",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": true,
+        "asn": null,
+        "hu": true,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "1 Playo Cada 50 Piezas A Granel.",
+      "comentarios": "El primer HU debe colocarse al frente del producto, en la parte superior derecha.\nEl segundo HU debe colocarse en el costado derecho, en la parte superior izquierda, de manera que ambos queden alineados en esquina, uno junto al otro.\nEn caso de no incluir el insumo, el producto será rechazado.\nIdentificación por etiquetas verdes (Línea Blanca);\nLos productos de Línea Blanca con etiquetas verdes en la parte inferior están destinados principalmente a entregas para Liverpool.\nEsta condición no limita el surtido de productos sin etiqueta verde, siempre que no exista stock disponible con la etiqueta."
+    },
+    {
+      "nombre": "SUBURBIA PLAN TV",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": true,
+        "asn": null,
+        "hu": true,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "1 Playo Cada 50 Piezas A Granel.",
+      "comentarios": "Revisar el proceso  \"Manual-de-Estandares-Liverpool&Suburbia-PLAN-TV\" compartido  vía mail en formato PDF\nPantallas mayores a 55\": Se deben cargar en tarima.\nEtiquetado: Cada pieza debe llevar la etiqueta de SKU y HU colocada al frente, a la misma altura, visible y a altura media del modelo, evitando cubrir las orejillas del producto.\nInsumos: El insumo se enviará de acuerdo con el tipo de carga (tarima o granel). En caso de no incluirlo, el producto será rechazado.\nPantallas de 100\": Se enviarán sin base de madera; para ello, es necesario retirarla con cuidado, evitando dañar el corrugado."
+    },
+    {
+      "nombre": "SUBURBIA PRE۰DISTRIBUCION",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "2.0 Mts"
+      },
+      "tarima": {
+        "std": true,
+        "origen": "APARTIR DE 60\"",
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": true
+      },
+      "etiquetas": {
+        "precio": true,
+        "sku": null,
+        "asn": true,
+        "hu": null,
+        "rfid": null,
+        "papeleta": true,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "6 Playos Por Unidad",
+      "comentarios": "Revisar el proceso \"Especificaciones-Distribucion_Liverpool & Suburbia\" compartido  vía mail en formato PDF"
+    },
+    {
+      "nombre": "TELEBODEGA",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "",
+      "comentarios": "-"
+    },
+    {
+      "nombre": "WAL MART ۰ 7494 - IZCALLI ۰ 7464 - CUAUTITLAN1 REGULAR DC MERCHANDISE",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "4 Playos por unidad",
+      "comentarios": "Control de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nAsegurar que el formato del código de barras corresponda al requerido (EAN o UPC).\nGenerar evidencia fotográfica del proceso de validación y reetiquetado\nDocumentación: Entregar a transporte 4 juegos completos de documentos requeridos."
+    },
+    {
+      "nombre": "WALMART LB",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "Sin Insumos / Carga Completamente A Granel (Sin Tarimas)",
+      "comentarios": "Control de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nAsegurar que el formato del código de barras corresponda al requerido (EAN o UPC).\nGenerar evidencia fotográfica del proceso de validación y reetiquetado\nDocumentación: Entregar a transporte 4 juegos completos de documentos requeridos.\nInstrucción especial Walmart Mérida: Cubrir con etiqueta blanca el UPC o EAN que no esté indicado en la orden de compra.\nTiempo límite de carga: Back Haul – La carga debe completarse en un máximo de 2 horas para evitar penalizaciones."
+    },
+    {
+      "nombre": "WALMART TV",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "Sin Insumos / Carga Completamente A Granel (Sin Tarimas)",
+      "comentarios": "Control de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nAsegurar que el formato del código de barras corresponda al requerido (EAN o UPC).\nGenerar evidencia fotográfica del proceso de validación y reetiquetado\nDocumentación: Entregar a transporte 4 juegos completos de documentos requeridos.\nInstrucción especial Walmart Mérida: Cubrir con etiqueta blanca el UPC o EAN que no esté indicado en la orden de compra.\nTiempo límite de carga: Back Haul – La carga debe completarse en un máximo de 2 horas para evitar penalizaciones."
+    },
+    {
+      "nombre": "WALMART WM.COM",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": true,
+        "series": null
+      },
+      "insumos": "Sin Insumos / Carga Completamente A Granel (Sin Tarimas)",
+      "comentarios": "Control de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nAsegurar que el formato del código de barras corresponda al requerido (EAN o UPC).\nGenerar evidencia fotográfica del proceso de validación y reetiquetado\nDocumentación: Entregar a transporte 4 juegos completos de documentos requeridos.\nInstrucción especial Walmart Mérida: Cubrir con etiqueta blanca el UPC o EAN que no esté indicado en la orden de compra.\nTiempo límite de carga: Back Haul – La carga debe completarse en un máximo de 2 horas para evitar penalizaciones."
+    },
+    {
+      "nombre": "XAZE FORANEOS",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "Sin Insumos",
+      "comentarios": "La carga debe realizarse estrictamente a granel, sin utilizar insumos (playo o tarimas)."
+    },
+    {
+      "nombre": "XAZE GDL۰CHAMAPA",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "Sin Insumos",
+      "comentarios": "Es estrictamente necesario ingresar con código QR, el cual será proporcionado por O.M."
+    },
+    {
+      "nombre": "XAZE TULTITLAN",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": null
+      },
+      "insumos": "Sin Insumos",
+      "comentarios": "La carga debe realizarse estrictamente a granel, sin utilizar insumos (playo o tarimas)."
+    }
+  ]
+}
