@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matriz de Requerimientos 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  /* ── CAMBIAR ESTAS DOS LÍNEAS CUANDO QUIERAS ── */
+  /* JSON_URL se define abajo en el script         */
+
+  :root {
+    --bg:#0f1117; --surface:#181c27; --surface2:#1e2333; --border:#2a3045;
+    --accent:#4f8ef7; --warn:#f5a623; --muted:#4a5270;
+    --text:#e8eaf4; --text2:#8b91ac;
+    --pill-a-bg:#1a3a5c; --pill-a-t:#5ba4f5;
+    --pill-t-bg:#1a3d2e; --pill-t-t:#34c98a;
+    --pill-p-bg:#3d2a1a; --pill-p-t:#f5a623;
+    --pill-e-bg:#2d1a3d; --pill-e-t:#b57cf5;
+    --yes-bg:#0e2d1e; --yes-border:#1a4a30;
+    --special-bg:#2d2200; --special-t:#f5c842;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:"DM Sans",sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+
+  /* ── LOGIN SCREEN ── */
+  #login-screen{
+    display:flex;align-items:center;justify-content:center;
+    min-height:100vh;background:var(--bg);
+  }
+  .login-box{
+    background:var(--surface);border:1px solid var(--border);border-radius:16px;
+    padding:40px 44px;width:100%;max-width:380px;text-align:center;
+  }
+  .login-logo{font-family:"DM Mono",monospace;font-size:10px;color:var(--accent);
+    letter-spacing:.15em;text-transform:uppercase;margin-bottom:20px}
+  .login-title{font-size:22px;font-weight:700;margin-bottom:6px}
+  .login-sub{font-size:13px;color:var(--text2);margin-bottom:28px}
+  .login-input{
+    width:100%;background:var(--surface2);border:1px solid var(--border);
+    border-radius:8px;color:var(--text);font-family:"DM Sans",sans-serif;
+    font-size:14px;padding:11px 14px;outline:none;text-align:center;
+    letter-spacing:.15em;transition:border-color .2s;margin-bottom:12px;
+  }
+  .login-input:focus{border-color:var(--accent)}
+  .login-btn{
+    width:100%;background:var(--accent);color:#fff;border:none;border-radius:8px;
+    font-family:"DM Sans",sans-serif;font-size:14px;font-weight:600;
+    padding:11px;cursor:pointer;transition:opacity .2s;
+  }
+  .login-btn:hover{opacity:.88}
+  .login-error{
+    font-size:12px;color:#f07070;margin-top:8px;
+    min-height:18px;font-family:"DM Mono",monospace;
+  }
+
+  /* ── LOADING ── */
+  #loading-screen{
+    display:none;align-items:center;justify-content:center;
+    min-height:100vh;flex-direction:column;gap:16px;
+  }
+  .spinner{
+    width:36px;height:36px;border:3px solid var(--border);
+    border-top-color:var(--accent);border-radius:50%;
+    animation:spin .7s linear infinite;
+  }
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .loading-txt{font-size:13px;color:var(--text2)}
+
+  /* ── APP ── */
+  #app{display:none}
+  .header{
+    background:var(--surface);border-bottom:1px solid var(--border);
+    padding:14px 26px;position:sticky;top:0;z-index:100;
+    display:flex;align-items:center;gap:14px;flex-wrap:wrap;
+  }
+  .header-logo{font-family:"DM Mono",monospace;font-size:10px;color:var(--accent);letter-spacing:.15em;text-transform:uppercase}
+  .header-title{font-size:14px;font-weight:600}
+  .header-version{font-size:10px;font-family:"DM Mono",monospace;color:var(--muted);margin-left:4px}
+  .search-wrap{margin-left:auto;position:relative;min-width:240px}
+  .search-icon{position:absolute;left:10px;top:50%;transform:translateY(-50%);color:var(--muted);font-size:13px;pointer-events:none}
+  #search{
+    width:100%;background:var(--surface2);border:1px solid var(--border);
+    border-radius:8px;color:var(--text);font-family:"DM Sans",sans-serif;
+    font-size:13px;padding:8px 12px 8px 32px;outline:none;transition:border-color .2s;
+  }
+  #search:focus{border-color:var(--accent)}
+  #search::placeholder{color:var(--muted)}
+  .count-badge{font-size:11px;color:var(--text2);font-family:"DM Mono",monospace;white-space:nowrap}
+  .layout{display:grid;grid-template-columns:210px 1fr;min-height:calc(100vh - 53px)}
+  .sidebar{
+    background:var(--surface);border-right:1px solid var(--border);
+    overflow-y:auto;position:sticky;top:53px;height:calc(100vh - 53px)
+  }
+  .sidebar-list{padding:6px 0}
+  .sbl-item{
+    display:block;padding:8px 14px;font-size:12px;color:var(--text2);
+    cursor:pointer;border-left:3px solid transparent;transition:all .15s;
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:1.4;user-select:none;
+  }
+  .sbl-item:hover{background:var(--surface2);color:var(--text);border-left-color:var(--border)}
+  .sbl-item.active{background:var(--surface2);color:var(--accent);border-left-color:var(--accent);font-weight:600}
+  .sbl-item.hidden{display:none}
+  .main{padding:26px;overflow-y:auto}
+  .card{display:none;max-width:820px;animation:fadeIn .18s ease}
+  .card.visible{display:block}
+  @keyframes fadeIn{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+  .card-clasif{font-family:"DM Mono",monospace;font-size:10px;color:var(--accent);letter-spacing:.12em;text-transform:uppercase;margin-bottom:6px}
+  .card-name{font-size:24px;font-weight:700;line-height:1.2;margin-bottom:10px}
+  .card-chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:24px}
+  .chip{font-size:10px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:20px;font-family:"DM Mono",monospace}
+  .chip-a{background:var(--pill-a-bg);color:var(--pill-a-t)}
+  .chip-t{background:var(--pill-t-bg);color:var(--pill-t-t)}
+  .chip-p{background:var(--pill-p-bg);color:var(--pill-p-t)}
+  .chip-e{background:var(--pill-e-bg);color:var(--pill-e-t)}
+  .section{background:var(--surface);border:1px solid var(--border);border-radius:10px;margin-bottom:12px;overflow:hidden}
+  .sec-hdr{padding:11px 17px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:8px}
+  .sec-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}
+  .d-a{background:var(--pill-a-t)} .d-t{background:var(--pill-t-t)}
+  .d-p{background:var(--pill-p-t)} .d-e{background:var(--pill-e-t)}
+  .d-i{background:var(--warn)} .d-c{background:#8b91ac}
+  .sec-title{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--text2);font-family:"DM Mono",monospace}
+  .sec-body{padding:13px 14px;display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+  .ri{border-radius:7px;padding:9px 11px;display:flex;align-items:center;gap:8px;border:1px solid transparent}
+  .ri.yes{background:var(--yes-bg);border-color:var(--yes-border)}
+  .ri.no{opacity:.32}
+  .ri.special{background:var(--special-bg);border-color:#3d3000}
+  .ri-icon{font-size:13px;flex-shrink:0}
+  .ri-label{font-size:11px;font-weight:500;line-height:1.3}
+  .ri.no .ri-label{color:var(--muted)}
+  .ri-val{font-size:10px;font-family:"DM Mono",monospace;color:var(--special-t);margin-top:2px}
+  .info-block{background:var(--surface);border:1px solid var(--border);border-radius:10px;margin-bottom:12px;overflow:hidden}
+  .info-body{padding:13px 17px;font-size:12px;color:var(--text2);line-height:1.8;white-space:pre-line}
+  .insumos-val{font-family:"DM Mono",monospace;font-size:11px;color:var(--warn);background:#1e1800;border:1px solid #3d3000;border-radius:7px;padding:9px 13px;line-height:1.6}
+  .welcome{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:60vh;text-align:center;color:var(--muted)}
+  .welcome-icon{font-size:42px;margin-bottom:14px}
+  .welcome-title{font-size:16px;font-weight:600;color:var(--text2);margin-bottom:6px}
+  .welcome-sub{font-size:12px}
+  .empty{display:none;text-align:center;padding:80px 28px;color:var(--muted)}
+  .empty.visible{display:block}
+  ::-webkit-scrollbar{width:5px}
+  ::-webkit-scrollbar-track{background:transparent}
+  ::-webkit-scrollbar-thumb{background:var(--border);border-radius:4px}
+  @media(max-width:640px){.layout{grid-template-columns:1fr}.sidebar{display:none}.main{padding:16px}}
+</style>
+</head>
+<body>
+
+<!-- ── LOGIN ── -->
+<div id="login-screen">
+  <div class="login-box">
+    <div class="login-logo">HISENSE MX · 2026</div>
+    <div class="login-title">Matriz de Requerimientos</div>
+    <div class="login-sub">Ingresa la contraseña para continuar</div>
+    <input id="pwd-input" class="login-input" type="password" placeholder="••••••••" autocomplete="off">
+    <button class="login-btn" onclick="checkPassword()">Entrar</button>
+    <div class="login-error" id="login-error"></div>
+  </div>
+</div>
+
+<!-- ── LOADING ── -->
+<div id="loading-screen">
+  <div class="spinner"></div>
+  <div class="loading-txt">Cargando datos...</div>
+</div>
+
+<!-- ── APP ── -->
+<div id="app">
+  <div class="header">
+    <div class="header-logo">HISENSE MX · 2026</div>
+    <div class="header-title">Matriz de Requerimientos<span class="header-version" id="data-version"></span></div>
+    <div class="search-wrap">
+      <span class="search-icon">🔍</span>
+      <input id="search" type="text" placeholder="Buscar cliente..." autocomplete="off">
+    </div>
+    <div class="count-badge" id="cnt"></div>
+  </div>
+  <div class="layout">
+    <nav class="sidebar"><div class="sidebar-list" id="sbl"></div></nav>
+    <main class="main" id="main-content">
+      <div class="welcome" id="welcome">
+        <div class="welcome-icon">📦</div>
+        <div class="welcome-title">Selecciona un cliente</div>
+        <div class="welcome-sub">Busca o elige en el panel izquierdo.</div>
+      </div>
+      <div class="empty" id="empty">
+        <div style="font-size:34px;margin-bottom:12px">🔍</div>
+        <div style="font-size:13px">Sin resultados.</div>
+      </div>
+      <div id="cards-container"></div>
+    </main>
+  </div>
+</div>
+
+<script>
+// ╔══════════════════════════════════════════════════════════╗
+// ║  CONFIGURACIÓN — edita solo estas líneas                 ║
+// ╠══════════════════════════════════════════════════════════╣
+const CONFIG = {
+  password: "hisense2026",          // ← CAMBIA ESTA CONTRASEÑA
+  jsonUrl:  "https://raw.githubusercontent.com/TU_USUARIO/TU_REPO/main/data/requerimientos.json"
+  //                                   ↑ CAMBIA por tu URL de GitHub raw
+};
+// ╚══════════════════════════════════════════════════════════╝
+
+// ── AUTH ──
+function checkPassword(){
+  var val = document.getElementById('pwd-input').value.trim();
+  if(val === CONFIG.password){
+    document.getElementById('login-screen').style.display = 'none';
+    document.getElementById('loading-screen').style.display = 'flex';
+    loadData();
+  } else {
+    document.getElementById('login-error').textContent = 'Contraseña incorrecta.';
+    document.getElementById('pwd-input').value = '';
+    document.getElementById('pwd-input').focus();
+  }
+}
+document.getElementById('pwd-input').addEventListener('keydown', function(e){
+  if(e.key === 'Enter') checkPassword();
+});
+
+// ── LOAD DATA ──
+function loadData(){
+  fetch(CONFIG.jsonUrl + '?t=' + Date.now())   // cache-bust
+    .then(function(r){
+      if(!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
+    .then(function(data){
+      document.getElementById('loading-screen').style.display = 'none';
+      document.getElementById('app').style.display = 'block';
+      buildApp(data);
+    })
+    .catch(function(err){
+      document.getElementById('loading-screen').innerHTML =
+        '<div style="text-align:center;color:#f07070;font-family:DM Mono,monospace;font-size:13px;padding:40px">' +
+        '⚠️ No se pudo cargar el archivo de datos.<br><br>' +
+        '<small style="color:#4a5270">' + err.message + '</small><br><br>' +
+        '<small style="color:#4a5270">Verifica que la URL del JSON sea correcta en CONFIG.jsonUrl</small></div>';
+    });
+}
+
+// ── BUILD UI ──
+function ri(label, val, iconY, iconN){
+  iconY = iconY || '✅'; iconN = iconN || '◻';
+  if(val === true)
+    return '<div class="ri yes"><span class="ri-icon">'+iconY+'</span><span class="ri-label">'+label+'</span></div>';
+  if(val === null || val === undefined)
+    return '<div class="ri no"><span class="ri-icon">'+iconN+'</span><span class="ri-label">'+label+'</span></div>';
+  if(val === 'N/A')
+    return '<div class="ri no"><span class="ri-icon">—</span><span class="ri-label">'+label+'</span></div>';
+  return '<div class="ri special"><span class="ri-icon">⚡</span><div><span class="ri-label">'+label+'</span><div class="ri-val">'+esc(String(val))+'</div></div></div>';
+}
+
+function esc(s){ return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+function buildApp(data){
+  var clients = Array.isArray(data) ? data : data.clientes;
+  var version = data.version || '';
+  var updated = data.updated || '';
+  if(version || updated){
+    document.getElementById('data-version').textContent =
+      ' · v' + (version || updated);
+  }
+
+  var container = document.getElementById('cards-container');
+  var sbl = document.getElementById('sbl');
+  var cnt = document.getElementById('cnt');
+  var welcome = document.getElementById('welcome');
+  var empty = document.getElementById('empty');
+  var search = document.getElementById('search');
+  var total = clients.length;
+  var current = -1;
+  cnt.textContent = total + ' clientes';
+
+  clients.forEach(function(c, i){
+    // ── Sidebar item ──
+    var item = document.createElement('div');
+    item.className = 'sbl-item';
+    item.setAttribute('data-idx', i);
+    item.textContent = c.nombre;
+    item.title = c.nombre;
+    item.addEventListener('click', function(){ showCard(i); });
+    sbl.appendChild(item);
+
+    // ── Card HTML ──
+    var a = c.armado || {}, t = c.tarima || {}, p = c.proceso || {}, e = c.etiquetas || {};
+    var insumos = (c.insumos || '').trim();
+    var coments = (c.comentarios || '').trim();
+
+    // Chips
+    var chips = '';
+    if(a.granel)      chips += '<span class="chip chip-a">Granel</span>';
+    if(a.entarimado)  chips += '<span class="chip chip-a">Entarimado</span>';
+    if(a.altura && a.altura !== 'N/A') chips += '<span class="chip chip-a">'+esc(String(a.altura))+'</span>';
+    if(t.chep)        chips += '<span class="chip chip-t">CHEP</span>';
+    if(t.std)         chips += '<span class="chip chip-t">STD</span>';
+    if(p.predistribuido) chips += '<span class="chip chip-p">Pre-Dist</span>';
+    if(e.rfid)        chips += '<span class="chip chip-e">RFID</span>';
+
+    // Origen
+    var origHtml = typeof t.origen === 'string' && t.origen !== 'N/A'
+      ? '<div class="ri special"><span class="ri-icon">⚡</span><div><span class="ri-label">T. Origen</span><div class="ri-val">'+esc(t.origen)+'</div></div></div>'
+      : ri('T. Origen', t.origen, '📦');
+
+    // Esquineros
+    var esqHtml = typeof p.esquineros === 'string' && p.esquineros !== 'N/A'
+      ? '<div class="ri special"><span class="ri-icon">⚡</span><div><span class="ri-label">Esquineros</span><div class="ri-val">'+esc(p.esquineros)+'</div></div></div>'
+      : ri('Esquineros', p.esquineros, '🔲');
+
+    // Altura
+    var altHtml = (a.altura && a.altura !== 'N/A')
+      ? '<div class="ri yes"><span class="ri-icon">📏</span><div><span class="ri-label">Altura Máx.</span><div class="ri-val">'+esc(String(a.altura))+'</div></div></div>'
+      : ri('Altura Máx.', null);
+
+    // Insumos / Comentarios blocks
+    var insBlock = (insumos && insumos !== '-' && insumos.toLowerCase() !== 'nan')
+      ? '<div class="info-block"><div class="sec-hdr"><span class="sec-dot d-i"></span><span class="sec-title">Insumos</span></div><div class="info-body"><div class="insumos-val">'+esc(insumos)+'</div></div></div>'
+      : '';
+    var comBlock = (coments && coments !== '-' && coments.toLowerCase() !== 'nan')
+      ? '<div class="info-block"><div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div><div class="info-body">'+esc(coments)+'</div></div>'
+      : '';
+
+    var card = document.createElement('div');
+    card.className = 'card';
+    card.id = 'card-' + i;
+    card.innerHTML =
+      '<div class="card-clasif">Clasificación '+esc(c.clasificacion||'')+'</div>'+
+      '<div class="card-name">'+esc(c.nombre)+'</div>'+
+      '<div class="card-chips">'+chips+'</div>'+
+      '<div class="section"><div class="sec-hdr"><span class="sec-dot d-a"></span><span class="sec-title">Armado</span></div>'+
+        '<div class="sec-body">'+ri('Granel',a.granel,'📦')+ri('Entarimado',a.entarimado,'🪵')+altHtml+'</div></div>'+
+      '<div class="section"><div class="sec-hdr"><span class="sec-dot d-t"></span><span class="sec-title">Tipo de Tarima</span></div>'+
+        '<div class="sec-body">'+ri('T. STD',t.std,'🪵')+origHtml+ri('CHEP',t.chep,'🟩')+ri('Negra',t.negra,'⬛')+ri('Cartón de Base',t.carton,'📋')+'</div></div>'+
+      '<div class="section"><div class="sec-hdr"><span class="sec-dot d-p"></span><span class="sec-title">Proceso</span></div>'+
+        '<div class="sec-body">'+ri('Emplayado',p.emplayado,'🎁')+ri('Fleje',p.fleje,'🔗')+esqHtml+ri('Pre-Distribuido',p.predistribuido,'🗂️')+'</div></div>'+
+      '<div class="section"><div class="sec-hdr"><span class="sec-dot d-e"></span><span class="sec-title">Etiquetas</span></div>'+
+        '<div class="sec-body">'+ri('E. Precio',e.precio,'🏷️')+ri('E. SKU',e.sku,'🏷️')+ri('E. ASN',e.asn,'🏷️')+ri('E. HU',e.hu,'🏷️')+ri('E. RFID',e.rfid,'📡')+ri('Papeleta/Etiq.',e.papeleta,'📄')+ri('Revisión UPC',e.upc,'🔍')+ri('Envío de Series',e.series,'📧')+'</div></div>'+
+      insBlock + comBlock;
+
+    container.appendChild(card);
+  });
+
+  // ── Show card ──
+  function showCard(idx){
+    if(current >= 0){
+      document.getElementById('card-'+current).classList.remove('visible');
+      var prev = sbl.querySelector('[data-idx="'+current+'"]');
+      if(prev) prev.classList.remove('active');
+    }
+    current = idx;
+    document.getElementById('card-'+idx).classList.add('visible');
+    var item = sbl.querySelector('[data-idx="'+idx+'"]');
+    if(item){ item.classList.add('active'); item.scrollIntoView({block:'nearest'}); }
+    welcome.style.display = 'none';
+    empty.classList.remove('visible');
+  }
+
+  // ── Search ──
+  search.addEventListener('input', function(){
+    var q = search.value.toLowerCase().trim();
+    var visible = 0, firstIdx = -1;
+    sbl.querySelectorAll('.sbl-item').forEach(function(item){
+      var idx = parseInt(item.getAttribute('data-idx'));
+      var name = clients[idx].nombre.toLowerCase();
+      var match = !q || name.includes(q);
+      item.classList.toggle('hidden', !match);
+      if(match){ visible++; if(firstIdx < 0) firstIdx = idx; }
+    });
+    cnt.textContent = q ? visible + ' resultado' + (visible !== 1 ? 's' : '') : total + ' clientes';
+    if(visible === 0){
+      if(current >= 0){ document.getElementById('card-'+current).classList.remove('visible'); current = -1; }
+      empty.classList.add('visible');
+      welcome.style.display = 'none';
+    } else {
+      empty.classList.remove('visible');
+      if(visible === 1) showCard(firstIdx);
+    }
+  });
+}
+</script>
+</body>
+</html>
