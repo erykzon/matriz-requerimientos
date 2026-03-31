@@ -174,8 +174,8 @@
     .info-body { padding: 12px 14px; font-size: 11px; }
     .insumos-val { font-size: 10px; padding: 8px 11px; }
 
-    /* Botón menú móvil */
-    .mobile-fab {
+    /* Botón "Clientes" — se muestra en móvil como flex inline */
+    #mobile-fab {
       display: flex !important;
     }
 
@@ -225,28 +225,32 @@
 
 <!-- ── MÓVIL: overlay y botón de menú ── -->
 <div class="drawer-overlay" id="drawer-overlay"></div>
-<button class="mobile-fab" id="mobile-fab" title="Ver clientes" style="
-  display:none;
-  position:fixed;
-  bottom:24px;
-  right:20px;
-  z-index:400;
-  width:52px;
-  height:52px;
-  border-radius:50%;
-  background:#4f8ef7;
-  color:#fff;
-  font-size:22px;
-  border:none;
-  cursor:pointer;
-  box-shadow:0 4px 16px rgba(79,142,247,0.45);
-  align-items:center;
-  justify-content:center;
-">☰</button>
+<!-- El tooltip se inyecta via JS solo la primera visita -->
+<div id="tooltip-wrap" style="display:none; position:relative; z-index:500;"></div>
 
 <div class="header">
   <div class="header-logo">HISENSE MX · 2026</div>
   <div class="header-title">Matriz de Requerimientos</div>
+  <!-- Botón "Clientes" — solo visible en móvil via CSS -->
+  <button id="mobile-fab" style="
+    display:none;
+    align-items:center;
+    gap:6px;
+    background:#1a2d50;
+    color:#5ba4f5;
+    border:1px solid #2a4060;
+    border-radius:8px;
+    padding:7px 12px;
+    font-family:'DM Sans',sans-serif;
+    font-size:12px;
+    font-weight:600;
+    cursor:pointer;
+    flex-shrink:0;
+    white-space:nowrap;
+  ">
+    <span style="font-size:14px; line-height:1;">☰</span>
+    <span>Clientes</span>
+  </button>
   <div class="search-wrap">
     <span class="search-icon">🔍</span>
     <input id="search" type="text" placeholder="Buscar cliente..." autocomplete="off">
@@ -5533,12 +5537,58 @@ Tiempo límite de carga: Back Haul – La carga debe completarse en un máximo d
   });
 })();
 
-  // ── MÓVIL: drawer sidebar ──
+  // ── MÓVIL: drawer sidebar + tooltip primera visita ──
   (function(){
-    var fab     = document.getElementById('mobile-fab');
-    var overlay = document.getElementById('drawer-overlay');
-    var sidebar = document.querySelector('.sidebar');
+    var fab          = document.getElementById('mobile-fab');
+    var overlay      = document.getElementById('drawer-overlay');
+    var sidebar      = document.querySelector('.sidebar');
+    var tooltipWrap  = document.getElementById('tooltip-wrap');
+    var TOOLTIP_KEY  = 'hisense_tooltip_seen';
 
+    // ── Tooltip: solo aparece la primera vez ──
+    // Revisamos localStorage — si NO tiene la clave, es primera visita
+    function showTooltip(){
+      if(!fab || !tooltipWrap) return;
+      if(localStorage.getItem(TOOLTIP_KEY)) return; // ya lo vio antes
+
+      // Posicionamos el wrap sobre el botón
+      var fabRect = fab.getBoundingClientRect();
+      tooltipWrap.style.display  = 'block';
+      tooltipWrap.style.position = 'fixed';
+      tooltipWrap.style.top      = (fabRect.bottom + 8) + 'px';
+      tooltipWrap.style.left     = fabRect.left + 'px';
+
+      tooltipWrap.innerHTML =
+        '<div style="' +
+          'background:#1a1a2e;' +
+          'color:#c8d0ff;' +
+          'font-family:DM Sans,sans-serif;' +
+          'font-size:11px;' +
+          'padding:7px 12px;' +
+          'border-radius:7px;' +
+          'border:1px solid #2a3060;' +
+          'white-space:nowrap;' +
+          'position:relative;' +
+        '">' +
+          'Toca aquí para ver los clientes' +
+          '<span style="' +
+            'position:absolute;top:-6px;left:14px;' +
+            'border-left:5px solid transparent;' +
+            'border-right:5px solid transparent;' +
+            'border-bottom:6px solid #1a1a2e;' +
+          '"></span>' +
+        '</div>';
+    }
+
+    function hideTooltip(){
+      if(!tooltipWrap) return;
+      tooltipWrap.style.display = 'none';
+      tooltipWrap.innerHTML = '';
+      // Guardamos en localStorage para no volver a mostrarlo
+      localStorage.setItem(TOOLTIP_KEY, '1');
+    }
+
+    // ── Drawer ──
     function openDrawer(){
       sidebar.classList.add('drawer-open');
       overlay.classList.add('visible');
@@ -5552,20 +5602,24 @@ Tiempo límite de carga: Back Haul – La carga debe completarse en un máximo d
 
     if(fab){
       fab.addEventListener('click', function(){
+        hideTooltip(); // primer clic elimina el tooltip
         sidebar.classList.contains('drawer-open') ? closeDrawer() : openDrawer();
       });
     }
     if(overlay){
       overlay.addEventListener('click', closeDrawer);
     }
-
-    // Cierra el drawer al seleccionar un cliente en móvil
     if(sidebar){
       sidebar.addEventListener('click', function(e){
         if(e.target.classList.contains('sidebar-item') && window.innerWidth <= 768){
           closeDrawer();
         }
       });
+    }
+
+    // Muestra el tooltip después de que cargue la página (solo móvil)
+    if(window.innerWidth <= 768){
+      setTimeout(showTooltip, 800); // pequeño delay para que se vea natural
     }
   })();
 
