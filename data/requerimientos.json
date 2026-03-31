@@ -251,7 +251,7 @@
       },
       "tarima": {
         "std": null,
-        "origen": null,
+        "origen": true,
         "chep": true,
         "negra": null,
         "carton": true
@@ -587,7 +587,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": null
+        "altura": "No Max"
       },
       "tarima": {
         "std": null,
@@ -621,7 +621,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": null
+        "altura": "No Max"
       },
       "tarima": {
         "std": null,
@@ -655,7 +655,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": null
+        "altura": "No Max"
       },
       "tarima": {
         "std": null,
@@ -689,7 +689,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": null
+        "altura": "No Max"
       },
       "tarima": {
         "std": null,
@@ -791,7 +791,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": null
+        "altura": "No Max"
       },
       "tarima": {
         "std": true,
@@ -825,7 +825,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": null
+        "altura": "No Max"
       },
       "tarima": {
         "std": null,
@@ -859,7 +859,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": null
+        "altura": "No Max"
       },
       "tarima": {
         "std": null,
@@ -893,7 +893,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": null
+        "altura": "No Max"
       },
       "tarima": {
         "std": true,
@@ -927,7 +927,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": null
+        "altura": "No Max"
       },
       "tarima": {
         "std": true,
@@ -1199,7 +1199,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": null
+        "altura": "No Max"
       },
       "tarima": {
         "std": true,
@@ -1301,7 +1301,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": null
+        "altura": "No Max"
       },
       "tarima": {
         "std": true,
@@ -1335,7 +1335,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": null
+        "altura": "No Max"
       },
       "tarima": {
         "std": true,
@@ -1369,7 +1369,7 @@
       "armado": {
         "granel": true,
         "entarimado": null,
-        "altura": null
+        "altura": "No Max"
       },
       "tarima": {
         "std": null,
@@ -1437,7 +1437,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": null
+        "altura": "No Max"
       },
       "tarima": {
         "std": true,
@@ -1471,7 +1471,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": null
+        "altura": "No Max"
       },
       "tarima": {
         "std": true,
@@ -1845,7 +1845,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": null
+        "altura": "No Max"
       },
       "tarima": {
         "std": true,
@@ -2117,7 +2117,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": null
+        "altura": "No Max"
       },
       "tarima": {
         "std": true,
@@ -2253,7 +2253,7 @@
       "armado": {
         "granel": true,
         "entarimado": null,
-        "altura": null
+        "altura": "No Max"
       },
       "tarima": {
         "std": null,
@@ -2287,7 +2287,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": null
+        "altura": "No Max"
       },
       "tarima": {
         "std": true,
