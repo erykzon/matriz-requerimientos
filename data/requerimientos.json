@@ -1,7 +1,7 @@
 {
   "version": "2026",
-  "updated": "2026-03-28",
-  "total": 90,
+  "updated": "2026-03-31",
+  "total": 91,
   "clientes": [
     {
       "nombre": "AMAZON WE PAY",
@@ -251,7 +251,7 @@
       },
       "tarima": {
         "std": null,
-        "origen": true,
+        "origen": null,
         "chep": true,
         "negra": null,
         "carton": true
@@ -587,7 +587,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": "No Max"
+        "altura": null
       },
       "tarima": {
         "std": null,
@@ -621,7 +621,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": "No Max"
+        "altura": null
       },
       "tarima": {
         "std": null,
@@ -655,7 +655,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": "No Max"
+        "altura": null
       },
       "tarima": {
         "std": null,
@@ -689,7 +689,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": "No Max"
+        "altura": null
       },
       "tarima": {
         "std": null,
@@ -791,7 +791,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": "No Max"
+        "altura": null
       },
       "tarima": {
         "std": true,
@@ -825,7 +825,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": "No Max"
+        "altura": null
       },
       "tarima": {
         "std": null,
@@ -859,7 +859,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": "No Max"
+        "altura": null
       },
       "tarima": {
         "std": null,
@@ -893,7 +893,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": "No Max"
+        "altura": null
       },
       "tarima": {
         "std": true,
@@ -927,7 +927,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": "No Max"
+        "altura": null
       },
       "tarima": {
         "std": true,
@@ -1092,6 +1092,40 @@
       "comentarios": "Configuración de tarima: Utilizar tarima de madera tipo tacón (4 entradas) de 1.00 x 1.20 m, en óptimas condiciones (sin daños, clavos, humedad o plaga). Prohibido uso de tarimas dañadas o envío a granel/piso. Para productos sobredimensionados, usar tarima proporcional.\nDistribución por pieza: Surtir conforme al archivo de distribución (Excel) del cliente, separando previamente por tienda.\nEtiquetado por pieza: Colocar etiqueta Manhattan (parte inferior del producto, mismo lado de la tarima). Generar etiqueta UPC (102x51 mm) con código visible y colocar en parte central sin obstruir orejillas.\nDistribución por  tarima: Colocar etiqueta de sistema (full pallet), número de tienda en 4 caras y cantidad de cajas. Ubicar en frente o esquina superior derecha.\nArmado: Acomodar producto alineado y frenteado, con etiquetas visibles. No ocultar cajas. Colocar esquineros y emplayar bajo estándar 4-3-4 desde la base.\nRechazos: No se permite mercancía a granel, tarimas dañadas, cajas ocultas o reacomodo en cross dock.\nAcomodo por región: Enviar tarimas separadas por región y cargar en orden inverso (primera descarga región 100).\nExcepciones: Tiendas 190, 390, 201, 404, 191 y 400’s deben colocarse al final de la carga o en último camión."
     },
     {
+      "nombre": "DGL LATAM | BATTA",
+      "clasificacion": "A , B",
+      "armado": {
+        "granel": null,
+        "entarimado": true,
+        "altura": "1.65 Mts"
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": true
+      },
+      "proceso": {
+        "emplayado": true,
+        "fleje": null,
+        "esquineros": true,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": true,
+        "series": true
+      },
+      "insumos": "",
+      "comentarios": "Configuración de tarima: Utilizar tarima de madera tipo estandard de 1.00 x 1.20 m, en óptimas condiciones (sin daños, clavos, humedad o plaga). Prohibido uso de tarimas dañadas o envío a granel/piso. Para productos sobredimensionados, usar tarima proporcional.\nGenerar etiqueta SKU (102x51 mm) con código visible y colocar en parte central sin obstruir orejillas, en ambos lados de cada pieza.\nIdentificación de tarima: Colocar 2 papeletas de embarque ( hoja tamaño carta) de pallet en la parte central sobre el playo, visibles y ubicadas de cada lado de entrada de uñas del patín."
+    },
+    {
       "nombre": "ELEKTRA AC",
       "clasificacion": "A , B",
       "armado": {
@@ -1199,7 +1233,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": "No Max"
+        "altura": null
       },
       "tarima": {
         "std": true,
@@ -1301,7 +1335,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": "No Max"
+        "altura": null
       },
       "tarima": {
         "std": true,
@@ -1335,7 +1369,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": "No Max"
+        "altura": null
       },
       "tarima": {
         "std": true,
@@ -1369,7 +1403,7 @@
       "armado": {
         "granel": true,
         "entarimado": null,
-        "altura": "No Max"
+        "altura": null
       },
       "tarima": {
         "std": null,
@@ -1437,7 +1471,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": "No Max"
+        "altura": null
       },
       "tarima": {
         "std": true,
@@ -1471,7 +1505,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": "No Max"
+        "altura": null
       },
       "tarima": {
         "std": true,
@@ -1845,7 +1879,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": "No Max"
+        "altura": null
       },
       "tarima": {
         "std": true,
@@ -2117,7 +2151,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": "No Max"
+        "altura": null
       },
       "tarima": {
         "std": true,
@@ -2253,7 +2287,7 @@
       "armado": {
         "granel": true,
         "entarimado": null,
-        "altura": "No Max"
+        "altura": null
       },
       "tarima": {
         "std": null,
@@ -2287,7 +2321,7 @@
       "armado": {
         "granel": null,
         "entarimado": true,
-        "altura": "No Max"
+        "altura": null
       },
       "tarima": {
         "std": true,
@@ -2728,7 +2762,7 @@
       "clasificacion": "A , B",
       "armado": {
         "granel": true,
-        "entarimado": null,
+        "entarimado": true,
         "altura": null
       },
       "tarima": {
