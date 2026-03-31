@@ -219,6 +219,53 @@
     .chip { font-size: 9px; padding: 2px 7px; }
   }
 
+
+  /* ── COMENTARIOS OPERATIVOS — estructura visual ── */
+  .co-section {
+    font-family: "DM Mono", monospace;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #5ba4f5;
+    margin: 14px 0 6px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #2a3045;
+  }
+  .co-section:first-child { margin-top: 0; }
+
+  .co-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 9px;
+    margin-bottom: 7px;
+    font-size: 12.5px;
+    color: #c8cce0;
+    line-height: 1.65;
+  }
+
+  .co-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #4a5270;
+    flex-shrink: 0;
+    margin-top: 7px;
+  }
+
+  .co-label {
+    font-weight: 600;
+    color: #e8eaf4;
+  }
+
+  .info-body {
+    padding: 16px 20px;
+    font-size: 12px;
+    color: #8b91ac;
+    line-height: 1.75;
+    white-space: pre-line;
+  }
+
 </style>
 </head>
 <body>
@@ -321,7 +368,7 @@
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Control de tarimas: La cantidad de tarimas debe corresponder a lo indicado en el BOL; únicamente se permite cambio de BOL en tarimas de origen con autorización del Team Hisense.
+      <div class="info-body co-body" style="white-space:normal">Control de tarimas: La cantidad de tarimas debe corresponder a lo indicado en el BOL; únicamente se permite cambio de BOL en tarimas de origen con autorización del Team Hisense.
 Identificación de piezas: Cada pieza debe llevar papeleta (carton label) colocada con cinta en los laterales, cubriendo el código UPC del lado aplicado, y en secuencia consecutiva de bulto.
 Identificación de tarima: Colocar la papeleta de OC y papeleta de destino en las 4 caras de la tarima.
 Emplayado: El pallet debe estar emplayado con película transparente bajo el estándar 4-3-4.
@@ -378,7 +425,7 @@ Condiciones adicionales: El uso de cincho de playo será únicamente cuando sea 
   
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Control de identificación:
+      <div class="info-body co-body" style="white-space:normal">Control de identificación:
 Validar UPC contra la orden de compra / archivo de insumos antes del armado.
 En caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.
 Control de secuencia de bulto – Combos
@@ -439,7 +486,7 @@ Enviar Números de Serie por Correo al Team de Embarques Hisense</div>
   
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Control de identificación:
+      <div class="info-body co-body" style="white-space:normal">Control de identificación:
 Validar UPC contra la orden de compra / archivo de insumos antes del armado.
 En caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.
 Asegurar que el formato del código de barras corresponda al requerido (EAN o UPC).
@@ -495,7 +542,7 @@ Generar evidencia fotográfica del proceso de validación y reetiquetado.</div>
   
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Control de identificación:
+      <div class="info-body co-body" style="white-space:normal">Control de identificación:
 Validar UPC contra la orden de compra / archivo de insumos antes del armado.
 En caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.
 Asegurar que el formato del código de barras corresponda al requerido (EAN o UPC).
@@ -605,7 +652,7 @@ Cada tarima debe armarse con la cantidad máxima de producto que cubra completam
   
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Enviar Números de Serie por Correo al Team de Embarques Hisense</div>
+      <div class="info-body co-body" style="white-space:normal">Enviar Números de Serie por Correo al Team de Embarques Hisense</div>
     </div>
 </div>
 <div class="card" id="card-6" data-idx="6">
@@ -657,7 +704,7 @@ Cada tarima debe armarse con la cantidad máxima de producto que cubra completam
   
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Enviar Números de Serie por Correo al Team de Embarques Hisense</div>
+      <div class="info-body co-body" style="white-space:normal">Enviar Números de Serie por Correo al Team de Embarques Hisense</div>
     </div>
 </div>
 <div class="card" id="card-7" data-idx="7">
@@ -712,7 +759,7 @@ Cada tarima debe armarse con la cantidad máxima de producto que cubra completam
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Armado contra la OC / distribución: Los pallets blindados se distribuirán sin emplayar hasta la inspección del Auditor City Fresco. Posteriormente, se realizará el emplayado, el blindaje y el embarque correspondientes.
+      <div class="info-body co-body" style="white-space:normal">Armado contra la OC / distribución: Los pallets blindados se distribuirán sin emplayar hasta la inspección del Auditor City Fresco. Posteriormente, se realizará el emplayado, el blindaje y el embarque correspondientes.
 Control de identificación:
 Validar UPC contra la orden de compra / archivo de insumos antes del armado.
 En caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.
@@ -772,7 +819,7 @@ Generar evidencia fotográfica del proceso de validación y reetiquetado.</div>
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Colocar fleje únicamente si es necesario para asegurar el producto. Incluir la confirmación de cita en el último pallet y en uno de los costados de la caja. Validar el armado contra la orden de compra. La carga debe realizarse con el pallet orientado de punta.
+      <div class="info-body co-body" style="white-space:normal">Colocar fleje únicamente si es necesario para asegurar el producto. Incluir la confirmación de cita en el último pallet y en uno de los costados de la caja. Validar el armado contra la orden de compra. La carga debe realizarse con el pallet orientado de punta.
 Control de identificación:
 Validar UPC contra la orden de compra / archivo de insumos antes del armado.
 En caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.
@@ -832,7 +879,7 @@ Generar evidencia fotográfica del proceso de validación y reetiquetado.</div>
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Armado de tarimas: Realizar el armado conforme al plan de carga, respetando la cantidad de piezas por tarima indicada. No exceder las dimensiones de la tarima; en caso de exceder, armar en dos tarimas unidas de punta por la base, formando un pallet de 1 x 2.4 m, asegurando con tirantes de fleje y esquineros, sin exceder la altura permitida.
+      <div class="info-body co-body" style="white-space:normal">Armado de tarimas: Realizar el armado conforme al plan de carga, respetando la cantidad de piezas por tarima indicada. No exceder las dimensiones de la tarima; en caso de exceder, armar en dos tarimas unidas de punta por la base, formando un pallet de 1 x 2.4 m, asegurando con tirantes de fleje y esquineros, sin exceder la altura permitida.
 Emplayado: El pallet debe estar emplayado bajo el estándar 6-5-6.
 Documentación: Imprimir 3 copias del formato; el operador deberá presentarlas en caseta de vigilancia junto con las copias de las facturas.
 Acomodo de producto: El producto debe colocarse de frente, asegurando que las etiquetas de modelo / UPC / EAN queden del mismo lado.</div>
@@ -887,7 +934,7 @@ Acomodo de producto: El producto debe colocarse de frente, asegurando que las et
   
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Cada pieza debe llevar una papeleta.
+      <div class="info-body co-body" style="white-space:normal">Cada pieza debe llevar una papeleta.
 Todas las pantallas deben colocarse de punta, de forma que la identificación de la etiqueta o papeleta quede visible.
 El producto debe estar limpio para su envío.</div>
     </div>
@@ -944,7 +991,7 @@ El producto debe estar limpio para su envío.</div>
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Enviar Números de Serie por Correo al Team de Embarques Hisense</div>
+      <div class="info-body co-body" style="white-space:normal">Enviar Números de Serie por Correo al Team de Embarques Hisense</div>
     </div>
 </div>
 <div class="card" id="card-12" data-idx="12">
@@ -996,7 +1043,7 @@ El producto debe estar limpio para su envío.</div>
   
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Enviar Números de Serie por Correo al Team de Embarques Hisense</div>
+      <div class="info-body co-body" style="white-space:normal">Enviar Números de Serie por Correo al Team de Embarques Hisense</div>
     </div>
 </div>
 <div class="card" id="card-13" data-idx="13">
@@ -1048,7 +1095,7 @@ El producto debe estar limpio para su envío.</div>
   
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Reetiquetado: El Team Hisense notificará previamente los modelos que requieran reetiquetado, incluyendo modelo, EAN/UPC y NOM.
+      <div class="info-body co-body" style="white-space:normal">Reetiquetado: El Team Hisense notificará previamente los modelos que requieran reetiquetado, incluyendo modelo, EAN/UPC y NOM.
 Validación previa: Antes de embarcar, validar si existe solicitud de reetiquetado y asegurar su correcta aplicación.</div>
     </div>
 </div>
@@ -1104,7 +1151,7 @@ Validación previa: Antes de embarcar, validar si existe solicitud de reetiqueta
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">El envío a granel deberá realizarse con el insumo correspondiente, previamente compartido por el Team Hisense. En caso de no enviar el insumo, la mercancía será rechazada. 
+      <div class="info-body co-body" style="white-space:normal">El envío a granel deberá realizarse con el insumo correspondiente, previamente compartido por el Team Hisense. En caso de no enviar el insumo, la mercancía será rechazada. 
 Además, se deberán enviar los números de serie por correo electrónico al Team de Embarques Hisense.</div>
     </div>
 </div>
@@ -1160,7 +1207,7 @@ Además, se deberán enviar los números de serie por correo electrónico al Tea
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">El envío a granel deberá realizarse con el insumo correspondiente, previamente compartido por el Team Hisense. En caso de no enviar el insumo, la mercancía será rechazada. Además, se deberán enviar los números de serie por correo electrónico al Team de Embarques Hisense.</div>
+      <div class="info-body co-body" style="white-space:normal">El envío a granel deberá realizarse con el insumo correspondiente, previamente compartido por el Team Hisense. En caso de no enviar el insumo, la mercancía será rechazada. Además, se deberán enviar los números de serie por correo electrónico al Team de Embarques Hisense.</div>
     </div>
 </div>
 <div class="card" id="card-16" data-idx="16">
@@ -1215,7 +1262,7 @@ Además, se deberán enviar los números de serie por correo electrónico al Tea
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">El envío a granel deberá realizarse con el insumo correspondiente, previamente compartido por el Team Hisense. En caso de no enviar el insumo, la mercancía será rechazada. Además, se deberán enviar los números de serie por correo electrónico al Team de Embarques Hisense.</div>
+      <div class="info-body co-body" style="white-space:normal">El envío a granel deberá realizarse con el insumo correspondiente, previamente compartido por el Team Hisense. En caso de no enviar el insumo, la mercancía será rechazada. Además, se deberán enviar los números de serie por correo electrónico al Team de Embarques Hisense.</div>
     </div>
 </div>
 <div class="card" id="card-17" data-idx="17">
@@ -1270,7 +1317,7 @@ Además, se deberán enviar los números de serie por correo electrónico al Tea
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Armado conforme a la orden de compra
+      <div class="info-body co-body" style="white-space:normal">Armado conforme a la orden de compra
 Flejado: Todo producto debe ir correctamente flejado (mínimo 2 flejes).
 Pantallas de 60” en adelante:
 Enviar en tarima doble, unidas de punta, formando un pallet de 1 x 2.4 m.
@@ -1338,7 +1385,7 @@ Generar evidencia fotográfica del proceso de validación y reetiquetado.</div>
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Armado conforme a la orden de compra
+      <div class="info-body co-body" style="white-space:normal">Armado conforme a la orden de compra
 Flejado: Todo producto debe ir correctamente flejado (mínimo 2 flejes).
 Esquineros: No utilizar esquineros que excedan las dimensiones del producto paletizado.
 Registro: Anotar en el diagrama la cantidad de tarimas Chep originales embarcadas.
@@ -1402,7 +1449,7 @@ Generar evidencia fotográfica del proceso de validación y reetiquetado.</div>
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Uso de tarima doble unida de costado
+      <div class="info-body co-body" style="white-space:normal">Uso de tarima doble unida de costado
 Formación del pallet: Unir dos tarimas por el costado para formar un pallet de 2 m x 1.2 m.
 Asegurado: Colocar dos cinchos en la unión, elaborados con el mismo fleje.
 Esquineros: No utilizar esquineros que excedan las dimensiones del producto paletizado.
@@ -1467,7 +1514,7 @@ Restricciones: No utilizar barra logística como método de sujeción.</div>
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Control de identificación:
+      <div class="info-body co-body" style="white-space:normal">Control de identificación:
 Validar UPC contra la orden de compra / archivo de insumos antes del armado.
 En caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.
 Asegurar que el formato del código de barras corresponda al requerido (EAN o UPC).
@@ -1529,7 +1576,7 @@ Configuración: Cuando aplique por dimensiones, el producto debe armarse en dobl
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Armado y asegurado de tarimas
+      <div class="info-body co-body" style="white-space:normal">Armado y asegurado de tarimas
 Capacidad máxima: Cada tarima debe armarse con la mayor cantidad de producto posible, ocupando completamente la base, sin que ningún artículo sobresalga de los bordes y sin exceder una altura de 1.80 m.
 Fijación: Todo producto debe ir flejado.
 Pantallas de 60” o mayores: Utilizar tarima doble unida de costado para formar un pallet de 2 x 1.2 m, asegurado con dos cinchos en la unión (elaborados con el mismo fleje).
@@ -1596,7 +1643,7 @@ Generar evidencia fotográfica del proceso de validación y reetiquetado.</div>
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Armado y aseguramiento de tarimas
+      <div class="info-body co-body" style="white-space:normal">Armado y aseguramiento de tarimas
 Configuración de tarima: Armar cada tarima en dos torres, separando los componentes del SET: una torre ODU y una torre IDU. No mezclar ambos componentes dentro de la misma torre del pallet.
 En caso de combo, colocar etiqueta de secuencia de bulto (1/2 para ODU y 2/2 para IDU).
 Control de identificación:
@@ -1662,7 +1709,7 @@ Restricción: Prohibido utilizar barra logística como método de sujeción.</di
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Todo producto debe ir debidamente emplayado, colocando la PO impresa y la guía. Ambos documentos deben coincidir en el domicilio indicado en la PO y en la orden.</div>
+      <div class="info-body co-body" style="white-space:normal">Todo producto debe ir debidamente emplayado, colocando la PO impresa y la guía. Ambos documentos deben coincidir en el domicilio indicado en la PO y en la orden.</div>
     </div>
 </div>
 <div class="card" id="card-24" data-idx="24">
@@ -1717,7 +1764,7 @@ Restricción: Prohibido utilizar barra logística como método de sujeción.</di
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">No enviar insumo implica rechazo.
+      <div class="info-body co-body" style="white-space:normal">No enviar insumo implica rechazo.
 Enviar Números de Serie por correo al Team de Embarques Hisense.</div>
     </div>
 </div>
@@ -1773,7 +1820,7 @@ Enviar Números de Serie por correo al Team de Embarques Hisense.</div>
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">No enviar insumo implica rechazo.
+      <div class="info-body co-body" style="white-space:normal">No enviar insumo implica rechazo.
 Enviar Números de Serie por correo al Team de Embarques Hisense.</div>
     </div>
 </div>
@@ -1829,7 +1876,7 @@ Enviar Números de Serie por correo al Team de Embarques Hisense.</div>
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Cada tarima debe armarse con la cantidad máxima de producto que pueda ocupar completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado.
+      <div class="info-body co-body" style="white-space:normal">Cada tarima debe armarse con la cantidad máxima de producto que pueda ocupar completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado.
 No enviar insumo implica rechazo. /
  Enviar Números de Serie por correo al Team de Embarques Hisense.</div>
     </div>
@@ -1883,7 +1930,7 @@ No enviar insumo implica rechazo. /
   
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Enviar Números de Serie por correo al Team de Embarques Hisense.</div>
+      <div class="info-body co-body" style="white-space:normal">Enviar Números de Serie por correo al Team de Embarques Hisense.</div>
     </div>
 </div>
 <div class="card" id="card-28" data-idx="28">
@@ -1938,7 +1985,7 @@ No enviar insumo implica rechazo. /
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Envío de información y documentación
+      <div class="info-body co-body" style="white-space:normal">Envío de información y documentación
 Compartir números de serie por modelo vía correo electrónico.
 Generar remisión a ciegas (sin precio).
 Prohibido entregar facturas al momento de la entrega.</div>
@@ -1996,7 +2043,7 @@ Prohibido entregar facturas al momento de la entrega.</div>
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Compartir números de serie por correo electrónico.
+      <div class="info-body co-body" style="white-space:normal">Compartir números de serie por correo electrónico.
 La entrega solo se realiza en unidad de 3.5 toneladas.</div>
     </div>
 </div>
@@ -2052,7 +2099,7 @@ La entrega solo se realiza en unidad de 3.5 toneladas.</div>
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Armado de pallets: El armado debe realizarse conforme al plan de carga, respetando la cantidad de piezas por tarima indicada.
+      <div class="info-body co-body" style="white-space:normal">Armado de pallets: El armado debe realizarse conforme al plan de carga, respetando la cantidad de piezas por tarima indicada.
 Configuración de tarima: Utilizar tarima estándar (1.20 m x 1.00 m) en óptimas condiciones. Las cajas deben estar perfectamente cerradas (fleje y/o cinta resistente). Se permite un solo SKU por tarima. La mercancía debe mantenerse dentro de las dimensiones de la tarima; en caso de sobredimensión, utilizar tarima acorde sin permitir producto sobresaliente.
 Control de series: Enviar Números de Serie por tarima via correo al Team de Embarques Hisense.
 Armado y aseguramiento: Colocar el producto alineado y estable. Aplicar flejado (tirantes de fleje) para sujeción. Emplayar desde la base cumpliendo mínimo 10 vueltas en base, 6 en el centro y 10 en la parte superior, incluyendo tapa de playo. El emplayado debe asegurar que la carga no se mueva ni represente riesgo de colapso.
@@ -2113,7 +2160,7 @@ Condiciones críticas (Motivo de rechazo): No se permite producto fuera de tarim
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Configuración de tarima: Utilizar tarima de madera tipo tacón (4 entradas) de 1.00 x 1.20 m, en óptimas condiciones (sin daños, clavos, humedad o plaga). Prohibido uso de tarimas dañadas o envío a granel/piso. Para productos sobredimensionados, usar tarima proporcional.
+      <div class="info-body co-body" style="white-space:normal">Configuración de tarima: Utilizar tarima de madera tipo tacón (4 entradas) de 1.00 x 1.20 m, en óptimas condiciones (sin daños, clavos, humedad o plaga). Prohibido uso de tarimas dañadas o envío a granel/piso. Para productos sobredimensionados, usar tarima proporcional.
 Distribución por pieza: Surtir conforme al archivo de distribución (Excel) del cliente, separando previamente por tienda.
 Etiquetado por pieza: Colocar etiqueta Manhattan (parte inferior del producto, mismo lado de la tarima). Generar etiqueta UPC (102x51 mm) con código visible y colocar en parte central sin obstruir orejillas.
 Distribución por  tarima: Colocar etiqueta de sistema (full pallet), número de tienda en 4 caras y cantidad de cajas. Ubicar en frente o esquina superior derecha.
@@ -2172,7 +2219,7 @@ Excepciones: Tiendas 190, 390, 201, 404, 191 y 400’s deben colocarse al final 
   
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Etiquetado – División AC (ODU / IDU)
+      <div class="info-body co-body" style="white-space:normal">Etiquetado – División AC (ODU / IDU)
 Aplicación: El etiquetado se realiza únicamente en el ODU del SET.
 Ubicación: Colocar la etiqueta en un costado del producto, asegurando que no cubra simbología ni pictogramas.
 Secuencia de bulto:
@@ -2232,7 +2279,7 @@ Las cargas deben completarse en un máximo de 2 horas para evitar penalizaciones
   
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Etiquetado de Línea Blanca (LB)
+      <div class="info-body co-body" style="white-space:normal">Etiquetado de Línea Blanca (LB)
 Datos a incluir: Utilizar la información compartida en el PLP y en el archivo &quot;TXT&quot; (SKU, proveedor, case, descripción, OC, fecha).
 Ubicación de la etiqueta: Colocar la etiqueta de LB en el respaldo del producto (“atrás” / “back”), a 1 cm de la etiqueta original del producto.
 Tiempo de carga (BAZ): Las cargas deben completarse en menos de 2 horas para evitar cualquier penalización.</div>
@@ -2287,7 +2334,7 @@ Tiempo de carga (BAZ): Las cargas deben completarse en menos de 2 horas para evi
   
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Revisar el proceso &quot;Elektra_Criterios_Aceptacion_TV&quot; compartido  vía mail en formato PDF.
+      <div class="info-body co-body" style="white-space:normal">Revisar el proceso &quot;Elektra_Criterios_Aceptacion_TV&quot; compartido  vía mail en formato PDF.
 Etiquetado de producto y orden de carga
 Datos a incluir: Utilizar la información compartida en el PLP y en el archivo &quot;TXT&quot; (SKU, proveedor, case, descripción, OC, fecha).
 Ubicación y orden en producto: El etiquetado para TV debe colocarse en un mismo lado, siguiendo la secuencia de menor a mayor. La etiqueta debe ubicarse a altura media del producto, sin bloquear las orejillas.
@@ -2399,7 +2446,7 @@ Orden de carga en unidad: La carga debe realizarse colocando al fondo de la unid
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado.</div>
+      <div class="info-body co-body" style="white-space:normal">Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado.</div>
     </div>
 </div>
 <div class="card" id="card-37" data-idx="37">
@@ -2506,7 +2553,7 @@ Orden de carga en unidad: La carga debe realizarse colocando al fondo de la unid
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Solo se podrá embarcar a granel con autorización expresa del cliente.
+      <div class="info-body co-body" style="white-space:normal">Solo se podrá embarcar a granel con autorización expresa del cliente.
 Enviar Números de Serie por correo al Team de Embarques Hisense.</div>
     </div>
 </div>
@@ -2562,7 +2609,7 @@ Enviar Números de Serie por correo al Team de Embarques Hisense.</div>
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Enviar Números de Serie por correo al Team de Embarques Hisense.
+      <div class="info-body co-body" style="white-space:normal">Enviar Números de Serie por correo al Team de Embarques Hisense.
 Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado.</div>
     </div>
 </div>
@@ -2615,7 +2662,7 @@ Cada tarima debe armarse con la cantidad máxima de producto que cubra completam
   
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Condición de embarque: Solo se podrá embarcar a granel con autorización expresa del cliente.
+      <div class="info-body co-body" style="white-space:normal">Condición de embarque: Solo se podrá embarcar a granel con autorización expresa del cliente.
 Enviar Números de Serie por correo al Team de Embarques Hisense.</div>
     </div>
 </div>
@@ -2671,7 +2718,7 @@ Enviar Números de Serie por correo al Team de Embarques Hisense.</div>
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Armado – Aire Acondicionado (AC)
+      <div class="info-body co-body" style="white-space:normal">Armado – Aire Acondicionado (AC)
 Configuración: El armado se realiza por kits completos, colocando todas las piezas del SET en la misma tarima.
 Alcance: Estas especificaciones aplican para destinos locales y foráneos.
 Enviar Números de Serie por correo al Team de Embarques Hisense.</div>
@@ -2729,7 +2776,7 @@ Enviar Números de Serie por correo al Team de Embarques Hisense.</div>
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Insumos por tipo de unidad:
+      <div class="info-body co-body" style="white-space:normal">Insumos por tipo de unidad:
 Tráiler o unidad de mudanza: 6 playos por unidad.
 Unidad de menor tamaño: 3 playos por unidad.
 Las especificaciones aplican para destinos locales y foráneos</div>
@@ -2787,7 +2834,7 @@ Las especificaciones aplican para destinos locales y foráneos</div>
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado. Las especificaciones aplican para destinos locales y foráneos</div>
+      <div class="info-body co-body" style="white-space:normal">Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado. Las especificaciones aplican para destinos locales y foráneos</div>
     </div>
 </div>
 <div class="card" id="card-44" data-idx="44">
@@ -2839,7 +2886,7 @@ Las especificaciones aplican para destinos locales y foráneos</div>
   
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Control de identificación:
+      <div class="info-body co-body" style="white-space:normal">Control de identificación:
 Validar UPC contra la orden de compra / archivo de insumos antes del armado.
 En caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.
 Asegurar que el formato del código de barras corresponda al requerido (EAN o UPC).
@@ -2900,7 +2947,7 @@ Al finalizar la carga, colocar la papeleta de confirmación de cita en el produc
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Configuración de tarima: Utilizar tarima reforzada con 5 palos en la base.
+      <div class="info-body co-body" style="white-space:normal">Configuración de tarima: Utilizar tarima reforzada con 5 palos en la base.
 Para pantallas de 60” en adelante, enviar en tarima de origen, incluyendo el mismo número de tarimas de 4 o 5 palos como insumo.
 Armado y protección
 Todo el producto debe llevar esquineros y armarse colocando el producto de punta.
@@ -2962,7 +3009,7 @@ Control de series: Enviar Números de Serie por correo al Team de Embarques Hise
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">En el caso de las pantallas, la etiqueta de SKU debe colocarse siempre en el mismo lugar y de forma visible.
+      <div class="info-body co-body" style="white-space:normal">En el caso de las pantallas, la etiqueta de SKU debe colocarse siempre en el mismo lugar y de forma visible.
 Para la línea blanca, la etiqueta de SKU se colocará en la leyenda “Atrás del producto físico” y cada producto deberá enviarse con un mínimo de tres flejes. La etiqueta de SKU será de color amarillo.
 Verificar que el producto, tanto en la parte frontal como en la trasera, cuente con la simbología que indique que puede manipularse con clamp. En caso de no contar con esta simbología, colocar la etiqueta correspondiente de forma manual.
 El aire acondicionado modelo AP۰12CR1G debe llevar tres flejes y contar con la simbología de clamp y estiba</div>
@@ -3020,7 +3067,7 @@ El aire acondicionado modelo AP۰12CR1G debe llevar tres flejes y contar con la 
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Revisar el proceso  &quot;Proceso_Liverpool_&amp;_Suburbia-Plan_AC&quot; compartido  vía mail en formato PDF
+      <div class="info-body co-body" style="white-space:normal">Revisar el proceso  &quot;Proceso_Liverpool_&amp;_Suburbia-Plan_AC&quot; compartido  vía mail en formato PDF
 La carga se realiza a granel.
 En caso de no incluir el insumo, el producto será rechazado.
 Control de etiquetado – Modelos sin SET
@@ -3080,7 +3127,7 @@ Referencia: Seguir las instrucciones de etiquetado de Línea Blanca definidas en
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Etiquetado HU y SKU: Colocar el primer HU al frente del producto en la parte superior derecha, con su etiqueta SKU inmediatamente debajo. Colocar el segundo HU en el costado derecho, parte superior izquierda, alineado en esquina con el primero, y su etiqueta SKU correspondiente debajo, asegurando que ambas etiquetas SKU queden alineadas entre sí.
+      <div class="info-body co-body" style="white-space:normal">Etiquetado HU y SKU: Colocar el primer HU al frente del producto en la parte superior derecha, con su etiqueta SKU inmediatamente debajo. Colocar el segundo HU en el costado derecho, parte superior izquierda, alineado en esquina con el primero, y su etiqueta SKU correspondiente debajo, asegurando que ambas etiquetas SKU queden alineadas entre sí.
 Condición de insumo: En caso de no incluir el insumo requerido, el producto será motivo de rechazo.
 Identificación Línea Blanca: Los productos de Línea Blanca con etiqueta verde (parte inferior) están destinados principalmente a entregas para Liverpool. En caso de no contar con producto con etiqueta verde, se permite surtir producto sin dicha etiqueta.
 Condición especial: Para modelos con peso ≥ 100 kg, utilizar etiqueta naranja para la generación de SKU.</div>
@@ -3138,7 +3185,7 @@ Condición especial: Para modelos con peso ≥ 100 kg, utilizar etiqueta naranja
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Revisar el proceso  &quot;Manual-de-Estandares-Liverpool&amp;Suburbia-PLAN-TV&quot; compartido  vía mail en formato PDF
+      <div class="info-body co-body" style="white-space:normal">Revisar el proceso  &quot;Manual-de-Estandares-Liverpool&amp;Suburbia-PLAN-TV&quot; compartido  vía mail en formato PDF
 Etiquetado: Cada pieza debe llevar la etiqueta de SKU y HU colocada al frente, a la misma altura, visible y a altura media del modelo, evitando cubrir las orejillas del producto.
 Insumos: El insumo se enviará de acuerdo con el tipo de carga (tarima o granel). En caso de no incluirlo, el producto será rechazado.
 Pantallas de 100&quot;: Se enviarán sin base de madera; para ello, es necesario retirarla con cuidado, evitando dañar el corrugado.</div>
@@ -3196,7 +3243,7 @@ Pantallas de 100&quot;: Se enviarán sin base de madera; para ello, es necesario
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Revisar el proceso &quot;Especificaciones-Distribucion_Liverpool &amp; Suburbia&quot; compartido  vía mail en formato PDF</div>
+      <div class="info-body co-body" style="white-space:normal">Revisar el proceso &quot;Especificaciones-Distribucion_Liverpool &amp; Suburbia&quot; compartido  vía mail en formato PDF</div>
     </div>
 </div>
 <div class="card" id="card-51" data-idx="51">
@@ -3251,7 +3298,7 @@ Pantallas de 100&quot;: Se enviarán sin base de madera; para ello, es necesario
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Condición de carga
+      <div class="info-body co-body" style="white-space:normal">Condición de carga
 La carga se realizará a granel o en tarima, de acuerdo con el tipo de unidad asignada.
 Etiquetado – División AC
 El etiquetado de bulto deberá realizarse conforme al proceso establecido para la división de Aire Acondicionado (AC).
@@ -3312,7 +3359,7 @@ Cualquier daño, por mínimo que sea, será motivo de rechazo.</div>
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado. Las especificaciones aplican para destinos locales y foráneos</div>
+      <div class="info-body co-body" style="white-space:normal">Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado. Las especificaciones aplican para destinos locales y foráneos</div>
     </div>
 </div>
 <div class="card" id="card-53" data-idx="53">
@@ -3367,7 +3414,7 @@ Cualquier daño, por mínimo que sea, será motivo de rechazo.</div>
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Condición de envío – Microondas
+      <div class="info-body co-body" style="white-space:normal">Condición de envío – Microondas
 Todos los modelos de hornos de microondas deben enviarse exclusivamente en modalidad entarimada.</div>
     </div>
 </div>
@@ -3423,7 +3470,7 @@ Todos los modelos de hornos de microondas deben enviarse exclusivamente en modal
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado. Las especificaciones aplican para destinos locales y foráneos</div>
+      <div class="info-body co-body" style="white-space:normal">Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado. Las especificaciones aplican para destinos locales y foráneos</div>
     </div>
 </div>
 <div class="card" id="card-55" data-idx="55">
@@ -3478,7 +3525,7 @@ Todos los modelos de hornos de microondas deben enviarse exclusivamente en modal
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Criterio de carga a granel
+      <div class="info-body co-body" style="white-space:normal">Criterio de carga a granel
 La carga deberá enviarse a granel, utilizando el insumo correspondiente proporcionado por el Team Hisense.
 En caso de no incluir el insumo requerido, el embarque será motivo de rechazo.</div>
     </div>
@@ -3535,7 +3582,7 @@ En caso de no incluir el insumo requerido, el embarque será motivo de rechazo.<
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Identificación y preparación de bultos (tarimas)
+      <div class="info-body co-body" style="white-space:normal">Identificación y preparación de bultos (tarimas)
 Identificación: Cada bulto debe estar identificado con la papeleta de envío proporcionada por el Team Hisense, indicando la cantidad de piezas señalada en dicha papeleta.
 Tipo de tarima: Utilizar tarima tipo estándar.
 Emplayado: El pallet debe estar emplayado bajo el estándar 6-5-6.
@@ -3595,7 +3642,7 @@ Acomodo en unidad: La última tarima cargada debe colocarse a 30 cm de la puerta
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Identificación y preparación de piezas y bultos (pallets);
+      <div class="info-body co-body" style="white-space:normal">Identificación y preparación de piezas y bultos (pallets);
 Cada pieza debe estar identificada con el código de barras proporcionado por Hisense.
 Cada bulto (pallet) debe contar con su número de envío (QR único) correspondiente.
 Utilizar tarima tipo estándar y emplayar el pallet bajo el estándar 4۰3۰4.
@@ -3657,7 +3704,7 @@ La última tarima en cargarse debe ubicarse a 30 cm de la puerta.</div>
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Identificación y preparación de piezas y bultos (tarimas)
+      <div class="info-body co-body" style="white-space:normal">Identificación y preparación de piezas y bultos (tarimas)
 Identificación de piezas: Cada pieza debe estar identificada con el código de barras proporcionado por el Team Hisense.
 Identificación de bultos: Cada bulto debe contar con su número de envío (QR único) correspondiente.
 Tipo de tarima: Utilizar tarima tipo estándar.
@@ -3720,7 +3767,7 @@ Acomodo en unidad: La última tarima cargada debe colocarse a 30 cm de la puerta
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Identificación y preparación de piezas y bultos (tarimas)
+      <div class="info-body co-body" style="white-space:normal">Identificación y preparación de piezas y bultos (tarimas)
 Identificación de piezas: Cada pieza debe estar identificada con el código de barras proporcionado por el Team Hisense.
 Identificación de bultos:
 Cada bulto debe contar con su número de envío (QR único).
@@ -3786,7 +3833,7 @@ Acomodo en unidad: La última tarima cargada debe colocarse a 30 cm de la puerta
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Identificación y preparación de bultos (tarimas)
+      <div class="info-body co-body" style="white-space:normal">Identificación y preparación de bultos (tarimas)
 Identificación: Cada bulto debe estar identificado con la papeleta de envío proporcionada por el Team Hisense, indicando la cantidad de piezas asignadas a la tarima.
 Tipo de tarima: Utilizar tarima tipo estándar.
 Emplayado: El pallet debe estar emplayado bajo el estándar 6-5-6.
@@ -3898,7 +3945,7 @@ Acomodo en unidad: La última tarima cargada debe colocarse a 30 cm de la puerta
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado.</div>
+      <div class="info-body co-body" style="white-space:normal">Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado.</div>
     </div>
 </div>
 <div class="card" id="card-63" data-idx="63">
@@ -3953,7 +4000,7 @@ Acomodo en unidad: La última tarima cargada debe colocarse a 30 cm de la puerta
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Base de distribución: Realizar la distribución conforme a la orden de compra (OC).
+      <div class="info-body co-body" style="white-space:normal">Base de distribución: Realizar la distribución conforme a la orden de compra (OC).
 Identificación: Es obligatorio colocar la papeleta de tienda, la cual permite identificar la correcta distribución de la carga.</div>
     </div>
 </div>
@@ -4009,7 +4056,7 @@ Identificación: Es obligatorio colocar la papeleta de tienda, la cual permite i
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Control de identificación:
+      <div class="info-body co-body" style="white-space:normal">Control de identificación:
 Validar UPC contra la orden de compra / archivo de insumos antes del armado.
 En caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.
 Asegurar que el formato del código de barras corresponda al requerido (EAN o UPC).
@@ -4070,7 +4117,7 @@ En caso de no incluir el insumo correspondiente, el embarque será rechazado.</d
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado.</div>
+      <div class="info-body co-body" style="white-space:normal">Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado.</div>
     </div>
 </div>
 <div class="card" id="card-66" data-idx="66">
@@ -4171,7 +4218,7 @@ En caso de no incluir el insumo correspondiente, el embarque será rechazado.</d
   
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado.</div>
+      <div class="info-body co-body" style="white-space:normal">Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado.</div>
     </div>
 </div>
 <div class="card" id="card-68" data-idx="68">
@@ -4226,7 +4273,7 @@ En caso de no incluir el insumo correspondiente, el embarque será rechazado.</d
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Control de identificación:
+      <div class="info-body co-body" style="white-space:normal">Control de identificación:
 Validar UPC contra la orden de compra / archivo de insumos antes del armado.
 En caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.
 Asegurar que el formato del código de barras corresponda al requerido (EAN o UPC).
@@ -4290,7 +4337,7 @@ Enviar Números de Serie por Correo al Team de Embarques Hisense</div>
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Control de identificación:
+      <div class="info-body co-body" style="white-space:normal">Control de identificación:
 Validar UPC contra la orden de compra / archivo de insumos antes del armado.
 En caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.
 Asegurar que el formato del código de barras corresponda al requerido (EAN o UPC).
@@ -4351,7 +4398,7 @@ Tiempo de carga: Back Haul — Las cargas deben completarse en menos de 2 horas 
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Control de identificación:
+      <div class="info-body co-body" style="white-space:normal">Control de identificación:
 Validar UPC contra la orden de compra / archivo de insumos antes del armado.
 En caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.
 Asegurar que el formato del código de barras corresponda al requerido (EAN o UPC).
@@ -4411,7 +4458,7 @@ Tiempo de carga: Back Haul — Las cargas deben completarse en menos de 2 horas 
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Revisión de calidad y protección de empaque
+      <div class="info-body co-body" style="white-space:normal">Revisión de calidad y protección de empaque
 Inspección: Realizar revisión de calidad pieza por pieza, generando evidencia fotográfica del estado de cada empaque.
 Protección: Colocar tirantes de playo, asegurando que en los puntos de contacto con el producto se utilice protección adicional para evitar daños.
 Control de identificación:
@@ -4473,7 +4520,7 @@ Generar evidencia fotográfica del proceso de validación y reetiquetado.</div>
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Preparar una papeleta que incluya el número de tienda, destino y total de piezas.
+      <div class="info-body co-body" style="white-space:normal">Preparar una papeleta que incluya el número de tienda, destino y total de piezas.
 Al finalizar la carga, en el producto ubicado más cerca de la puerta, colocar la papeleta sobre playo de la pieza centrada, evitando fijarla directamente al producto.
 Colocar una copia de la papeleta en la pared interna de la caja.
 Control de identificación:
@@ -4535,7 +4582,7 @@ Generar evidencia fotográfica del proceso de validación y reetiquetado.</div>
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Control de identificación:
+      <div class="info-body co-body" style="white-space:normal">Control de identificación:
 Validar UPC contra la orden de compra / archivo de insumos antes del armado.
 En caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.
 Asegurar que el formato del código de barras corresponda al requerido (EAN o UPC).
@@ -4601,7 +4648,7 @@ En caso de combo, colocar etiqueta de secuencia de bulto conforme a lo siguiente
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Papeletas por tienda y protección del producto
+      <div class="info-body co-body" style="white-space:normal">Papeletas por tienda y protección del producto
 Identificación: Cada tienda debe contar con una papeleta que indique claramente la cantidad de piezas, nombre de la tienda y número de orden de compra (OC).
 Orden de embarque: Realizar el cargado siguiendo el orden por tienda y en consecutivo.
 Protección: Colocar tirantes de playo, asegurando protección en las áreas de contacto con el producto para evitar daños durante su manejo.</div>
@@ -4659,7 +4706,7 @@ Protección: Colocar tirantes de playo, asegurando protección en las áreas de 
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">En caso de no incluir el insumo, el producto será rechazado.</div>
+      <div class="info-body co-body" style="white-space:normal">En caso de no incluir el insumo, el producto será rechazado.</div>
     </div>
 </div>
 <div class="card" id="card-76" data-idx="76">
@@ -4714,7 +4761,7 @@ Protección: Colocar tirantes de playo, asegurando protección en las áreas de 
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Revisión de Calidad y Protección del Empaque
+      <div class="info-body co-body" style="white-space:normal">Revisión de Calidad y Protección del Empaque
 Inspección: Realizar una revisión de calidad pieza por pieza, recabando evidencia fotográfica del estado de cada empaque.
 Protección: Colocar “tirantes” de playo asegurando que, en la parte donde hacen contacto con el producto, se utilice protección adicional para evitar daños y preservar la calidad del mismo.
 Control de identificación:
@@ -4776,7 +4823,7 @@ Generar evidencia fotográfica del proceso de validación y reetiquetado</div>
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Revisar  &quot;Proceso_Sears_Vallejo&quot; compartido  via mail en formato PDF</div>
+      <div class="info-body co-body" style="white-space:normal">Revisar  &quot;Proceso_Sears_Vallejo&quot; compartido  via mail en formato PDF</div>
     </div>
 </div>
 <div class="card" id="card-78" data-idx="78">
@@ -4831,7 +4878,7 @@ Generar evidencia fotográfica del proceso de validación y reetiquetado</div>
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Revisar el proceso  &quot;Proceso_Liverpool_&amp;_Suburbia-Plan_AC&quot; compartido  vía mail en formato PDF
+      <div class="info-body co-body" style="white-space:normal">Revisar el proceso  &quot;Proceso_Liverpool_&amp;_Suburbia-Plan_AC&quot; compartido  vía mail en formato PDF
 La carga se realiza a granel.
 En caso de no incluir el insumo, el producto será rechazado.
 Control de etiquetado – Modelos sin SET
@@ -4891,7 +4938,7 @@ Referencia: Seguir las instrucciones de etiquetado de Línea Blanca definidas en
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">El primer HU debe colocarse al frente del producto, en la parte superior derecha.
+      <div class="info-body co-body" style="white-space:normal">El primer HU debe colocarse al frente del producto, en la parte superior derecha.
 El segundo HU debe colocarse en el costado derecho, en la parte superior izquierda, de manera que ambos queden alineados en esquina, uno junto al otro.
 En caso de no incluir el insumo, el producto será rechazado.
 Identificación por etiquetas verdes (Línea Blanca);
@@ -4951,7 +4998,7 @@ Esta condición no limita el surtido de productos sin etiqueta verde, siempre qu
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Revisar el proceso  &quot;Manual-de-Estandares-Liverpool&amp;Suburbia-PLAN-TV&quot; compartido  vía mail en formato PDF
+      <div class="info-body co-body" style="white-space:normal">Revisar el proceso  &quot;Manual-de-Estandares-Liverpool&amp;Suburbia-PLAN-TV&quot; compartido  vía mail en formato PDF
 Pantallas mayores a 55&quot;: Se deben cargar en tarima.
 Etiquetado: Cada pieza debe llevar la etiqueta de SKU y HU colocada al frente, a la misma altura, visible y a altura media del modelo, evitando cubrir las orejillas del producto.
 Insumos: El insumo se enviará de acuerdo con el tipo de carga (tarima o granel). En caso de no incluirlo, el producto será rechazado.
@@ -5010,7 +5057,7 @@ Pantallas de 100&quot;: Se enviarán sin base de madera; para ello, es necesario
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Revisar el proceso &quot;Especificaciones-Distribucion_Liverpool &amp; Suburbia&quot; compartido  vía mail en formato PDF</div>
+      <div class="info-body co-body" style="white-space:normal">Revisar el proceso &quot;Especificaciones-Distribucion_Liverpool &amp; Suburbia&quot; compartido  vía mail en formato PDF</div>
     </div>
 </div>
 <div class="card" id="card-82" data-idx="82">
@@ -5114,7 +5161,7 @@ Pantallas de 100&quot;: Se enviarán sin base de madera; para ello, es necesario
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Control de identificación:
+      <div class="info-body co-body" style="white-space:normal">Control de identificación:
 Validar UPC contra la orden de compra / archivo de insumos antes del armado.
 En caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.
 Asegurar que el formato del código de barras corresponda al requerido (EAN o UPC).
@@ -5174,7 +5221,7 @@ Documentación: Entregar a transporte 4 juegos completos de documentos requerido
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Control de identificación:
+      <div class="info-body co-body" style="white-space:normal">Control de identificación:
 Validar UPC contra la orden de compra / archivo de insumos antes del armado.
 En caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.
 Asegurar que el formato del código de barras corresponda al requerido (EAN o UPC).
@@ -5236,7 +5283,7 @@ Tiempo límite de carga: Back Haul – La carga debe completarse en un máximo d
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Control de identificación:
+      <div class="info-body co-body" style="white-space:normal">Control de identificación:
 Validar UPC contra la orden de compra / archivo de insumos antes del armado.
 En caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.
 Asegurar que el formato del código de barras corresponda al requerido (EAN o UPC).
@@ -5298,7 +5345,7 @@ Tiempo límite de carga: Back Haul – La carga debe completarse en un máximo d
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Control de identificación:
+      <div class="info-body co-body" style="white-space:normal">Control de identificación:
 Validar UPC contra la orden de compra / archivo de insumos antes del armado.
 En caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.
 Asegurar que el formato del código de barras corresponda al requerido (EAN o UPC).
@@ -5360,7 +5407,7 @@ Tiempo límite de carga: Back Haul – La carga debe completarse en un máximo d
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">La carga debe realizarse estrictamente a granel, sin utilizar insumos (playo o tarimas).</div>
+      <div class="info-body co-body" style="white-space:normal">La carga debe realizarse estrictamente a granel, sin utilizar insumos (playo o tarimas).</div>
     </div>
 </div>
 <div class="card" id="card-88" data-idx="88">
@@ -5415,7 +5462,7 @@ Tiempo límite de carga: Back Haul – La carga debe completarse en un máximo d
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">Es estrictamente necesario ingresar con código QR, el cual será proporcionado por O.M.</div>
+      <div class="info-body co-body" style="white-space:normal">Es estrictamente necesario ingresar con código QR, el cual será proporcionado por O.M.</div>
     </div>
 </div>
 <div class="card" id="card-89" data-idx="89">
@@ -5470,7 +5517,7 @@ Tiempo límite de carga: Back Haul – La carga debe completarse en un máximo d
     </div>
   <div class="info-block">
       <div class="sec-hdr"><span class="sec-dot d-c"></span><span class="sec-title">Comentarios Operativos</span></div>
-      <div class="info-body">La carga debe realizarse estrictamente a granel, sin utilizar insumos (playo o tarimas).</div>
+      <div class="info-body co-body" style="white-space:normal">La carga debe realizarse estrictamente a granel, sin utilizar insumos (playo o tarimas).</div>
     </div>
 </div>
 
@@ -5536,6 +5583,37 @@ Tiempo límite de carga: Back Haul – La carga debe completarse en un máximo d
     }
   });
 })();
+
+
+  // ── Formateador de comentarios operativos ──
+  function formatComentario(text) {
+    if (!text || ['-','nan',''].includes(text.trim())) return '';
+    var lines = text.split('\n').map(function(l){ return l.trim(); }).filter(Boolean);
+    return lines.map(function(line) {
+      // Patrón 1: encabezado de sección (termina en ':' y es corto)
+      if (line.endsWith(':') && line.length < 80) {
+        return '<div class="co-section">' + esc(line.slice(0,-1)) + '</div>';
+      }
+      // Patrón 2: "Label corto: detalle" → label en negrita
+      var ci = line.indexOf(': ');
+      if (ci > 0 && ci <= 40) {
+        var label  = line.slice(0, ci);
+        var detail = line.slice(ci + 2);
+        return '<div class="co-item"><span class="co-dot"></span><div>' +
+               '<span class="co-label">' + esc(label) + ':</span> ' +
+               esc(detail) + '</div></div>';
+      }
+      // Patrón 3: viñeta simple
+      return '<div class="co-item"><span class="co-dot"></span><div>' + esc(line) + '</div></div>';
+    }).join('');
+  }
+
+
+  // ── Procesa bloques de comentarios al cargar ──
+  document.querySelectorAll('.co-body').forEach(function(el){
+    var raw = el.innerText || el.textContent;
+    el.innerHTML = formatComentario(raw);
+  });
 
   // ── MÓVIL: drawer sidebar + tooltip primera visita ──
   (function(){
