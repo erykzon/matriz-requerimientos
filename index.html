@@ -311,7 +311,7 @@ body{font-family:var(--font-sans);background:var(--bg);color:var(--text);min-hei
 ════════════════════════════════════════════════ */
 var CONFIG = {
   password: "hisense2026",
-  jsonUrl:  "https://raw.githubusercontent.com/erykzon/matriz-requerimientos/refs/heads/main/data/requerimientos.json",
+  jsonUrl:  "https://raw.githubusercontent.com/TU_USUARIO/TU_REPO/main/data/requerimientos.json",
   pdfsPath: "pdfs/"   // carpeta donde vivirán los PDFs en tu repo
 };
 /* ════════════════════════════════════════════════ */
@@ -376,15 +376,11 @@ function formatComentario(text){
    o líneas que empiezan con "Revisar el proceso"
 */
 function linkifyPdf(htmlLine){
-  // Busca texto entre comillas " " que parezca un nombre de proceso
-  return htmlLine.replace(/&quot;([A-Za-z0-9_\-\.\s&amp;]+)&quot;/g, function(match, name){
-    // Sanitiza el nombre para convertirlo en nombre de archivo
-    var filename = name
-      .replace(/&amp;/g,'-')
-      .replace(/\s+/g,'-')
-      .replace(/-+/g,'-')
-      .trim();
-    var url = CONFIG.pdfsPath + filename + '.pdf';
+  // Busca nombres de proceso entre comillas dobles y genera link al PDF
+  // Convención: el nombre del archivo en /pdfs/ debe coincidir exactamente
+  // con el texto entre comillas en el comentario (sin &, sin espacios extra)
+  return htmlLine.replace(/&quot;([A-Za-z0-9_\-\.]+)&quot;/g, function(match, name){
+    var url = CONFIG.pdfsPath + name + '.pdf';
     return '&quot;'+name+'&quot; '+
            '<a class="co-pdf-link" href="'+url+'" target="_blank" rel="noopener">'+
            '<span class="co-pdf-icon">📄</span> Ver PDF</a>';
