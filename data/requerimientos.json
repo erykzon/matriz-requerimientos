@@ -1,6 +1,6 @@
 {
   "version": "2026",
-  "updated": "2026-04-01",
+  "updated": "2026-04-03",
   "total": 91,
   "clientes": [
     {
@@ -1225,7 +1225,7 @@
         "series": null
       },
       "insumos": "",
-      "comentarios": "Revisar el proceso \"Elektra_Criterios_Aceptacion_TV\" compartido  vía mail en formato PDF.\nEtiquetado de producto y orden de carga\nDatos a incluir: Utilizar la información compartida en el PLP y en el archivo \"TXT\" (SKU, proveedor, case, descripción, OC, fecha).\nUbicación y orden en producto: El etiquetado para TV debe colocarse en un mismo lado, siguiendo la secuencia de menor a mayor. La etiqueta debe ubicarse a altura media del producto, sin bloquear las orejillas.\nTiempo de carga (BAZ): Las cargas deben completarse en menos de 2 horas para evitar penalizaciones.\nOrden de carga en unidad: La carga debe realizarse colocando al fondo de la unidad la secuencia más alta y cercano a la puerta la secuencia más baja, asegurando así el orden de descarga correcto."
+      "comentarios": "Revisar el proceso \"Elektra_Criterios_Aceptacion-TV\" compartido  vía mail en formato PDF.\nEtiquetado de producto y orden de carga\nDatos a incluir: Utilizar la información compartida en el PLP y en el archivo \"TXT\" (SKU, proveedor, case, descripción, OC, fecha).\nUbicación y orden en producto: El etiquetado para TV debe colocarse en un mismo lado, siguiendo la secuencia de menor a mayor. La etiqueta debe ubicarse a altura media del producto, sin bloquear las orejillas.\nTiempo de carga (BAZ): Las cargas deben completarse en menos de 2 horas para evitar penalizaciones.\nOrden de carga en unidad: La carga debe realizarse colocando al fondo de la unidad la secuencia más alta y cercano a la puerta la secuencia más baja, asegurando así el orden de descarga correcto."
     },
     {
       "nombre": "ELIZONDO LB",
@@ -1667,7 +1667,7 @@
         "series": null
       },
       "insumos": "1 Playo Cada 50 Piezas A Granel",
-      "comentarios": "Revisar el proceso  \"Proceso_Liverpool_&_Suburbia-Plan_AC\" compartido  vía mail en formato PDF\nLa carga se realiza a granel.\nEn caso de no incluir el insumo, el producto será rechazado.\nControl de etiquetado – Modelos sin SET\nAplicación: Para modelos que no estén compuestos por SET (es decir, de más de 2 piezas independientes), el etiquetado deberá aplicarse conforme al estándar de Línea Blanca.\nReferencia: Seguir las instrucciones de etiquetado de Línea Blanca definidas en la presente matriz."
+      "comentarios": "Revisar el proceso  \"Proceso_Liverpool_Suburbia-Plan_AC\" compartido  vía mail en formato PDF\nLa carga se realiza a granel.\nEn caso de no incluir el insumo, el producto será rechazado.\nControl de etiquetado – Modelos sin SET\nAplicación: Para modelos que no estén compuestos por SET (es decir, de más de 2 piezas independientes), el etiquetado deberá aplicarse conforme al estándar de Línea Blanca.\nReferencia: Seguir las instrucciones de etiquetado de Línea Blanca definidas en la presente matriz."
     },
     {
       "nombre": "LIVERPOOL PLAN LB",
@@ -1735,7 +1735,7 @@
         "series": null
       },
       "insumos": "1 Playo Cada 50 Piezas A Granel. 1 Playo Cada 5 Tarimas",
-      "comentarios": "Revisar el proceso  \"Manual-de-Estandares-Liverpool&Suburbia-PLAN-TV\" compartido  vía mail en formato PDF\nEtiquetado: Cada pieza debe llevar la etiqueta de SKU y HU colocada al frente, a la misma altura, visible y a altura media del modelo, evitando cubrir las orejillas del producto.\nInsumos: El insumo se enviará de acuerdo con el tipo de carga (tarima o granel). En caso de no incluirlo, el producto será rechazado.\nPantallas de 100\": Se enviarán sin base de madera; para ello, es necesario retirarla con cuidado, evitando dañar el corrugado."
+      "comentarios": "Revisar el proceso  \"Manual_de_Estandares_Liverpool_Suburbia_PLAN-TV\" compartido  vía mail en formato PDF\nEtiquetado: Cada pieza debe llevar la etiqueta de SKU y HU colocada al frente, a la misma altura, visible y a altura media del modelo, evitando cubrir las orejillas del producto.\nInsumos: El insumo se enviará de acuerdo con el tipo de carga (tarima o granel). En caso de no incluirlo, el producto será rechazado.\nPantallas de 100\": Se enviarán sin base de madera; para ello, es necesario retirarla con cuidado, evitando dañar el corrugado."
     },
     {
       "nombre": "LIVERPOOL Softline predistriibuido",
@@ -1769,7 +1769,7 @@
         "series": null
       },
       "insumos": "3 Playos Por Cada Unidad",
-      "comentarios": "Revisar el proceso \"Especificaciones-Distribucion_Liverpool & Suburbia\" compartido  vía mail en formato PDF"
+      "comentarios": "Revisar el proceso \"Especificaciones_Distribucion_Liverpool_Suburbia\" compartido  vía mail en formato PDF"
     },
     {
       "nombre": "LIVERPOOL TIENDA DIRECTA",
@@ -2721,7 +2721,7 @@
         "series": null
       },
       "insumos": "1 Playo Cada 50 Piezas A Granel.",
-      "comentarios": "Revisar el proceso  \"Proceso_Liverpool_&_Suburbia-Plan_AC\" compartido  vía mail en formato PDF\nLa carga se realiza a granel.\nEn caso de no incluir el insumo, el producto será rechazado.\nControl de etiquetado – Modelos sin SET\nAplicación: Para modelos que no estén compuestos por SET (es decir, de más de 2 piezas independientes), el etiquetado deberá aplicarse conforme al estándar de Línea Blanca.\nReferencia: Seguir las instrucciones de etiquetado de Línea Blanca definidas en la presente matriz."
+      "comentarios": "Revisar el proceso  \"Proceso_Liverpool_Suburbia_Plan-AC\" compartido  vía mail en formato PDF\nLa carga se realiza a granel.\nEn caso de no incluir el insumo, el producto será rechazado.\nControl de etiquetado – Modelos sin SET\nAplicación: Para modelos que no estén compuestos por SET (es decir, de más de 2 piezas independientes), el etiquetado deberá aplicarse conforme al estándar de Línea Blanca.\nReferencia: Seguir las instrucciones de etiquetado de Línea Blanca definidas en la presente matriz."
     },
     {
       "nombre": "SUBURBIA PLAN LB",
@@ -2789,7 +2789,7 @@
         "series": null
       },
       "insumos": "1 Playo Cada 50 Piezas A Granel",
-      "comentarios": "Revisar el proceso  \"Manual-de-Estandares-Liverpool&Suburbia-PLAN-TV\" compartido  vía mail en formato PDF\nPantallas mayores a 55\": Se deben cargar en tarima.\nEtiquetado: Cada pieza debe llevar la etiqueta de SKU y HU colocada al frente, a la misma altura, visible y a altura media del modelo, evitando cubrir las orejillas del producto.\nInsumos: El insumo se enviará de acuerdo con el tipo de carga (tarima o granel). En caso de no incluirlo, el producto será rechazado.\nPantallas de 100\": Se enviarán sin base de madera; para ello, es necesario retirarla con cuidado, evitando dañar el corrugado."
+      "comentarios": "Revisar el proceso  \"Manual_de_Estandares_Liverpool_Suburbia_PLAN-TV\" compartido  vía mail en formato PDF\nPantallas mayores a 55\": Se deben cargar en tarima.\nEtiquetado: Cada pieza debe llevar la etiqueta de SKU y HU colocada al frente, a la misma altura, visible y a altura media del modelo, evitando cubrir las orejillas del producto.\nInsumos: El insumo se enviará de acuerdo con el tipo de carga (tarima o granel). En caso de no incluirlo, el producto será rechazado.\nPantallas de 100\": Se enviarán sin base de madera; para ello, es necesario retirarla con cuidado, evitando dañar el corrugado."
     },
     {
       "nombre": "SUBURBIA PRE۰DISTRIBUCION",
@@ -2823,7 +2823,7 @@
         "series": null
       },
       "insumos": "6 Playos Por Unidad",
-      "comentarios": "Revisar el proceso \"Especificaciones-Distribucion_Liverpool & Suburbia\" compartido  vía mail en formato PDF"
+      "comentarios": "Revisar el proceso \"Especificaciones_Distribucion_Liverpool_Suburbia\" compartido  vía mail en formato PDF"
     },
     {
       "nombre": "TELEBODEGA",
