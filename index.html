@@ -208,13 +208,17 @@ body{font-family:var(--font-sans);background:var(--bg);color:var(--text);min-hei
   .sec-body{grid-template-columns:repeat(auto-fill,minmax(130px,1fr))}
 }
 @media(max-width:768px){
-  .header{padding:5px 14px;gap:4px}
-  .header-row1{display:none}
+  .header{padding:4px 14px;gap:3px}
+  .header-row1{gap:6px}
+  .header-logo{font-size:9px}
+  .header-sep{display:none}
+  .header-title{font-size:12px}
+  .header-version{font-size:9px;padding:1px 6px}
   .header-row2{padding-bottom:2px}
   .search-wrap{max-width:100%;margin-left:0;flex:1}
   .count-badge{display:none}
   #mobile-fab{display:flex !important}
-  .layout{grid-template-columns:1fr;height:calc(100vh - 76px)}
+  .layout{grid-template-columns:1fr;height:calc(100vh - 86px)}
   .sidebar{display:none}
   .sidebar.drawer-open{
     display:flex;flex-direction:column;
