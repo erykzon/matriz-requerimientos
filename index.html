@@ -71,8 +71,18 @@ body{font-family:var(--font-sans);background:var(--bg);color:var(--text);min-hei
 #app{display:none}
 .header{
   background:var(--surface);border-bottom:1px solid var(--border);
-  padding:0 22px;height:54px;position:sticky;top:0;z-index:100;
-  display:flex;align-items:center;gap:12px;
+  padding:6px 22px;position:sticky;top:0;z-index:100;
+  display:grid;
+  grid-template-rows:auto auto;
+  grid-template-columns:1fr;
+  gap:5px;
+}
+.header-row1{
+  display:flex;align-items:center;gap:10px;
+}
+.header-row2{
+  display:flex;align-items:center;gap:10px;
+  padding-bottom:4px;
 }
 .header-logo{font-family:var(--font-mono);font-size:10px;color:var(--accent);letter-spacing:.15em;text-transform:uppercase;flex-shrink:0}
 .header-sep{width:1px;height:18px;background:var(--border);flex-shrink:0}
@@ -88,7 +98,7 @@ body{font-family:var(--font-sans);background:var(--bg);color:var(--text);min-hei
   cursor:pointer;flex-shrink:0;white-space:nowrap;
 }
 
-.search-wrap{position:relative;flex:1;max-width:320px;margin-left:auto}
+.search-wrap{position:relative;flex:1;max-width:400px;margin-left:0}
 .search-icon{position:absolute;left:10px;top:50%;transform:translateY(-50%);color:var(--muted);font-size:13px;pointer-events:none}
 #search{
   width:100%;background:var(--surface2);border:1px solid var(--border);
@@ -100,7 +110,7 @@ body{font-family:var(--font-sans);background:var(--bg);color:var(--text);min-hei
 .count-badge{font-family:var(--font-mono);font-size:11px;color:var(--text2);white-space:nowrap;flex-shrink:0}
 
 /* ── LAYOUT ── */
-.layout{display:grid;grid-template-columns:215px 1fr;height:calc(100vh - 54px)}
+.layout{display:grid;grid-template-columns:215px 1fr;height:calc(100vh - 76px)}
 .sidebar{background:var(--surface);border-right:1px solid var(--border);overflow-y:auto}
 .sidebar-section-label{font-family:var(--font-mono);font-size:9px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);padding:14px 14px 6px}
 .sbl-item{
@@ -198,13 +208,13 @@ body{font-family:var(--font-sans);background:var(--bg);color:var(--text);min-hei
   .sec-body{grid-template-columns:repeat(auto-fill,minmax(130px,1fr))}
 }
 @media(max-width:768px){
-  .header{padding:0 14px;gap:8px;height:54px}
-  .header-logo,.header-sep,.header-version{display:none}
-  .header-title{font-size:13px}
+  .header{padding:5px 14px;gap:4px}
+  .header-row1{display:none}
+  .header-row2{padding-bottom:2px}
   .search-wrap{max-width:100%;margin-left:0;flex:1}
   .count-badge{display:none}
   #mobile-fab{display:flex !important}
-  .layout{grid-template-columns:1fr;height:calc(100vh - 54px)}
+  .layout{grid-template-columns:1fr;height:calc(100vh - 76px)}
   .sidebar{display:none}
   .sidebar.drawer-open{
     display:flex;flex-direction:column;
@@ -267,19 +277,25 @@ body{font-family:var(--font-sans);background:var(--bg);color:var(--text);min-hei
 
   <!-- HEADER -->
   <header class="header">
-    <span class="header-logo">Hisense MX</span>
-    <div class="header-sep"></div>
-    <span class="header-title">Matriz de Requerimientos</span>
-    <span class="header-version" id="data-version"></span>
-    <button id="mobile-fab">
-      <span style="font-size:14px;line-height:1">☰</span>
-      <span>Clientes</span>
-    </button>
-    <div class="search-wrap">
-      <span class="search-icon">🔍</span>
-      <input id="search" type="text" placeholder="Buscar cliente..." autocomplete="off">
+    <!-- Fila 1: marca y versión -->
+    <div class="header-row1">
+      <span class="header-logo">Hisense MX</span>
+      <div class="header-sep"></div>
+      <span class="header-title">Matriz de Requerimientos</span>
+      <span class="header-version" id="data-version"></span>
     </div>
-    <span class="count-badge" id="cnt"></span>
+    <!-- Fila 2: acciones -->
+    <div class="header-row2">
+      <button id="mobile-fab">
+        <span style="font-size:14px;line-height:1">☰</span>
+        <span>Clientes</span>
+      </button>
+      <div class="search-wrap">
+        <span class="search-icon">🔍</span>
+        <input id="search" type="text" placeholder="Buscar cliente..." autocomplete="off">
+      </div>
+      <span class="count-badge" id="cnt"></span>
+    </div>
   </header>
 
   <!-- LAYOUT -->
