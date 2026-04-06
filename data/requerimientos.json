@@ -1,14 +1,14 @@
 {
   "version": "2026",
-  "updated": "2026-04-03",
-  "total": 91,
+  "updated": "2026-04-06",
+  "total": 90,
   "clientes": [
     {
       "nombre": "AMAZON WE PAY",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": "1.80 Mts"
       },
       "tarima": {
@@ -39,10 +39,10 @@
     },
     {
       "nombre": "BODESA AC",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": null
       },
       "tarima": {
@@ -69,11 +69,11 @@
         "series": true
       },
       "insumos": "",
-      "comentarios": "Control de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nControl de secuencia de bulto – Combos\nEn caso de combo, colocar etiqueta de secuencia de bulto conforme a lo siguiente:\n1/x: Para la pieza del SET cuyo UPC coincida con el indicado en la orden de compra o archivo de insumos.\n2/x: Para la pieza restante del SET.\nGenerar evidencia fotográfica del proceso de validación y reetiquetado.\nGenerar y colocar, en la esquina superior derecha de cada pallet( en las 4 caras), una etiqueta con la siguiente información: BODESA, modelo y cantidad de piezas.\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
+      "comentarios": "Control de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nControl de secuencia de bulto – Combos\nEn caso de combo, colocar etiqueta de secuencia de bulto conforme a lo siguiente:\n1/x: Para la pieza del SET cuyo UPC coincida con el indicado en la orden de compra o archivo de insumos.\n2/x: Para la pieza restante del SET.\nGenerar evidencia fotográfica del proceso de validación y reetiquetado.\nGenerar y colocar, en la esquina superior derecha de cada pallet( en las 4 caras), una etiqueta con la siguiente información: BODESA + Destino, modelo y cantidad de piezas.\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
     },
     {
       "nombre": "BODESA LB",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -103,14 +103,14 @@
         "series": true
       },
       "insumos": "",
-      "comentarios": "Control de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nAsegurar que el formato del código de barras corresponda al requerido (EAN o UPC).\nGenerar evidencia fotográfica del proceso de validación y reetiquetado."
+      "comentarios": "Control de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nAsegurar que el formato del código de barras corresponda al requerido (EAN o UPC).\nGenerar evidencia fotográfica del proceso de validación y reetiquetado.\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
     },
     {
       "nombre": "BODESA TV",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": null
       },
       "tarima": {
@@ -137,11 +137,11 @@
         "series": true
       },
       "insumos": "",
-      "comentarios": "Control de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nAsegurar que el formato del código de barras corresponda al requerido (EAN o UPC).\nGenerar evidencia fotográfica del proceso de validación y reetiquetado.\nGenerar y colocar, en la esquina superior derecha de cada pallet, una etiqueta con la siguiente información: BODESA, modelo y cantidad de piezas.\nCada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado."
+      "comentarios": "Control de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nAsegurar que el formato del código de barras corresponda al requerido (EAN o UPC).\nGenerar evidencia fotográfica del proceso de validación y reetiquetado.\nGenerar y colocar, en la esquina superior derecha de cada pallet, una etiqueta con la siguiente información: BODESA + Destino, modelo y cantidad de piezas.\nCada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado.\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
     },
     {
       "nombre": "CENTRO MUEBLERO DE URUAPAN",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -175,7 +175,7 @@
     },
     {
       "nombre": "CIA COMERCIAL CIMACO S.A DE C.V. DURANGO LB",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -209,10 +209,10 @@
     },
     {
       "nombre": "CIA COMERCIAL CIMACO S.A DE C.V. DURANGO TV",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": "1.80 Mts"
       },
       "tarima": {
@@ -243,10 +243,10 @@
     },
     {
       "nombre": "CITY FRESKO (DISTRIBUCION) TV,LB,AC",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": "1.80 Mts"
       },
       "tarima": {
@@ -277,10 +277,10 @@
     },
     {
       "nombre": "CITY FRESKO LB / TV´s",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": "1.80 Mts"
       },
       "tarima": {
@@ -311,10 +311,10 @@
     },
     {
       "nombre": "Xaze CITY Club | Soriana",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": "2.20 mts"
       },
       "tarima": {
@@ -337,15 +337,15 @@
         "hu": null,
         "rfid": null,
         "papeleta": null,
-        "upc": true,
+        "upc": null,
         "series": true
       },
       "insumos": "Armar En Tarima Chep",
-      "comentarios": "Armado de tarimas: Realizar el armado conforme al plan de carga, respetando la cantidad de piezas por tarima indicada. No exceder las dimensiones de la tarima; en caso de exceder, armar en dos tarimas unidas de punta por la base, formando un pallet de 1 x 2.4 m, asegurando con tirantes de fleje y esquineros, sin exceder la altura permitida.\nEmplayado: El pallet debe estar emplayado bajo el estándar 6-5-6.\nDocumentación: Imprimir 3 copias del formato; el operador deberá presentarlas en caseta de vigilancia junto con las copias de las facturas.\nAcomodo de producto: El producto debe colocarse de frente, asegurando que las etiquetas de modelo / UPC / EAN queden del mismo lado."
+      "comentarios": "Armado de tarimas: Realizar el armado conforme al plan de carga, respetando la cantidad de piezas por tarima indicada. No exceder las dimensiones de la tarima; en caso de exceder, armar en dos tarimas unidas de punta por la base, formando un pallet de 1 x 2.4 m, asegurando con tirantes de fleje y esquineros, sin exceder la altura permitida.\nEmplayado: El pallet debe estar emplayado bajo el estándar 6-5-6.\nDocumentación: Imprimir 3 copias del formato; el operador deberá presentarlas en caseta de vigilancia junto con las copias de las facturas.\nAcomodo de producto: El producto debe colocarse de frente, asegurando que las etiquetas de modelo / UPC / EAN queden del mismo lado.\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
     },
     {
       "nombre": "CLARO SHOP",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -413,7 +413,7 @@
     },
     {
       "nombre": "ComGomez",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -447,7 +447,7 @@
     },
     {
       "nombre": "COPPEL TV",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -481,7 +481,7 @@
     },
     {
       "nombre": "CORPORACION TACTICA AC",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -511,11 +511,11 @@
         "series": true
       },
       "insumos": "Se Envía Insumos (Tarima) Conforme Se Indica en plan de carga Mas 1 Playo C/7 Tarimas",
-      "comentarios": "El envío a granel deberá realizarse con el insumo correspondiente, previamente compartido por el Team Hisense. En caso de no enviar el insumo, la mercancía será rechazada. \nAdemás, se deberán enviar los números de serie por correo electrónico al Team de Embarques Hisense."
+      "comentarios": "El envío a granel deberá realizarse con el insumo correspondiente, previamente compartido por el Team Hisense. En caso de no enviar el insumo, la mercancía será rechazada. \nEnviar Números de Serie por Correo al Team de Embarques Hisense"
     },
     {
       "nombre": "CORPORACION TACTICA LB",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -545,11 +545,11 @@
         "series": true
       },
       "insumos": "Se Envía Insumos (Tarima) Conforme Se Indica en plan de carga Mas 1 Playo C/7 Tarimas",
-      "comentarios": "El envío a granel deberá realizarse con el insumo correspondiente, previamente compartido por el Team Hisense. En caso de no enviar el insumo, la mercancía será rechazada. Además, se deberán enviar los números de serie por correo electrónico al Team de Embarques Hisense."
+      "comentarios": "El envío a granel deberá realizarse con el insumo correspondiente, previamente compartido por el Team Hisense. En caso de no enviar el insumo, la mercancía será rechazada.\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
     },
     {
       "nombre": "CORPORACION TACTICA TV",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -579,14 +579,14 @@
         "series": true
       },
       "insumos": "Se Envía Insumos (Tarima) Conforme Se Indica en plan de carga Mas 1 Playo C/7 Tarimas",
-      "comentarios": "El envío a granel deberá realizarse con el insumo correspondiente, previamente compartido por el Team Hisense. En caso de no enviar el insumo, la mercancía será rechazada. Además, se deberán enviar los números de serie por correo electrónico al Team de Embarques Hisense."
+      "comentarios": "El envío a granel deberá realizarse con el insumo correspondiente, previamente compartido por el Team Hisense. En caso de no enviar el insumo, la mercancía será rechazada. \nEnviar Números de Serie por Correo al Team de Embarques Hisense"
     },
     {
       "nombre": "COSTCO TV",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": null
       },
       "tarima": {
@@ -617,10 +617,10 @@
     },
     {
       "nombre": "COSTCO LB",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": null
       },
       "tarima": {
@@ -651,10 +651,10 @@
     },
     {
       "nombre": "COSTCO 75\"",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": null
       },
       "tarima": {
@@ -685,10 +685,10 @@
     },
     {
       "nombre": "COSTCO CAJONES/BASES 100\"",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": null
       },
       "tarima": {
@@ -719,10 +719,10 @@
     },
     {
       "nombre": "COSTCO.COM",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": "1.80 mts"
       },
       "tarima": {
@@ -753,10 +753,10 @@
     },
     {
       "nombre": "COSTCO AC",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": "1.80 mts"
       },
       "tarima": {
@@ -787,10 +787,10 @@
     },
     {
       "nombre": "COSTCO.DSV",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": null
       },
       "tarima": {
@@ -821,11 +821,11 @@
     },
     {
       "nombre": "CT INTERNACIONAL AC",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
-        "altura": null
+        "entarimado": null,
+        "altura": "1.80 Mts"
       },
       "tarima": {
         "std": null,
@@ -835,7 +835,7 @@
         "carton": null
       },
       "proceso": {
-        "emplayado": null,
+        "emplayado": true,
         "fleje": null,
         "esquineros": null,
         "predistribuido": null
@@ -848,18 +848,18 @@
         "rfid": null,
         "papeleta": null,
         "upc": null,
-        "series": null
+        "series": true
       },
       "insumos": "1 Playo Por Cada 5 Tarimas",
       "comentarios": "No enviar insumo implica rechazo.\nEnviar Números de Serie por correo al Team de Embarques Hisense."
     },
     {
       "nombre": "CT INTERNACIONAL LB",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
-        "altura": null
+        "entarimado": null,
+        "altura": "1.80 Mts"
       },
       "tarima": {
         "std": null,
@@ -869,7 +869,7 @@
         "carton": null
       },
       "proceso": {
-        "emplayado": null,
+        "emplayado": true,
         "fleje": null,
         "esquineros": null,
         "predistribuido": null
@@ -882,18 +882,18 @@
         "rfid": null,
         "papeleta": null,
         "upc": null,
-        "series": null
+        "series": true
       },
       "insumos": "Se Envía Insumos (Tarima) Conforme Se Indica En Pc Mas 1 Playo C/5 Tarimas",
       "comentarios": "No enviar insumo implica rechazo.\nEnviar Números de Serie por correo al Team de Embarques Hisense."
     },
     {
       "nombre": "CT INTERNACIONAL TV",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
-        "altura": null
+        "entarimado": null,
+        "altura": "1.80 Mts"
       },
       "tarima": {
         "std": true,
@@ -916,17 +916,17 @@
         "rfid": null,
         "papeleta": null,
         "upc": null,
-        "series": null
+        "series": true
       },
       "insumos": "1 Playo Por Cada 5 Tarimas",
       "comentarios": "Cada tarima debe armarse con la cantidad máxima de producto que pueda ocupar completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado.\nNo enviar insumo implica rechazo. /\n Enviar Números de Serie por correo al Team de Embarques Hisense."
     },
     {
       "nombre": "CVA ۰ CEDIS",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": null
       },
       "tarima": {
@@ -957,10 +957,10 @@
     },
     {
       "nombre": "DGL LATAM | clientes",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": null
       },
       "tarima": {
@@ -987,11 +987,11 @@
         "series": true
       },
       "insumos": "",
-      "comentarios": "Envío de información y documentación\nCompartir números de serie por modelo vía correo electrónico.\nGenerar remisión a ciegas (sin precio).\nProhibido entregar facturas al momento de la entrega."
+      "comentarios": "Envío de información y documentación\nCompartir números de serie por modelo vía correo electrónico.\nGenerar remisión a ciegas (sin precio).\nProhibido entregar facturas al momento de la entrega.\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
     },
     {
       "nombre": "DGL LATAM | Polanco",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -1021,14 +1021,14 @@
         "series": true
       },
       "insumos": "",
-      "comentarios": "Compartir números de serie por correo electrónico.\nLa entrega solo se realiza en unidad de 3.5 toneladas."
+      "comentarios": "La entrega solo se realiza en unidad de 3.5 toneladas.\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
     },
     {
       "nombre": "DGL LATAM | HOME Depot",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": "2.0 Mts"
       },
       "tarima": {
@@ -1055,14 +1055,14 @@
         "series": true
       },
       "insumos": "",
-      "comentarios": "Armado de pallets: El armado debe realizarse conforme al plan de carga, respetando la cantidad de piezas por tarima indicada.\nConfiguración de tarima: Utilizar tarima estándar (1.20 m x 1.00 m) en óptimas condiciones. Las cajas deben estar perfectamente cerradas (fleje y/o cinta resistente). Se permite un solo SKU por tarima. La mercancía debe mantenerse dentro de las dimensiones de la tarima; en caso de sobredimensión, utilizar tarima acorde sin permitir producto sobresaliente.\nControl de series: Enviar Números de Serie por tarima via correo al Team de Embarques Hisense.\nArmado y aseguramiento: Colocar el producto alineado y estable. Aplicar flejado (tirantes de fleje) para sujeción. Emplayar desde la base cumpliendo mínimo 10 vueltas en base, 6 en el centro y 10 en la parte superior, incluyendo tapa de playo. El emplayado debe asegurar que la carga no se mueva ni represente riesgo de colapso.\nIdentificación de tarima: Colocar 2 papeletas ( hoja tamaño carta) de pallet en la parte superior derecha sobre el playo (1 frontal superior derecha y 1 en cara opuesta), visibles y ubicadas del lado de entrada de uñas del patín.\nCondiciones de carga: Realizar la carga en secuencia descendente, colocando mayor al fondo y menor hacia la puerta.\nCondiciones críticas (Motivo de rechazo): No se permite producto fuera de tarima, tarimas dañadas, emplayado insuficiente, falta de flejado, mezcla de SKUs o etiquetas incorrectas/mal colocadas."
+      "comentarios": "Armado de pallets: El armado debe realizarse conforme al plan de carga, respetando la cantidad de piezas por tarima indicada.\nConfiguración de tarima: Utilizar tarima estándar (1.20 m x 1.00 m) en óptimas condiciones. Las cajas deben estar perfectamente cerradas (fleje y/o cinta resistente). Se permite un solo SKU por tarima. La mercancía debe mantenerse dentro de las dimensiones de la tarima; en caso de sobredimensión, utilizar tarima acorde sin permitir producto sobresaliente.\nControl de series: Enviar Números de Serie por tarima via correo al Team de Embarques Hisense.\nArmado y aseguramiento: Colocar el producto alineado y estable. Aplicar flejado (tirantes de fleje) para sujeción. Emplayar desde la base cumpliendo mínimo 10 vueltas en base, 6 en el centro y 10 en la parte superior, incluyendo tapa de playo. El emplayado debe asegurar que la carga no se mueva ni represente riesgo de colapso.\nIdentificación de tarima: Colocar 2 papeletas ( hoja tamaño carta) de pallet en la parte superior derecha sobre el playo (1 frontal superior derecha y 1 en cara opuesta), visibles y ubicadas del lado de entrada de uñas del patín.<\nCondiciones de carga: Realizar la carga en secuencia descendente, colocando mayor al fondo y menor hacia la puerta.\nCondiciones críticas (Motivo de rechazo): No se permite producto fuera de tarima, tarimas dañadas, emplayado insuficiente, falta de flejado, mezcla de SKUs o etiquetas incorrectas/mal colocadas.\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
     },
     {
       "nombre": "DGL LATAM | Office Depot",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": "1.60 Mts"
       },
       "tarima": {
@@ -1089,14 +1089,14 @@
         "series": true
       },
       "insumos": "",
-      "comentarios": "Configuración de tarima: Utilizar tarima de madera tipo tacón (4 entradas) de 1.00 x 1.20 m, en óptimas condiciones (sin daños, clavos, humedad o plaga). Prohibido uso de tarimas dañadas o envío a granel/piso. Para productos sobredimensionados, usar tarima proporcional.\nDistribución por pieza: Surtir conforme al archivo de distribución (Excel) del cliente, separando previamente por tienda.\nEtiquetado por pieza: Colocar etiqueta Manhattan (parte inferior del producto, mismo lado de la tarima). Generar etiqueta UPC (102x51 mm) con código visible y colocar en parte central sin obstruir orejillas.\nDistribución por  tarima: Colocar etiqueta de sistema (full pallet), número de tienda en 4 caras y cantidad de cajas. Ubicar en frente o esquina superior derecha.\nArmado: Acomodar producto alineado y frenteado, con etiquetas visibles. No ocultar cajas. Colocar esquineros y emplayar bajo estándar 4-3-4 desde la base.\nRechazos: No se permite mercancía a granel, tarimas dañadas, cajas ocultas o reacomodo en cross dock.\nAcomodo por región: Enviar tarimas separadas por región y cargar en orden inverso (primera descarga región 100).\nExcepciones: Tiendas 190, 390, 201, 404, 191 y 400’s deben colocarse al final de la carga o en último camión."
+      "comentarios": "Configuración de tarima: Utilizar tarima de madera tipo tacón (4 entradas) de 1.00 x 1.20 m, en óptimas condiciones (sin daños, clavos, humedad o plaga). Prohibido uso de tarimas dañadas o envío a granel/piso. Para productos sobredimensionados, usar tarima proporcional.\nDistribución por pieza: Surtir conforme al archivo de distribución (Excel) del cliente, separando previamente por tienda.\nEtiquetado por pieza: Colocar etiqueta Manhattan (parte inferior del producto, mismo lado de la tarima). Generar etiqueta UPC (102x51 mm) con código visible y colocar en parte central sin obstruir orejillas.\nDistribución por  tarima: Colocar etiqueta de sistema (full pallet), número de tienda en 4 caras y cantidad de cajas. Ubicar en frente o esquina superior derecha.\nArmado: Acomodar producto alineado y frenteado, con etiquetas visibles. No ocultar cajas. Colocar esquineros y emplayar bajo estándar 4-3-4 desde la base.\nRechazos: No se permite mercancía a granel, tarimas dañadas, cajas ocultas o reacomodo en cross dock.\nAcomodo por región: Enviar tarimas separadas por región y cargar en orden inverso (primera descarga región 100).\nExcepciones: Tiendas 190, 390, 201, 404, 191 y 400’s deben colocarse al final de la carga o en último camión.\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
     },
     {
       "nombre": "DGL LATAM | BATTA",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": "1.65 Mts"
       },
       "tarima": {
@@ -1123,11 +1123,11 @@
         "series": true
       },
       "insumos": "",
-      "comentarios": "Configuración de tarima: Utilizar tarima de madera tipo estandard de 1.00 x 1.20 m, en óptimas condiciones (sin daños, clavos, humedad o plaga). Prohibido uso de tarimas dañadas o envío a granel/piso. Para productos sobredimensionados, usar tarima proporcional.\nGenerar etiqueta SKU (102x51 mm) con código visible y colocar en parte central sin obstruir orejillas, en ambos lados de cada pieza.\nIdentificación de tarima: Colocar 2 papeletas de embarque ( hoja tamaño carta) de pallet en la parte central sobre el playo, visibles y ubicadas de cada lado de entrada de uñas del patín."
+      "comentarios": "Configuración de tarima: Utilizar tarima de madera tipo estandard de 1.00 x 1.20 m, en óptimas condiciones (sin daños, clavos, humedad o plaga). Prohibido uso de tarimas dañadas o envío a granel/piso. Para productos sobredimensionados, usar tarima proporcional.\nGenerar etiqueta SKU (102x51 mm) con código visible y colocar en parte central sin obstruir orejillas, en ambos lados de cada pieza.\nIdentificación de tarima: Colocar 2 papeletas de embarque ( hoja tamaño carta) de pallet en la parte central sobre el playo, visibles y ubicadas de cada lado de entrada de uñas del patín.\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
     },
     {
       "nombre": "ELEKTRA AC",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -1157,11 +1157,11 @@
         "series": true
       },
       "insumos": "",
-      "comentarios": "Etiquetado – División AC (ODU / IDU)\nAplicación: El etiquetado se realiza únicamente en el ODU del SET.\nUbicación: Colocar la etiqueta en un costado del producto, asegurando que no cubra simbología ni pictogramas.\nSecuencia de bulto:\n1/2: ODU\n2/2: IDU\nGarantizar la correcta identificación de ambos componentes del combo.\nTiempo de carga (BAZ)\nLas cargas deben completarse en un máximo de 2 horas para evitar penalizaciones."
+      "comentarios": "Etiquetado – División AC (ODU / IDU)\nAplicación: El etiquetado se realiza únicamente en el ODU del SET.\nUbicación: Colocar la etiqueta en un costado del producto, asegurando que no cubra simbología ni pictogramas.\nSecuencia de bulto:\n1/2: ODU\n2/2: IDU\nGarantizar la correcta identificación de ambos componentes del combo.\nTiempo de carga (BAZ)\nLas cargas deben completarse en un máximo de 2 horas para evitar penalizaciones.\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
     },
     {
       "nombre": "ELEKTRA LB",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -1195,10 +1195,10 @@
     },
     {
       "nombre": "ELEKTRA TV",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": "1.60 Mts"
       },
       "tarima": {
@@ -1229,11 +1229,11 @@
     },
     {
       "nombre": "ELIZONDO LB",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
-        "altura": null
+        "entarimado": null,
+        "altura": "No Max"
       },
       "tarima": {
         "std": true,
@@ -1263,10 +1263,10 @@
     },
     {
       "nombre": "ELIZONDO TV",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": "2.10 mts"
       },
       "tarima": {
@@ -1297,7 +1297,7 @@
     },
     {
       "nombre": "ENCANTO FORANEOS",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -1324,17 +1324,17 @@
         "rfid": null,
         "papeleta": null,
         "upc": null,
-        "series": null
+        "series": true
       },
       "insumos": "Sin Insumos",
-      "comentarios": "-"
+      "comentarios": "Enviar Números de Serie por Correo al Team de Embarques Hisense"
     },
     {
       "nombre": "ENCANTO MEXICO / LERMA LB",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": null
       },
       "tarima": {
@@ -1365,10 +1365,10 @@
     },
     {
       "nombre": "ENCANTO MEXICO / LERMA TV",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": null
       },
       "tarima": {
@@ -1399,7 +1399,7 @@
     },
     {
       "nombre": "EQUIPSA",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -1433,10 +1433,10 @@
     },
     {
       "nombre": "EXEL DEL NORTE VALLEJO AC",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": "1.80 Mts"
       },
       "tarima": {
@@ -1467,10 +1467,10 @@
     },
     {
       "nombre": "EXEL DEL NORTE VALLEJO LB",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": null
       },
       "tarima": {
@@ -1494,17 +1494,17 @@
         "rfid": null,
         "papeleta": null,
         "upc": null,
-        "series": null
+        "series": true
       },
       "insumos": "Tráiler Y Mudanza Enviar 6 Playos / Unidad Menor Enviar 3 Playos",
-      "comentarios": "Insumos por tipo de unidad:\nTráiler o unidad de mudanza: 6 playos por unidad.\nUnidad de menor tamaño: 3 playos por unidad.\nLas especificaciones aplican para destinos locales y foráneos"
+      "comentarios": "Insumos por tipo de unidad:\nTráiler o unidad de mudanza: 6 playos por unidad.\nUnidad de menor tamaño: 3 playos por unidad.\nLas especificaciones aplican para destinos locales y foráneos\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
     },
     {
       "nombre": "EXEL DEL NORTE VALLEJO TV",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": null
       },
       "tarima": {
@@ -1528,14 +1528,14 @@
         "rfid": null,
         "papeleta": null,
         "upc": null,
-        "series": null
+        "series": true
       },
       "insumos": "Tráiler Y Mudanza Enviar 6 Playos / Unidad Menor Enviar 3 Playos",
-      "comentarios": "Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado. Las especificaciones aplican para destinos locales y foráneos"
+      "comentarios": "Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado. Las especificaciones aplican para destinos locales y foráneos\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
     },
     {
       "nombre": "HOME DEPOT ATITALAQUIA",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -1569,10 +1569,10 @@
     },
     {
       "nombre": "INGRAM",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": "1.80 Mts"
       },
       "tarima": {
@@ -1602,42 +1602,8 @@
       "comentarios": "Configuración de tarima: Utilizar tarima reforzada con 5 palos en la base.\nPara pantallas de 60” en adelante, enviar en tarima de origen, incluyendo el mismo número de tarimas de 4 o 5 palos como insumo.\nArmado y protección\nTodo el producto debe llevar esquineros y armarse colocando el producto de punta.\nCada tarima debe armarse con la máxima cantidad de producto, cubriendo completamente su base, sin que ningún artículo sobresalga de los bordes.\nUnidad Transporte: Colocar 2 sellos por unidad (1 por puerta).\nControl de insumos: En caso de no contar con el insumo requerido, el embarque será motivo de rechazo.\nControl de series: Enviar Números de Serie por correo al Team de Embarques Hisense."
     },
     {
-      "nombre": "LIVERPOOL MARKET PLACE",
-      "clasificacion": "A , B",
-      "armado": {
-        "granel": true,
-        "entarimado": true,
-        "altura": "2.30 Mts"
-      },
-      "tarima": {
-        "std": null,
-        "origen": null,
-        "chep": null,
-        "negra": null,
-        "carton": null
-      },
-      "proceso": {
-        "emplayado": true,
-        "fleje": null,
-        "esquineros": true,
-        "predistribuido": true
-      },
-      "etiquetas": {
-        "precio": null,
-        "sku": true,
-        "asn": null,
-        "hu": null,
-        "rfid": null,
-        "papeleta": null,
-        "upc": true,
-        "series": null
-      },
-      "insumos": "1 Playo Cada 50 Piezas A Granel.",
-      "comentarios": "En el caso de las pantallas, la etiqueta de SKU debe colocarse siempre en el mismo lugar y de forma visible.\nPara la línea blanca, la etiqueta de SKU se colocará en la leyenda “Atrás del producto físico” y cada producto deberá enviarse con un mínimo de tres flejes. La etiqueta de SKU será de color amarillo.\nVerificar que el producto, tanto en la parte frontal como en la trasera, cuente con la simbología que indique que puede manipularse con clamp. En caso de no contar con esta simbología, colocar la etiqueta correspondiente de forma manual.\nEl aire acondicionado modelo AP۰12CR1G debe llevar tres flejes y contar con la simbología de clamp y estiba"
-    },
-    {
       "nombre": "LIVERPOOL PLAN AC",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -1671,7 +1637,7 @@
     },
     {
       "nombre": "LIVERPOOL PLAN LB",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -1705,10 +1671,10 @@
     },
     {
       "nombre": "LIVERPOOL PLAN TV",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
-        "entarimado": true,
+        "entarimado": null,
         "altura": "2.30 Mts"
       },
       "tarima": {
@@ -1735,14 +1701,14 @@
         "series": null
       },
       "insumos": "1 Playo Cada 50 Piezas A Granel. 1 Playo Cada 5 Tarimas",
-      "comentarios": "Revisar el proceso  \"Manual_de_Estandares_Liverpool_Suburbia_PLAN-TV\" compartido  vía mail en formato PDF\nEtiquetado: Cada pieza debe llevar la etiqueta de SKU y HU colocada al frente, a la misma altura, visible y a altura media del modelo, evitando cubrir las orejillas del producto.\nInsumos: El insumo se enviará de acuerdo con el tipo de carga (tarima o granel). En caso de no incluirlo, el producto será rechazado.\nPantallas de 100\": Se enviarán sin base de madera; para ello, es necesario retirarla con cuidado, evitando dañar el corrugado."
+      "comentarios": "Revisar el proceso  \"Manual-de-Estandares-Liverpool&Suburbia-PLAN-TV\" compartido  vía mail en formato PDF\nEtiquetado: Cada pieza debe llevar la etiqueta de SKU y HU colocada al frente, a la misma altura, visible y a altura media del modelo, evitando cubrir las orejillas del producto.\nInsumos: El insumo se enviará de acuerdo con el tipo de carga (tarima o granel). En caso de no incluirlo, el producto será rechazado.\nPantallas de 100\": Se enviarán sin base de madera; para ello, es necesario retirarla con cuidado, evitando dañar el corrugado."
     },
     {
       "nombre": "LIVERPOOL Softline predistriibuido",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": "2.60 Mts"
       },
       "tarima": {
@@ -1773,10 +1739,10 @@
     },
     {
       "nombre": "LIVERPOOL TIENDA DIRECTA",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
-        "entarimado": true,
+        "entarimado": null,
         "altura": null
       },
       "tarima": {
@@ -1807,10 +1773,10 @@
     },
     {
       "nombre": "MASTER LOYALTY GROUP SA de CV TOLUCA",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": null
       },
       "tarima": {
@@ -1841,7 +1807,7 @@
     },
     {
       "nombre": "MAVI OCCIDENTE LB",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -1871,14 +1837,14 @@
         "series": true
       },
       "insumos": "Sin insumos",
-      "comentarios": "Condición de envío – Microondas\nTodos los modelos de hornos de microondas deben enviarse exclusivamente en modalidad entarimada."
+      "comentarios": "Condición de envío – Microondas\nTodos los modelos de hornos de microondas deben enviarse exclusivamente en modalidad entarimada.\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
     },
     {
       "nombre": "MAVI OCCIDENTE TV",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": null
       },
       "tarima": {
@@ -1905,11 +1871,11 @@
         "series": true
       },
       "insumos": "Sin insumos",
-      "comentarios": "Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado. Las especificaciones aplican para destinos locales y foráneos"
+      "comentarios": "Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado. Las especificaciones aplican para destinos locales y foráneos\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
     },
     {
       "nombre": "MEGA AUDIO",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -1943,10 +1909,10 @@
     },
     {
       "nombre": "MERCADO LIBRE LB TEPOTZOTLAN",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": "1.8"
       },
       "tarima": {
@@ -1977,10 +1943,10 @@
     },
     {
       "nombre": "MERCADO LIBRE TV (pantallas arriba de 58\") CUAUTITLAN & Arco Norte",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": "1.8"
       },
       "tarima": {
@@ -2011,10 +1977,10 @@
     },
     {
       "nombre": "MERCADO LIBRE TV (pantallas arriba de 58\") TEPOTZOTLAN",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": "1.8"
       },
       "tarima": {
@@ -2045,10 +2011,10 @@
     },
     {
       "nombre": "MERCADO LIBRE TV CUAUTITLAN & Arco Norte & Tulti",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": "1.8"
       },
       "tarima": {
@@ -2079,10 +2045,10 @@
     },
     {
       "nombre": "MERCADO LIBRE TV TEPOTZOTLAN",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": "1.8"
       },
       "tarima": {
@@ -2112,8 +2078,8 @@
       "comentarios": "Identificación y preparación de bultos (tarimas)\nIdentificación: Cada bulto debe estar identificado con la papeleta de envío proporcionada por el Team Hisense, indicando la cantidad de piezas asignadas a la tarima.\nTipo de tarima: Utilizar tarima tipo estándar.\nEmplayado: El pallet debe estar emplayado bajo el estándar 6-5-6.\nValidación: Validar UPC contra papeleta previo a la carga.\nAcomodo en unidad: La última tarima cargada debe colocarse a 30 cm de la puerta."
     },
     {
-      "nombre": "ORCE LB / AIRES",
-      "clasificacion": "A , B",
+      "nombre": "ORCE LB / AC",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -2143,14 +2109,14 @@
         "series": true
       },
       "insumos": "1 Playo Cada 50 Piezas A Granel.",
-      "comentarios": "-"
+      "comentarios": "Enviar Números de Serie por Correo al Team de Embarques Hisense"
     },
     {
       "nombre": "ORCE TV",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": null
       },
       "tarima": {
@@ -2174,17 +2140,17 @@
         "rfid": null,
         "papeleta": null,
         "upc": null,
-        "series": null
+        "series": true
       },
       "insumos": "1 Playo Cada 7 Tarimas",
-      "comentarios": "Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado."
+      "comentarios": "Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado.\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
     },
     {
       "nombre": "PALACIO DE HIERRO C/PREDISTRIBUCIÓN",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": "1.60 Mts"
       },
       "tarima": {
@@ -2215,10 +2181,10 @@
     },
     {
       "nombre": "PALACIO DE HIERRO TV",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": "1.60 Mts"
       },
       "tarima": {
@@ -2249,10 +2215,10 @@
     },
     {
       "nombre": "PCH MAYOREO SA DE CV",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": "1.80 Mts"
       },
       "tarima": {
@@ -2276,14 +2242,14 @@
         "rfid": null,
         "papeleta": null,
         "upc": null,
-        "series": null
+        "series": true
       },
       "insumos": "6 Playos Por Unidad",
-      "comentarios": "Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado."
+      "comentarios": "Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado.\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
     },
     {
       "nombre": "PLAZA DE LA LINEA BLANCA",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -2317,10 +2283,10 @@
     },
     {
       "nombre": "RAC MEXICO",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": null
       },
       "tarima": {
@@ -2347,11 +2313,11 @@
         "series": true
       },
       "insumos": "",
-      "comentarios": "Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado."
+      "comentarios": "Cada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslado.\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
     },
     {
       "nombre": "SAMS AC",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -2385,7 +2351,7 @@
     },
     {
       "nombre": "SAMS LB",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -2419,7 +2385,7 @@
     },
     {
       "nombre": "SAMS TV",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -2453,10 +2419,10 @@
     },
     {
       "nombre": "SANBORNS",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": "1.60 Mts"
       },
       "tarima": {
@@ -2487,7 +2453,7 @@
     },
     {
       "nombre": "SEARS | Directo tienda",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -2521,10 +2487,10 @@
     },
     {
       "nombre": "SEARS AC",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": "1.60 Mts"
       },
       "tarima": {
@@ -2555,10 +2521,10 @@
     },
     {
       "nombre": "SEARS C/PREDISTRIBUCIÓN",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": "1.60 Mts"
       },
       "tarima": {
@@ -2589,7 +2555,7 @@
     },
     {
       "nombre": "SEARS LB",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -2623,10 +2589,10 @@
     },
     {
       "nombre": "SEARS TV",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": "1.60 Mts"
       },
       "tarima": {
@@ -2656,11 +2622,11 @@
       "comentarios": "Revisión de Calidad y Protección del Empaque\nInspección: Realizar una revisión de calidad pieza por pieza, recabando evidencia fotográfica del estado de cada empaque.\nProtección: Colocar “tirantes” de playo asegurando que, en la parte donde hacen contacto con el producto, se utilice protección adicional para evitar daños y preservar la calidad del mismo.\nControl de identificación:\nValidar UPC contra la orden de compra / archivo de insumos antes del armado.\nEn caso de no coincidir, generar y colocar la etiqueta correcta en todas las piezas del modelo involucrado.\nAsegurar que el formato del código de barras corresponda al requerido (EAN o UPC).\nGenerar evidencia fotográfica del proceso de validación y reetiquetado"
     },
     {
-      "nombre": "SEARS Vallejo TV & predistribucion",
-      "clasificacion": "A , B",
+      "nombre": "SEARS Vallejo y Silao TV predistribucion",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": null
       },
       "tarima": {
@@ -2683,7 +2649,7 @@
         "hu": null,
         "rfid": null,
         "papeleta": true,
-        "upc": null,
+        "upc": true,
         "series": null
       },
       "insumos": "1 Playo Cada 5 Tarimas",
@@ -2691,7 +2657,7 @@
     },
     {
       "nombre": "SUBURBIA PLAN AC",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -2705,7 +2671,7 @@
         "carton": null
       },
       "proceso": {
-        "emplayado": true,
+        "emplayado": null,
         "fleje": null,
         "esquineros": null,
         "predistribuido": null
@@ -2721,11 +2687,11 @@
         "series": null
       },
       "insumos": "1 Playo Cada 50 Piezas A Granel.",
-      "comentarios": "Revisar el proceso  \"Proceso_Liverpool_Suburbia_Plan-AC\" compartido  vía mail en formato PDF\nLa carga se realiza a granel.\nEn caso de no incluir el insumo, el producto será rechazado.\nControl de etiquetado – Modelos sin SET\nAplicación: Para modelos que no estén compuestos por SET (es decir, de más de 2 piezas independientes), el etiquetado deberá aplicarse conforme al estándar de Línea Blanca.\nReferencia: Seguir las instrucciones de etiquetado de Línea Blanca definidas en la presente matriz."
+      "comentarios": "Revisar el proceso  \"Proceso_Liverpool_Suburbia-Plan_AC\" compartido  vía mail en formato PDF\nLa carga se realiza a granel.\nEn caso de no incluir el insumo, el producto será rechazado.\nControl de etiquetado – Modelos sin SET\nAplicación: Para modelos que no estén compuestos por SET (es decir, de más de 2 piezas independientes), el etiquetado deberá aplicarse conforme al estándar de Línea Blanca.\nReferencia: Seguir las instrucciones de etiquetado de Línea Blanca definidas en la presente matriz."
     },
     {
       "nombre": "SUBURBIA PLAN LB",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -2739,7 +2705,7 @@
         "carton": null
       },
       "proceso": {
-        "emplayado": true,
+        "emplayado": null,
         "fleje": null,
         "esquineros": null,
         "predistribuido": null
@@ -2759,11 +2725,11 @@
     },
     {
       "nombre": "SUBURBIA PLAN TV",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
-        "entarimado": true,
-        "altura": "2.30 Mts"
+        "entarimado": null,
+        "altura": null
       },
       "tarima": {
         "std": null,
@@ -2788,15 +2754,15 @@
         "upc": null,
         "series": null
       },
-      "insumos": "1 Playo Cada 50 Piezas A Granel",
+      "insumos": "1 Playo Cada 50 Piezas A Granel.",
       "comentarios": "Revisar el proceso  \"Manual_de_Estandares_Liverpool_Suburbia_PLAN-TV\" compartido  vía mail en formato PDF\nPantallas mayores a 55\": Se deben cargar en tarima.\nEtiquetado: Cada pieza debe llevar la etiqueta de SKU y HU colocada al frente, a la misma altura, visible y a altura media del modelo, evitando cubrir las orejillas del producto.\nInsumos: El insumo se enviará de acuerdo con el tipo de carga (tarima o granel). En caso de no incluirlo, el producto será rechazado.\nPantallas de 100\": Se enviarán sin base de madera; para ello, es necesario retirarla con cuidado, evitando dañar el corrugado."
     },
     {
       "nombre": "SUBURBIA PRE۰DISTRIBUCION",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": null,
-        "entarimado": true,
+        "entarimado": null,
         "altura": "2.0 Mts"
       },
       "tarima": {
@@ -2827,7 +2793,7 @@
     },
     {
       "nombre": "TELEBODEGA",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -2861,7 +2827,7 @@
     },
     {
       "nombre": "WAL MART ۰ 7494 - IZCALLI ۰ 7464 - CUAUTITLAN1 REGULAR DC MERCHANDISE",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -2895,7 +2861,7 @@
     },
     {
       "nombre": "WALMART LB",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -2929,7 +2895,7 @@
     },
     {
       "nombre": "WALMART TV",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -2963,7 +2929,7 @@
     },
     {
       "nombre": "WALMART WM.COM",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -2997,7 +2963,7 @@
     },
     {
       "nombre": "XAZE FORANEOS",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -3031,7 +2997,7 @@
     },
     {
       "nombre": "XAZE GDL۰CHAMAPA",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
@@ -3065,7 +3031,7 @@
     },
     {
       "nombre": "XAZE TULTITLAN",
-      "clasificacion": "A , B",
+      "clasificacion": "A y B",
       "armado": {
         "granel": true,
         "entarimado": null,
