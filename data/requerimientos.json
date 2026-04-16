@@ -1,6 +1,6 @@
 {
   "version": "2026",
-  "updated": "2026-04-06",
+  "updated": "2026-04-16",
   "total": 90,
   "clientes": [
     {
@@ -1709,7 +1709,7 @@
       "armado": {
         "granel": null,
         "entarimado": null,
-        "altura": "2.60 Mts"
+        "altura": "2.40 Mts"
       },
       "tarima": {
         "std": true,
@@ -1904,8 +1904,8 @@
         "upc": null,
         "series": null
       },
-      "insumos": "1 Playo Cada 30 Pz Y Tarima Como Se Indica en el plan de carga.",
-      "comentarios": "Criterio de carga a granel\nLa carga deberá enviarse a granel, utilizando el insumo correspondiente proporcionado por el Team Hisense.\nEn caso de no incluir el insumo requerido, el embarque será motivo de rechazo."
+      "insumos": "Envio de insumos con base en la solcitud de clinete y OM",
+      "comentarios": "Criterio de carga a granel\nLa carga deberá enviarse a granel, utilizando el insumo correspondiente proporcionado por el Team Hisense.\nEl envió de insumos se hará de forma consolidad con base a la solicitud de cliente y OM"
     },
     {
       "nombre": "MERCADO LIBRE LB TEPOTZOTLAN",
