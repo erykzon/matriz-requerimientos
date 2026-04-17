@@ -1,6 +1,6 @@
 {
   "version": "2026",
-  "updated": "2026-04-16",
+  "updated": "2026-04-17",
   "total": 90,
   "clientes": [
     {
@@ -2820,7 +2820,7 @@
         "rfid": null,
         "papeleta": null,
         "upc": null,
-        "series": null
+        "series": true
       },
       "insumos": "",
       "comentarios": "-"
