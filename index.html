@@ -396,7 +396,7 @@ var CONFIG = {
   password: "hisense2026",
   jsonUrl:  "https://raw.githubusercontent.com/erykzon/matriz-requerimientos/main/data/requerimientos.json",
   pdfsPath: "pdfs/",
-  guiasUrl: "https://raw.githubusercontent.com/erykzon/matriz-requerimientos/main/data/guias.json"
+  guiasUrl: "https://raw.githubusercontent.com/erykzon/matriz-requerimientos/main/data/guias.json"   // carpeta donde vivirán los PDFs en tu repo
 };
 /* ════════════════════════════════════════════════ */
 
@@ -529,6 +529,18 @@ function loadData(){
 /* ── CONSTRUCCIÓN DE LA APP ── */
 function buildApp(data){
   var clients = Array.isArray(data) ? data : (data.clientes || []);
+
+  // Carga guías antes de renderizar (puede ser async)
+  fetch(CONFIG.guiasUrl + '?t=' + Date.now())
+    .then(function(r){return r.json()})
+    .then(function(data){
+      (data.guias||[]).forEach(function(g){
+        guideData[g.id] = {titulo: g.titulo, slides: g.slides};
+      });
+    })
+    .catch(function(err){console.warn('No se pudieron cargar guías:', err)});
+  
+
   var meta    = { version: data.version||'', updated: data.updated||'' };
 
   if(meta.updated){
@@ -774,8 +786,6 @@ document.addEventListener('keydown', function(e){
   if(e.key === 'Escape') closeGuide();
 });
 
-// Cargar guías al iniciar la app
-setTimeout(loadGuides, 100);
 
 </script>
 
