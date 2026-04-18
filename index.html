@@ -503,43 +503,49 @@ document.getElementById('pwd').addEventListener('keydown', function(e){
 
 /* ── CARGA DE DATOS ── */
 function loadData(){
-  fetch(CONFIG.jsonUrl + '?t=' + Date.now())
-    .then(function(r){
-      if(!r.ok) throw new Error('Error HTTP ' + r.status + ' — Verifica la URL del JSON en CONFIG');
-      return r.json();
-    })
-    .then(function(data){
-      document.getElementById('loading-screen').style.display = 'none';
-      document.getElementById('app').style.display = 'block';
-      buildApp(data);
-    })
-    .catch(function(err){
-      var errEl = document.getElementById('load-error');
-      document.querySelector('.spinner').style.display = 'none';
-      document.getElementById('loading-txt').style.display = 'none';
-      errEl.style.display = 'block';
-      errEl.innerHTML =
-        '<div style="font-size:28px;margin-bottom:12px">⚠️</div>'+
-        '<div style="margin-bottom:8px">No se pudo cargar el archivo de datos</div>'+
-        '<div style="font-size:10px;color:#4a5270;margin-top:8px">'+esc(err.message)+'</div>'+
-        '<div style="font-size:10px;color:#4a5270;margin-top:4px">Revisa CONFIG.jsonUrl en el HTML</div>';
-    });
-}
-
-/* ── CONSTRUCCIÓN DE LA APP ── */
-function buildApp(data){
-  var clients = Array.isArray(data) ? data : (data.clientes || []);
-
-  // Carga guías antes de renderizar (puede ser async)
-  fetch(CONFIG.guiasUrl + '?t=' + Date.now())
+  // 🔑 PRIMERO: Cargar guías ANTES de procesar comentarios
+  var guiasPromise = fetch(CONFIG.guiasUrl + '?t=' + Date.now())
     .then(function(r){return r.json()})
     .then(function(data){
       (data.guias||[]).forEach(function(g){
         guideData[g.id] = {titulo: g.titulo, slides: g.slides};
       });
+      console.log('✅ Guías precargadas:', Object.keys(guideData).length);
+      return guideData;
     })
-    .catch(function(err){console.warn('No se pudieron cargar guías:', err)});
-  
+    .catch(function(err){
+      console.warn('⚠️ No se pudieron cargar guías:', err);
+      return {};
+    });
+
+  // 🔑 DESPUÉS: Cargar datos JSON
+  guiasPromise.then(function(){
+    return fetch(CONFIG.jsonUrl + '?t=' + Date.now())
+      .then(function(r){
+        if(!r.ok) throw new Error('Error HTTP ' + r.status + ' — Verifica la URL del JSON en CONFIG');
+        return r.json();
+      });
+  }).then(function(data){
+    document.getElementById('loading-screen').style.display = 'none';
+    document.getElementById('app').style.display = 'block';
+    buildApp(data);
+  })
+  .catch(function(err){
+    var errEl = document.getElementById('load-error');
+    document.querySelector('.spinner').style.display = 'none';
+    document.getElementById('loading-txt').style.display = 'none';
+    errEl.style.display = 'block';
+    errEl.innerHTML =
+      '<div style="font-size:28px;margin-bottom:12px">⚠️</div>'+
+      '<div style="margin-bottom:8px">No se pudo cargar el archivo de datos</div>'+
+      '<div style="font-size:10px;color:#4a5270;margin-top:8px">'+esc(err.message)+'</div>'+
+      '<div style="font-size:10px;color:#4a5270;margin-top:4px">Revisa CONFIG.jsonUrl en el HTML</div>';
+  });
+}
+
+/* ── CONSTRUCCIÓN DE LA APP ── */
+function buildApp(data){
+  var clients = Array.isArray(data) ? data : (data.clientes || []);
 
   var meta    = { version: data.version||'', updated: data.updated||'' };
 
