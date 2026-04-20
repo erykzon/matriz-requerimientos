@@ -445,11 +445,11 @@ function formatComentario(text){
       var detail = line.slice(ci + 2);
       return '<div class="co-item"><span class="co-dot"></span><div>'+
              '<span class="co-label">'+esc(label)+':</span> '+
-             linkifyGuias(esc(detail))+'</div></div>';
+             linkifyPdf(esc(detail))+'</div></div>';
     }
 
     // Patrón 3: línea que menciona "Revisar" o un nombre de proceso en comillas
-    return '<div class="co-item"><span class="co-dot"></span><div>'+linkifyGuias(esc(line))+'</div></div>';
+    return '<div class="co-item"><span class="co-dot"></span><div>'+linkifyPdf(esc(line))+'</div></div>';
 
   }).join('');
 }
@@ -458,20 +458,15 @@ function formatComentario(text){
    Convierte referencias a guías en botones clickeables.
    Detecta texto entre comillas dobles que coincida con IDs en guias.json
 */
-function linkifyGuias(htmlLine){
+function linkifyPdf(htmlLine){
   // Busca nombres de guía entre comillas dobles
-  // Si la guía existe en guias.json, abre el visor modal
-  // Si no existe, solo muestra el texto sin link
+  // Crea link "Ver" que abre el visor
+  // El visor verificará si la guía existe cuando se abra
   return htmlLine.replace(/&quot;([A-Za-z0-9_\-\.]+)&quot;/g, function(match, name){
-    var hasGuide = guideData[name];
-    if(hasGuide){
-      return '&quot;'+name+'&quot; '+
-             '<a class="co-pdf-link" href="javascript:void(0)" onclick="openGuide(\''+name+'\')" style="cursor:pointer">'+
-             '<span class="co-pdf-icon">📄</span> Ver</a>';
-    } else {
-      // Si la guía no existe, devuelve el texto sin link
-      return '&quot;'+name+'&quot;';
-    }
+    // Siempre crear el link "Ver" - dejar que openGuide() maneje si existe o no
+    return '&quot;'+name+'&quot; '+
+           '<a class="co-pdf-link" href="javascript:void(0)" onclick="openGuide(\''+name+'\')" style="cursor:pointer">'+
+           '<span class="co-pdf-icon">📄</span> Ver</a>';
   });
 }
 
@@ -731,7 +726,9 @@ function loadGuides(){
 
 function openGuide(guideId){
   if(!guideData[guideId]){
-    console.error('Guía no encontrada:', guideId);
+    console.error('❌ Guía no encontrada:', guideId);
+    console.log('📚 Guías disponibles:', Object.keys(guideData));
+    alert('⚠️ Guía no disponible: ' + guideId + '\n\nVerifica que esté agregada en data/guias.json');
     return;
   }
   currentGuide = guideId;
