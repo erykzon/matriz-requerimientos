@@ -768,30 +768,6 @@ function showSlide(num){
 function nextSlide(){showSlide(currentSlide + 1)}
 function prevSlide(){showSlide(currentSlide - 1)}
 
-// Eventos del modal
-document.getElementById('guide-close').addEventListener('click', closeGuide);
-document.getElementById('guide-next').addEventListener('click', nextSlide);
-document.getElementById('guide-prev').addEventListener('click', prevSlide);
-document.getElementById('guide-modal').addEventListener('click', function(e){
-  if(e.target.id === 'guide-modal') closeGuide();
-});
-
-// Protección contra descargas
-document.addEventListener('contextmenu', function(e){
-  if(e.target.id === 'guide-img') e.preventDefault();
-});
-document.addEventListener('dragstart', function(e){
-  if(e.target.id === 'guide-img') e.preventDefault();
-});
-
-// Teclado
-document.addEventListener('keydown', function(e){
-  if(!currentGuide) return;
-  if(e.key === 'ArrowRight') nextSlide();
-  if(e.key === 'ArrowLeft') prevSlide();
-  if(e.key === 'Escape') closeGuide();
-});
-
 
 </script>
 
@@ -814,6 +790,33 @@ document.addEventListener('keydown', function(e){
     <div class="guide-footer" id="guide-footer">1 / 1</div>
   </div>
 </div>
+
+<script>
+// ⚠️ IMPORTANTE: Estos event listeners deben agregarse DESPUÉS de que el HTML del modal esté disponible
+// Eventos del modal
+document.getElementById('guide-close').addEventListener('click', closeGuide);
+document.getElementById('guide-next').addEventListener('click', nextSlide);
+document.getElementById('guide-prev').addEventListener('click', prevSlide);
+document.getElementById('guide-modal').addEventListener('click', function(e){
+  if(e.target.id === 'guide-modal') closeGuide();
+});
+
+// Protección contra descargas
+document.addEventListener('contextmenu', function(e){
+  if(e.target.id === 'guide-img') e.preventDefault();
+});
+document.addEventListener('dragstart', function(e){
+  if(e.target.id === 'guide-img') e.preventDefault();
+});
+
+// Teclado (Flechas + Escape)
+document.addEventListener('keydown', function(e){
+  if(!currentGuide) return;
+  if(e.key === 'ArrowRight') nextSlide();
+  if(e.key === 'ArrowLeft') prevSlide();
+  if(e.key === 'Escape') closeGuide();
+});
+</script>
 
 </body>
 </html>
