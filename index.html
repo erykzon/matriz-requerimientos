@@ -396,8 +396,7 @@ body{font-family:var(--font-sans);background:var(--bg);color:var(--text);min-hei
 var CONFIG = {
   password: "hisense2026",
   jsonUrl:  "https://raw.githubusercontent.com/erykzon/matriz-requerimientos/main/data/requerimientos.json",
-  pdfsPath: "pdfs/",
-  guiasUrl: "https://raw.githubusercontent.com/erykzon/matriz-requerimientos/main/data/guias.json"   // carpeta donde vivirán los PDFs en tu repo
+  guiasUrl: "https://raw.githubusercontent.com/erykzon/matriz-requerimientos/main/data/guias.json"
 };
 /* ════════════════════════════════════════════════ */
 
@@ -424,10 +423,10 @@ function riSpecial(label, val, iconY){
 }
 
 /* ── FORMATEADOR DE COMENTARIOS ──
-   Detecta 3 patrones automáticamente:
+   Detecta patrones automáticamente:
    1. Línea que termina en ':' → encabezado de sección
    2. "Label corto: detalle"   → viñeta con negrita
-   3. Texto con "Revisar..."   → viñeta + link al PDF
+   3. Texto entre comillas     → detecta guías y crea links
    4. Cualquier otra línea     → viñeta simple
 */
 function formatComentario(text){
@@ -446,24 +445,23 @@ function formatComentario(text){
       var detail = line.slice(ci + 2);
       return '<div class="co-item"><span class="co-dot"></span><div>'+
              '<span class="co-label">'+esc(label)+':</span> '+
-             linkifyPdf(esc(detail))+'</div></div>';
+             linkifyGuias(esc(detail))+'</div></div>';
     }
 
     // Patrón 3: línea que menciona "Revisar" o un nombre de proceso en comillas
-    return '<div class="co-item"><span class="co-dot"></span><div>'+linkifyPdf(esc(line))+'</div></div>';
+    return '<div class="co-item"><span class="co-dot"></span><div>'+linkifyGuias(esc(line))+'</div></div>';
 
   }).join('');
 }
 
-/* ── DETECCIÓN DE LINKS A PDF ──
-   Convierte referencias a procesos en botones clickeables.
-   Detecta texto entre comillas dobles que parezca nombre de archivo
-   o líneas que empiezan con "Revisar el proceso"
+/* ── DETECCIÓN DE LINKS A GUÍAS ──
+   Convierte referencias a guías en botones clickeables.
+   Detecta texto entre comillas dobles que coincida con IDs en guias.json
 */
-function linkifyPdf(htmlLine){
-  // Busca nombres de proceso entre comillas dobles
+function linkifyGuias(htmlLine){
+  // Busca nombres de guía entre comillas dobles
   // Si la guía existe en guias.json, abre el visor modal
-  // Si no, intenta abrir el PDF (fallback)
+  // Si no existe, solo muestra el texto sin link
   return htmlLine.replace(/&quot;([A-Za-z0-9_\-\.]+)&quot;/g, function(match, name){
     var hasGuide = guideData[name];
     if(hasGuide){
@@ -471,10 +469,8 @@ function linkifyPdf(htmlLine){
              '<a class="co-pdf-link" href="javascript:void(0)" onclick="openGuide(\''+name+'\')" style="cursor:pointer">'+
              '<span class="co-pdf-icon">📄</span> Ver</a>';
     } else {
-      var url = CONFIG.pdfsPath + name + '.pdf';
-      return '&quot;'+name+'&quot; '+
-             '<a class="co-pdf-link" href="'+url+'" target="_blank" rel="noopener">'+
-             '<span class="co-pdf-icon">📄</span> Ver PDF</a>';
+      // Si la guía no existe, devuelve el texto sin link
+      return '&quot;'+name+'&quot;';
     }
   });
 }
