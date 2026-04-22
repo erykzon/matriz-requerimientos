@@ -396,7 +396,7 @@ body{font-family:var(--font-sans);background:var(--bg);color:var(--text);min-hei
 var CONFIG = {
   password: "hisense2026",
   jsonUrl:  "https://raw.githubusercontent.com/erykzon/matriz-requerimientos/main/data/requerimientos.json",
-  guiasUrl: "https://raw.githubusercontent.com/erykzon/matriz-requerimientos/refs/heads/main/data/guias.json"
+  guiasUrl: "https://raw.githubusercontent.com/erykzon/matriz-requerimientos/main/data/guias.json"
 };
 /* ════════════════════════════════════════════════ */
 
@@ -758,11 +758,21 @@ function showSlide(num){
   if(num > guide.slides) num = 1;
   currentSlide = num;
 
-  var imgUrl = 'img/guias/' + currentGuide + '/' + 
-               String(num).padStart(2,'0') + '.jpg';
+  var numFormatted = String(num).padStart(2,'0');
+  var basePath = 'img/guias/' + currentGuide + '/' + numFormatted;
+  
+  // Intentar cargar .jpg primero, si falla intentar .JPG
+  var img = new Image();
+  img.onerror = function(){
+    // Si .jpg falla, intentar .JPG
+    document.getElementById('guide-img').src = basePath + '.JPG';
+  };
+  img.onload = function(){
+    document.getElementById('guide-img').src = basePath + '.jpg';
+  };
+  img.src = basePath + '.jpg';
   
   document.getElementById('guide-title').textContent = guide.titulo;
-  document.getElementById('guide-img').src = imgUrl;
   document.getElementById('guide-footer').textContent = num + ' / ' + guide.slides;
 }
 
