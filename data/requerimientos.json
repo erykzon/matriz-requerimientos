@@ -1,7 +1,7 @@
 {
   "version": "2026",
-  "updated": "2026-04-21",
-  "total": 90,
+  "updated": "2026-05-06",
+  "total": 91,
   "clientes": [
     {
       "nombre": "AMAZON WE PAY",
@@ -34,7 +34,7 @@
         "upc": null,
         "series": null
       },
-      "insumos": "No Aplica",
+      "insumos": "",
       "comentarios": "Control de tarimas: La cantidad de tarimas debe corresponder a lo indicado en el BOL; únicamente se permite cambio de BOL en tarimas de origen con autorización del Team Hisense.\nIdentificación de piezas: Cada pieza debe llevar papeleta (carton label) colocada con cinta en los laterales, cubriendo el código UPC del lado aplicado, y en secuencia consecutiva de bulto.\nIdentificación de tarima: Colocar la papeleta de OC y papeleta de destino en las 4 caras de la tarima.\nEmplayado: El pallet debe estar emplayado con película transparente bajo el estándar 4-3-4.\nSeguridad: Después del emplayado, colocar cinta de seguridad Hisense en forma de cruz, desde la parte inferior del pallet hacia el extremo opuesto.\nCondiciones adicionales: El uso de cincho de playo será únicamente cuando sea necesario para mejorar la estabilidad. Las cargas deben completarse en un máximo de 2 horas para evitar penalizaciones."
     },
     {
@@ -170,8 +170,8 @@
         "upc": null,
         "series": null
       },
-      "insumos": "Sin Insumos",
-      "comentarios": ""
+      "insumos": "",
+      "comentarios": "Criterio de carga a granel"
     },
     {
       "nombre": "CIA COMERCIAL CIMACO S.A DE C.V. DURANGO LB",
@@ -341,7 +341,7 @@
         "series": true
       },
       "insumos": "Armar En Tarima Chep",
-      "comentarios": "Armado de tarimas: Realizar el armado conforme al plan de carga, respetando la cantidad de piezas por tarima indicada. No exceder las dimensiones de la tarima; en caso de exceder, armar en dos tarimas unidas de punta por la base, formando un pallet de 1 x 2.4 m, asegurando con tirantes de fleje y esquineros, sin exceder la altura permitida.\nEmplayado: El pallet debe estar emplayado bajo el estándar 6-5-6.\nDocumentación: Imprimir 3 copias del formato; el operador deberá presentarlas en caseta de vigilancia junto con las copias de las facturas.\nAcomodo de producto: El producto debe colocarse de frente, asegurando que las etiquetas de modelo / UPC / EAN queden del mismo lado.\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
+      "comentarios": "Armado de tarimas: Realizar el armado conforme al plan de carga, respetando la cantidad de piezas por tarima indicada. No exceder las dimensiones de la tarima; en caso de exceder, armar en dos tarimas unidas de punta por la base, formando un pallet de 1 x 2.4 m, asegurando con tirantes de fleje y esquineros, sin exceder la altura permitida.\nIdentificación de combo láser: En caso de combo láser, colocar etiqueta de secuencia de bulto (1/2 para Proyector y 2/2 para Pantalla). Ambos componentes deben contar con el mismo UPC.\nEmplayado: El pallet debe estar emplayado bajo el estándar 6-5-6.\nDocumentación: Imprimir 3 copias del formato; el operador deberá presentarlas en caseta de vigilancia junto con las copias de las facturas.\nAcomodo de producto: El producto debe colocarse de frente, asegurando que las etiquetas de modelo / UPC / EAN queden orientadas hacia el mismo lado.\nControl de series: Enviar Números de Serie por correo al Team de Embarques Hisense."
     },
     {
       "nombre": "CLARO SHOP",
@@ -987,7 +987,7 @@
         "series": true
       },
       "insumos": "",
-      "comentarios": "Envío de información y documentación\nCompartir números de serie por modelo vía correo electrónico.\nGenerar remisión a ciegas (sin precio).\nProhibido entregar facturas al momento de la entrega.\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
+      "comentarios": "Validación previa: Validar el sub-cliente en el plan de carga, específicamente en la columna “Observaciones de cita” y/o “Confirmación de cita”. En caso de no contar con esta información o existir discrepancias, alinear y confirmar con el Team de Embarques Hisense antes de iniciar el proceso o realizar el embarque.\nEnvío de información y documentación\nCompartir números de serie por modelo vía correo electrónico.\nGenerar remisión a ciegas (sin precio).\nProhibido entregar facturas al momento de la entrega.\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
     },
     {
       "nombre": "DGL LATAM | Polanco",
@@ -1051,11 +1051,11 @@
         "hu": null,
         "rfid": null,
         "papeleta": null,
-        "upc": true,
+        "upc": null,
         "series": true
       },
       "insumos": "",
-      "comentarios": "Armado de pallets: El armado debe realizarse conforme al plan de carga, respetando la cantidad de piezas por tarima indicada.\nConfiguración de tarima: Utilizar tarima estándar (1.20 m x 1.00 m) en óptimas condiciones. Las cajas deben estar perfectamente cerradas (fleje y/o cinta resistente). Se permite un solo SKU por tarima. La mercancía debe mantenerse dentro de las dimensiones de la tarima; en caso de sobredimensión, utilizar tarima acorde sin permitir producto sobresaliente.\nControl de series: Enviar Números de Serie por tarima via correo al Team de Embarques Hisense.\nArmado y aseguramiento: Colocar el producto alineado y estable. Aplicar flejado (tirantes de fleje) para sujeción. Emplayar desde la base cumpliendo mínimo 10 vueltas en base, 6 en el centro y 10 en la parte superior, incluyendo tapa de playo. El emplayado debe asegurar que la carga no se mueva ni represente riesgo de colapso.\nIdentificación de tarima: Colocar 2 papeletas ( hoja tamaño carta) de pallet en la parte superior derecha sobre el playo (1 frontal superior derecha y 1 en cara opuesta), visibles y ubicadas del lado de entrada de uñas del patín.<\nCondiciones de carga: Realizar la carga en secuencia descendente, colocando mayor al fondo y menor hacia la puerta.\nCondiciones críticas (Motivo de rechazo): No se permite producto fuera de tarima, tarimas dañadas, emplayado insuficiente, falta de flejado, mezcla de SKUs o etiquetas incorrectas/mal colocadas.\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
+      "comentarios": "Validación previa: Validar el sub-cliente en el plan de carga, específicamente en la columna “Observaciones de cita” y/o “Confirmación de cita”. En caso de no contar con esta información o existir discrepancias, alinear y confirmar con el Team de Embarques Hisense antes de iniciar el proceso o realizar el embarque.\nArmado de pallets: El armado debe realizarse conforme al plan de carga, respetando la cantidad de piezas por tarima indicada.\nConfiguración de tarima: Utilizar tarima estándar (1.20 m x 1.00 m) en óptimas condiciones. Las cajas deben estar perfectamente cerradas (fleje y/o cinta resistente). Se permite un solo SKU por tarima. La mercancía debe mantenerse dentro de las dimensiones de la tarima; en caso de sobredimensión, utilizar tarima acorde sin permitir producto sobresaliente.\nControl de series: Enviar Números de Serie por tarima via correo al Team de Embarques Hisense.\nArmado y aseguramiento: Colocar el producto alineado y estable. Aplicar flejado (tirantes de fleje) para sujeción. Emplayar desde la base cumpliendo mínimo 10 vueltas en base, 6 en el centro y 10 en la parte superior, incluyendo tapa de playo. El emplayado debe asegurar que la carga no se mueva ni represente riesgo de colapso.\nIdentificación de tarima: Colocar 2 papeletas ( hoja tamaño carta) de pallet en la parte superior derecha sobre el playo (1 frontal superior derecha y 1 en cara opuesta), visibles y ubicadas del lado de entrada de uñas del patín.<\nCondiciones de carga: Realizar la carga en secuencia descendente, colocando mayor al fondo y menor hacia la puerta.\nCondiciones críticas (Motivo de rechazo): No se permite producto fuera de tarima, tarimas dañadas, emplayado insuficiente, falta de flejado, mezcla de SKUs o etiquetas incorrectas/mal colocadas.\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
     },
     {
       "nombre": "DGL LATAM | Office Depot",
@@ -1085,11 +1085,11 @@
         "hu": null,
         "rfid": null,
         "papeleta": true,
-        "upc": true,
+        "upc": null,
         "series": true
       },
       "insumos": "",
-      "comentarios": "Configuración de tarima: Utilizar tarima de madera tipo tacón (4 entradas) de 1.00 x 1.20 m, en óptimas condiciones (sin daños, clavos, humedad o plaga). Prohibido uso de tarimas dañadas o envío a granel/piso. Para productos sobredimensionados, usar tarima proporcional.\nDistribución por pieza: Surtir conforme al archivo de distribución (Excel) del cliente, separando previamente por tienda.\nEtiquetado por pieza: Colocar etiqueta Manhattan (parte inferior del producto, mismo lado de la tarima). Generar etiqueta UPC (102x51 mm) con código visible y colocar en parte central sin obstruir orejillas.\nDistribución por  tarima: Colocar etiqueta de sistema (full pallet), número de tienda en 4 caras y cantidad de cajas. Ubicar en frente o esquina superior derecha.\nArmado: Acomodar producto alineado y frenteado, con etiquetas visibles. No ocultar cajas. Colocar esquineros y emplayar bajo estándar 4-3-4 desde la base.\nRechazos: No se permite mercancía a granel, tarimas dañadas, cajas ocultas o reacomodo en cross dock.\nAcomodo por región: Enviar tarimas separadas por región y cargar en orden inverso (primera descarga región 100).\nExcepciones: Tiendas 190, 390, 201, 404, 191 y 400’s deben colocarse al final de la carga o en último camión.\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
+      "comentarios": "Validación previa: Validar el sub-cliente en el plan de carga, específicamente en la columna “Observaciones de cita” y/o “Confirmación de cita”. En caso de no contar con esta información o existir discrepancias, alinear y confirmar con el Team de Embarques Hisense antes de iniciar el proceso o realizar el embarque.\nConfiguración de tarima: Utilizar tarima de madera tipo tacón (4 entradas) de 1.00 x 1.20 m, en óptimas condiciones (sin daños, clavos, humedad o plaga). Prohibido uso de tarimas dañadas o envío a granel/piso. Para productos sobredimensionados, usar tarima proporcional.\nDistribución por pieza: Surtir conforme al archivo de distribución (Excel) del cliente, separando previamente por tienda.\nEtiquetado por pieza: Colocar etiqueta Manhattan (parte inferior del producto, mismo lado de la tarima). Generar etiqueta UPC (102x51 mm) con código visible y colocar en parte central sin obstruir orejillas.\nDistribución por  tarima: Colocar etiqueta de sistema (full pallet), número de tienda en 4 caras y cantidad de cajas. Ubicar en frente o esquina superior derecha.\nArmado: Acomodar producto alineado y frenteado, con etiquetas visibles. No ocultar cajas. Colocar esquineros y emplayar bajo estándar 4-3-4 desde la base.\nRechazos: No se permite mercancía a granel, tarimas dañadas, cajas ocultas o reacomodo en cross dock.\nAcomodo por región: Enviar tarimas separadas por región y cargar en orden inverso (primera descarga región 100).\nExcepciones: Tiendas 190, 390, 201, 404, 191 y 400’s deben colocarse al final de la carga o en último camión.\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
     },
     {
       "nombre": "DGL LATAM | BATTA",
@@ -1119,11 +1119,11 @@
         "hu": null,
         "rfid": null,
         "papeleta": null,
-        "upc": true,
+        "upc": null,
         "series": true
       },
       "insumos": "",
-      "comentarios": "Configuración de tarima: Utilizar tarima de madera tipo estandard de 1.00 x 1.20 m, en óptimas condiciones (sin daños, clavos, humedad o plaga). Prohibido uso de tarimas dañadas o envío a granel/piso. Para productos sobredimensionados, usar tarima proporcional.\nGenerar etiqueta SKU (102x51 mm) con código visible y colocar en parte central sin obstruir orejillas, en ambos lados de cada pieza.\nIdentificación de tarima: Colocar 2 papeletas de embarque ( hoja tamaño carta) de pallet en la parte central sobre el playo, visibles y ubicadas de cada lado de entrada de uñas del patín.\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
+      "comentarios": "Validación previa: Validar el sub-cliente en el plan de carga, específicamente en la columna “Observaciones de cita” y/o “Confirmación de cita”. En caso de no contar con esta información o existir discrepancias, alinear y confirmar con el Team de Embarques Hisense antes de iniciar el proceso o realizar el embarque.\nConfiguración de tarima: Utilizar tarima de madera tipo estandard de 1.00 x 1.20 m, en óptimas condiciones (sin daños, clavos, humedad o plaga). Prohibido uso de tarimas dañadas o envío a granel/piso. Para productos sobredimensionados, usar tarima proporcional.\nGenerar etiqueta SKU (102x51 mm) con código visible y colocar en parte central sin obstruir orejillas, en ambos lados de cada pieza.\nIdentificación de tarima: Colocar 2 papeletas de embarque ( hoja tamaño carta) de pallet en la parte central sobre el playo, visibles y ubicadas de cada lado de entrada de uñas del patín.\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
     },
     {
       "nombre": "ELEKTRA AC",
@@ -1231,19 +1231,19 @@
       "nombre": "ELIZONDO LB",
       "clasificacion": "A y B",
       "armado": {
-        "granel": null,
+        "granel": true,
         "entarimado": null,
-        "altura": "No Max"
+        "altura": null
       },
       "tarima": {
-        "std": true,
+        "std": null,
         "origen": null,
         "chep": null,
         "negra": null,
-        "carton": true
+        "carton": null
       },
       "proceso": {
-        "emplayado": true,
+        "emplayado": null,
         "fleje": null,
         "esquineros": null,
         "predistribuido": null
@@ -1258,8 +1258,8 @@
         "upc": null,
         "series": null
       },
-      "insumos": "Armar En Tarima Std",
-      "comentarios": "-"
+      "insumos": "",
+      "comentarios": "Criterio de carga a granel"
     },
     {
       "nombre": "ELIZONDO TV",
@@ -1629,7 +1629,7 @@
         "hu": true,
         "rfid": null,
         "papeleta": null,
-        "upc": true,
+        "upc": null,
         "series": null
       },
       "insumos": "1 Playo Cada 50 Piezas A Granel",
@@ -1697,7 +1697,7 @@
         "hu": true,
         "rfid": null,
         "papeleta": null,
-        "upc": true,
+        "upc": null,
         "series": null
       },
       "insumos": "1 Playo Cada 50 Piezas A Granel. 1 Playo Cada 5 Tarimas",
@@ -1906,6 +1906,40 @@
       },
       "insumos": "Envio de insumos con base en la solcitud de clinete y OM",
       "comentarios": "Criterio de carga a granel\nLa carga deberá enviarse a granel, utilizando el insumo correspondiente proporcionado por el Team Hisense.\nEl envió de insumos se hará de forma consolidad con base a la solicitud de cliente y OM"
+    },
+    {
+      "nombre": "Coca TV",
+      "clasificacion": "A y B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": true
+      },
+      "insumos": "",
+      "comentarios": "Enviar Números de Serie por Correo al Team de Embarques Hisense"
     },
     {
       "nombre": "MERCADO LIBRE LB TEPOTZOTLAN",
@@ -2653,7 +2687,7 @@
         "series": null
       },
       "insumos": "1 Playo Cada 5 Tarimas",
-      "comentarios": "Revisar  \"Proceso_Sears_Vallejo_Silao\" compartido  via mail en formato PDF"
+      "comentarios": "Revisar  \"Proceso_Sears_Vallejo\" compartido  via mail en formato PDF"
     },
     {
       "nombre": "SUBURBIA PLAN AC",
