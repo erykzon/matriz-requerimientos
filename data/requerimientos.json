@@ -1,6 +1,6 @@
 {
   "version": "2026",
-  "updated": "2026-05-12",
+  "updated": "2026-06-04",
   "total": 91,
   "clientes": [
     {
@@ -2687,7 +2687,7 @@
         "series": null
       },
       "insumos": "1 Playo Cada 5 Tarimas",
-      "comentarios": "Revisar  \"Proceso_Sears_Vallejo\" compartido  via mail en formato PDF"
+      "comentarios": "Revisar  \"Proceso_Sears_Vallejo_Silao\" compartido  via mail en formato PDF"
     },
     {
       "nombre": "SUBURBIA PLAN AC",
