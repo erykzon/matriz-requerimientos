@@ -1,6 +1,6 @@
 {
   "version": "2026",
-  "updated": "2026-06-04",
+  "updated": "2026-07-22",
   "total": 91,
   "clientes": [
     {
@@ -510,8 +510,8 @@
         "upc": null,
         "series": true
       },
-      "insumos": "Se Envía Insumos (Tarima) Conforme Se Indica en plan de carga Mas 1 Playo C/7 Tarimas",
-      "comentarios": "El envío a granel deberá realizarse con el insumo correspondiente, previamente compartido por el Team Hisense. En caso de no enviar el insumo, la mercancía será rechazada. \nEnviar Números de Serie por Correo al Team de Embarques Hisense"
+      "insumos": "Envio de insumos con base en la solcitud de clinete y OM",
+      "comentarios": "Criterio de carga a granel\nLa carga deberá enviarse a granel, utilizando el insumo correspondiente proporcionado por el Team Hisense.\nEl envió de insumos se hará de forma consolidad con base a la solicitud de cliente y OM"
     },
     {
       "nombre": "CORPORACION TACTICA LB",
@@ -544,8 +544,8 @@
         "upc": null,
         "series": true
       },
-      "insumos": "Se Envía Insumos (Tarima) Conforme Se Indica en plan de carga Mas 1 Playo C/7 Tarimas",
-      "comentarios": "El envío a granel deberá realizarse con el insumo correspondiente, previamente compartido por el Team Hisense. En caso de no enviar el insumo, la mercancía será rechazada.\nEnviar Números de Serie por Correo al Team de Embarques Hisense"
+      "insumos": "Envio de insumos con base en la solcitud de clinete y OM",
+      "comentarios": "Criterio de carga a granel\nLa carga deberá enviarse a granel, utilizando el insumo correspondiente proporcionado por el Team Hisense.\nEl envió de insumos se hará de forma consolidad con base a la solicitud de cliente y OM"
     },
     {
       "nombre": "CORPORACION TACTICA TV",
@@ -578,8 +578,8 @@
         "upc": null,
         "series": true
       },
-      "insumos": "Se Envía Insumos (Tarima) Conforme Se Indica en plan de carga Mas 1 Playo C/7 Tarimas",
-      "comentarios": "El envío a granel deberá realizarse con el insumo correspondiente, previamente compartido por el Team Hisense. En caso de no enviar el insumo, la mercancía será rechazada. \nEnviar Números de Serie por Correo al Team de Embarques Hisense"
+      "insumos": "Envio de insumos con base en la solcitud de clinete y OM",
+      "comentarios": "Criterio de carga a granel\nLa carga deberá enviarse a granel, utilizando el insumo correspondiente proporcionado por el Team Hisense.\nEl envió de insumos se hará de forma consolidad con base a la solicitud de cliente y OM"
     },
     {
       "nombre": "COSTCO TV",
@@ -1667,10 +1667,10 @@
         "series": null
       },
       "insumos": "1 Playo Cada 50 Piezas A Granel",
-      "comentarios": "Etiquetado HU y SKU: Colocar el primer HU al frente del producto en la parte superior derecha, con su etiqueta SKU inmediatamente debajo. Colocar el segundo HU en el costado derecho, parte superior izquierda, alineado en esquina con el primero, y su etiqueta SKU correspondiente debajo, asegurando que ambas etiquetas SKU queden alineadas entre sí.\nCondición de insumo: En caso de no incluir el insumo requerido, el producto será motivo de rechazo.\nIdentificación Línea Blanca: Los productos de Línea Blanca con etiqueta verde (parte inferior) están destinados principalmente a entregas para Liverpool. En caso de no contar con producto con etiqueta verde, se permite surtir producto sin dicha etiqueta.\nCondición especial: Para modelos con peso ≥ 100 kg, utilizar etiqueta naranja para la generación de SKU."
+      "comentarios": "Etiquetado HU y SKU: Colocar el primer HU en la parte trasera (back) del producto en la parte superior derecha, con su etiqueta SKU inmediatamente debajo. Colocar el segundo HU en el costado derecho, parte superior izquierda, alineado en esquina con el primero, y su etiqueta SKU correspondiente debajo, asegurando que ambas etiquetas SKU queden alineadas entre sí.\nCondición de insumo: En caso de no incluir el insumo requerido, el producto será motivo de rechazo.\nIdentificación Línea Blanca: Los productos de Línea Blanca con etiqueta verde (parte inferior) están destinados principalmente a entregas para Liverpool. En caso de no contar con producto con etiqueta verde, se permite surtir producto sin dicha etiqueta.\nCondición especial: Para modelos con peso ≥ 100 kg, utilizar etiqueta naranja para la generación de SKU."
     },
     {
-      "nombre": "LIVERPOOL PLAN TV",
+      "nombre": "LIVERPOOL PLAN TV /HE",
       "clasificacion": "A y B",
       "armado": {
         "granel": true,
@@ -1701,7 +1701,7 @@
         "series": null
       },
       "insumos": "1 Playo Cada 50 Piezas A Granel. 1 Playo Cada 5 Tarimas",
-      "comentarios": "Revisar el proceso  \"Manual-de-Estandares-Liverpool&Suburbia-PLAN-TV\" compartido  vía mail en formato PDF\nEtiquetado: Cada pieza debe llevar la etiqueta de SKU y HU colocada al frente, a la misma altura, visible y a altura media del modelo, evitando cubrir las orejillas del producto.\nInsumos: El insumo se enviará de acuerdo con el tipo de carga (tarima o granel). En caso de no incluirlo, el producto será rechazado.\nPantallas de 100\": Se enviarán sin base de madera; para ello, es necesario retirarla con cuidado, evitando dañar el corrugado."
+      "comentarios": "Revisar el proceso  \"Manual-de-Estandares-Liverpool&Suburbia-PLAN-TV\" compartido  vía mail en formato PDF\nEtiquetado: Cada pieza debe llevar la etiqueta de SKU y HU colocada al frente, a la misma altura, visible y a altura media del modelo, evitando cubrir las orejillas del producto.\nCada tarima debe armarse con la cantidad máxima de producto que cubra completamente su base, asegurando que ningún artículo sobresalga de los bordes. Esto garantiza la estabilidad y la integridad de la mercancía durante su manipulación y traslad\nInsumos: El insumo se enviará de acuerdo con el tipo de carga (tarima o granel). En caso de no incluirlo, el producto será rechazado.\nPantallas de 100\": Se enviarán sin base de madera; para ello, es necesario retirarla con cuidado, evitando dañar el corrugado.\nModelo HS100: Método de armado requerido;\nConfiguración de cama: 8 piezas por cama.\nAltura máxima de estiba: 13 niveles (13 camas)."
     },
     {
       "nombre": "LIVERPOOL Softline predistriibuido",
@@ -1973,7 +1973,7 @@
         "series": null
       },
       "insumos": "No Aplica",
-      "comentarios": "Identificación y preparación de bultos (tarimas)\nIdentificación: Cada bulto debe estar identificado con la papeleta de envío proporcionada por el Team Hisense, indicando la cantidad de piezas señalada en dicha papeleta.\nTipo de tarima: Utilizar tarima tipo estándar.\nEmplayado: El pallet debe estar emplayado bajo el estándar 6-5-6.\nValidación: Validar UPC contra papeleta previo a la carga.\nAcomodo en unidad: La última tarima cargada debe colocarse a 30 cm de la puerta."
+      "comentarios": "Identificación y preparación de bultos (tarimas)\nIdentificación: Cada bulto debe estar identificado con la papeleta de envío proporcionada por el Team Hisense, indicando la cantidad de piezas señalada en dicha papeleta.\nTipo de tarima: Utilizar tarima tipo estándar.\nEmplayado: El pallet debe estar emplayado bajo el estándar 6-5-6.\nValidación: Validar UPC contra OC\nAcomodo en unidad: La última tarima cargada debe colocarse a 30 cm de la puerta."
     },
     {
       "nombre": "MERCADO LIBRE TV (pantallas arriba de 58\") CUAUTITLAN & Arco Norte",
@@ -2007,7 +2007,7 @@
         "series": null
       },
       "insumos": "No Aplica",
-      "comentarios": "Identificación y preparación de piezas y bultos (pallets);\nCada pieza debe estar identificada con el código de barras proporcionado por Hisense.\nCada bulto (pallet) debe contar con su número de envío (QR único) correspondiente.\nUtilizar tarima tipo estándar y emplayar el pallet bajo el estándar 4۰3۰4.\nValidar el UPC contra la papeleta antes de la carga.\nColocar fleje de playo en cada tarima como soporte adicional para la carga.\nPara CEDIS Cuautitlán, colocar la hoja de cita (QR) en la caja del transporte.\nLa última tarima en cargarse debe ubicarse a 30 cm de la puerta."
+      "comentarios": "Identificación y preparación de piezas y bultos (pallets);\nCada bulto (pallet) debe contar con su número de envío (QR único) correspondiente.\nColocar el QR en la parte superior derecha de cada cara del pallet (4 caras).\nLos 4 QR deben corresponder al mismo número de secuencia de bulto.\nEjemplo: Para el pallet 1/18, las 4 caras deben llevar QR con la secuencia 1/18.\nUtilizar tarima tipo estándar y emplayar el pallet bajo el estándar 5-4-5.\nValidar el UPC contra la papeleta antes de la carga.\nColocar fleje de playo en cada tarima como soporte adicional para la carga.\nPara CEDIS Cuautitlán, colocar la hoja de cita (QR) en la caja del transporte.\nLa última tarima en cargarse debe ubicarse a 30 cm de la puerta."
     },
     {
       "nombre": "MERCADO LIBRE TV (pantallas arriba de 58\") TEPOTZOTLAN",
@@ -2041,7 +2041,7 @@
         "series": null
       },
       "insumos": "No Aplica",
-      "comentarios": "Identificación y preparación de piezas y bultos (tarimas)\nIdentificación de piezas: Cada pieza debe estar identificada con el código de barras proporcionado por el Team Hisense.\nIdentificación de bultos: Cada bulto debe contar con su número de envío (QR único) correspondiente.\nTipo de tarima: Utilizar tarima tipo estándar.\nEmplayado: El pallet debe estar emplayado bajo el estándar 4-3-4.\nValidación: Validar UPC contra papeleta previo a la carga.\nRefuerzo: Colocar refuerzo con playo en cada tarima como soporte adicional para la carga.\nDocumentación (CEDIS Cuautitlán): Colocar la hoja de cita (QR) en la caja del transporte.\nAcomodo en unidad: La última tarima cargada debe colocarse a 30 cm de la puerta."
+      "comentarios": "Identificación y preparación de piezas y bultos (tarimas)\nIdentificación de bultos: Cada bulto debe contar con su número de envío (QR único) correspondiente.\nColocar el QR en la parte superior derecha de cada cara del pallet (4 caras).\nLos 4 QR deben corresponder al mismo número de secuencia de bulto.\nEjemplo: Para el pallet 1/18, las 4 caras deben llevar QR con la secuencia 1/18.\nTipo de tarima: Utilizar tarima tipo estándar.\nEmplayado: El pallet debe estar emplayado bajo el estándar 5-4-5.\nValidación: Validar UPC contra OC\nRefuerzo: Colocar refuerzo con playo en cada tarima como soporte adicional para la carga.\nDocumentación (CEDIS Cuautitlán): Colocar la hoja de cita (QR) en la caja del transporte.\nAcomodo en unidad: La última tarima cargada debe colocarse a 30 cm de la puerta."
     },
     {
       "nombre": "MERCADO LIBRE TV CUAUTITLAN & Arco Norte & Tulti",
@@ -2075,7 +2075,7 @@
         "series": null
       },
       "insumos": "No Aplica",
-      "comentarios": "Identificación y preparación de piezas y bultos (tarimas)\nIdentificación de piezas: Cada pieza debe estar identificada con el código de barras proporcionado por el Team Hisense.\nIdentificación de bultos:\nCada bulto debe contar con su número de envío (QR único).\nColocar el QR en la parte superior derecha de cada cara del pallet (4 caras).\nLos 4 QR deben corresponder al mismo número de secuencia de bulto.\nEjemplo: Para el pallet 1/18, las 4 caras deben llevar QR con la secuencia 1/18.\nTipo de tarima: Utilizar tarima tipo estándar.\nEmplayado: El pallet debe estar emplayado bajo el estándar 6-5-6.\nValidación: Validar UPC contra papeleta previo a la carga.\nDocumentación (CEDIS Cuautitlán): Colocar la hoja de cita (QR) en la pared derecha de la caja del transporte, después del último pallet cargado.\nAcomodo en unidad: La última tarima cargada debe colocarse a 30 cm de la puerta"
+      "comentarios": "Identificación y preparación de piezas y bultos (tarimas)\nIdentificación de bultos:\nCada bulto debe contar con su número de envío (QR único).\nColocar el QR en la parte superior derecha de cada cara del pallet (4 caras).\nLos 4 QR deben corresponder al mismo número de secuencia de bulto.\nEjemplo: Para el pallet 1/18, las 4 caras deben llevar QR con la secuencia 1/18.\nTipo de tarima: Utilizar tarima tipo estándar.\nEmplayado: El pallet debe estar emplayado bajo el estándar 5-4-5.\nValidación: Validar UPC contra OC\nDocumentación (CEDIS Cuautitlán): Colocar la hoja de cita (QR) en la pared derecha de la caja del transporte, después del último pallet cargado.\nAcomodo en unidad: La última tarima cargada debe colocarse a 30 cm de la puerta"
     },
     {
       "nombre": "MERCADO LIBRE TV TEPOTZOTLAN",
@@ -2109,7 +2109,7 @@
         "series": null
       },
       "insumos": "No Aplica",
-      "comentarios": "Identificación y preparación de bultos (tarimas)\nIdentificación: Cada bulto debe estar identificado con la papeleta de envío proporcionada por el Team Hisense, indicando la cantidad de piezas asignadas a la tarima.\nTipo de tarima: Utilizar tarima tipo estándar.\nEmplayado: El pallet debe estar emplayado bajo el estándar 6-5-6.\nValidación: Validar UPC contra papeleta previo a la carga.\nAcomodo en unidad: La última tarima cargada debe colocarse a 30 cm de la puerta."
+      "comentarios": "Identificación y preparación de bultos (tarimas)\nIdentificación: Cada bulto debe estar identificado con la papeleta de envío proporcionada por el Team Hisense, indicando la cantidad de piezas asignadas a la tarima.\nTipo de tarima: Utilizar tarima tipo estándar.\nEmplayado: El pallet debe estar emplayado bajo el estándar 5-4-5.\nValidación: Validar UPC contra OC\nAcomodo en unidad: La última tarima cargada debe colocarse a 30 cm de la puerta."
     },
     {
       "nombre": "ORCE LB / AC",
