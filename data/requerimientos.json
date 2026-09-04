@@ -1,7 +1,7 @@
 {
   "version": "2026",
-  "updated": "2026-07-22",
-  "total": 91,
+  "updated": "2026-09-04",
+  "total": 92,
   "clientes": [
     {
       "nombre": "AMAZON WE PAY",
@@ -12,8 +12,8 @@
         "altura": "1.80 Mts"
       },
       "tarima": {
-        "std": true,
-        "origen": "APARTIR DE 60\"",
+        "std": null,
+        "origen": null,
         "chep": null,
         "negra": null,
         "carton": true
@@ -35,7 +35,7 @@
         "series": null
       },
       "insumos": "",
-      "comentarios": "Control de tarimas: La cantidad de tarimas debe corresponder a lo indicado en el BOL; únicamente se permite cambio de BOL en tarimas de origen con autorización del Team Hisense.\nIdentificación de piezas: Cada pieza debe llevar papeleta (carton label) colocada con cinta en los laterales, cubriendo el código UPC del lado aplicado, y en secuencia consecutiva de bulto.\nIdentificación de tarima: Colocar la papeleta de OC y papeleta de destino en las 4 caras de la tarima.\nEmplayado: El pallet debe estar emplayado con película transparente bajo el estándar 4-3-4.\nSeguridad: Después del emplayado, colocar cinta de seguridad Hisense en forma de cruz, desde la parte inferior del pallet hacia el extremo opuesto.\nCondiciones adicionales: El uso de cincho de playo será únicamente cuando sea necesario para mejorar la estabilidad. Las cargas deben completarse en un máximo de 2 horas para evitar penalizaciones."
+      "comentarios": "Control de tarimas: La cantidad de tarimas debe corresponder a lo indicado en el BOL.\nIdentificación de piezas: Cada pieza debe llevar papeleta (carton label) colocada con cinta en los laterales, cubriendo el código UPC del lado aplicado, y en secuencia consecutiva de bulto.\nIdentificación de tarima: Colocar la papeleta de OC y papeleta de destino en las 4 caras de la tarima. \nLas etiquetas de pallet deben colocarse de forma recta (no en ángulo) en dos lados del pallet.\nEmplayado: El pallet debe estar emplayado con película transparente bajo el estándar 5-4-5.\nSeguridad: Después del emplayado, colocar cinta de seguridad Hisense en forma de cruz, desde la parte inferior del pallet hacia el extremo opuesto.\nCondiciones adicionales: El uso de cincho de playo será únicamente cuando sea necesario para mejorar la estabilidad. Las cargas deben completarse en un máximo de 2 horas para evitar penalizaciones."
     },
     {
       "nombre": "BODESA AC",
@@ -825,7 +825,7 @@
       "armado": {
         "granel": null,
         "entarimado": null,
-        "altura": "1.80 Mts"
+        "altura": "2 Mts"
       },
       "tarima": {
         "std": null,
@@ -859,7 +859,7 @@
       "armado": {
         "granel": null,
         "entarimado": null,
-        "altura": "1.80 Mts"
+        "altura": "2 Mts"
       },
       "tarima": {
         "std": null,
@@ -893,7 +893,7 @@
       "armado": {
         "granel": null,
         "entarimado": null,
-        "altura": "1.80 Mts"
+        "altura": "2 Mts"
       },
       "tarima": {
         "std": true,
@@ -1599,7 +1599,41 @@
         "series": true
       },
       "insumos": "(Enviar Tarimas De 5 Palos) 1 Playo Por Cada 5 Tarimas / Pantallas De 60\" Se Envía 1 Playo Por 2 Tarimas / Cada Unidad Debe Llevar 3 Tarimas Como Insumo Aparte De Lo Proporcional Al Armado",
-      "comentarios": "Configuración de tarima: Utilizar tarima reforzada con 5 palos en la base.\nPara pantallas de 60” en adelante, enviar en tarima de origen, incluyendo el mismo número de tarimas de 4 o 5 palos como insumo.\nArmado y protección\nTodo el producto debe llevar esquineros y armarse colocando el producto de punta.\nCada tarima debe armarse con la máxima cantidad de producto, cubriendo completamente su base, sin que ningún artículo sobresalga de los bordes.\nUnidad Transporte: Colocar 2 sellos por unidad (1 por puerta).\nControl de insumos: En caso de no contar con el insumo requerido, el embarque será motivo de rechazo.\nControl de series: Enviar Números de Serie por correo al Team de Embarques Hisense."
+      "comentarios": "Configuración de tarima: Utilizar tarima reforzada con 5 palos en la base.\nArmado y protección\nPantallas de 60” o mayores: Utilizar tarima (5 palos) doble unida de costado para formar un pallet de 2 x 1.2 m, asegurado con dos cinchos en la unión (elaborados con el mismo fleje).\nTodo el producto debe llevar esquineros.\nCada tarima debe armarse con la máxima cantidad de producto, cubriendo completamente su base, sin que ningún artículo sobresalga de los bordes.\nUnidad Transporte: Colocar 2 sellos por unidad (1 por puerta).\nControl de insumos: En caso de no contar con el insumo requerido, el embarque será motivo de rechazo.\nControl de series: Enviar Números de Serie por correo al Team de Embarques Hisense."
+    },
+    {
+      "nombre": "INGRAM TV 100\"",
+      "clasificacion": "A y B",
+      "armado": {
+        "granel": true,
+        "entarimado": null,
+        "altura": null
+      },
+      "tarima": {
+        "std": null,
+        "origen": null,
+        "chep": null,
+        "negra": null,
+        "carton": null
+      },
+      "proceso": {
+        "emplayado": null,
+        "fleje": null,
+        "esquineros": null,
+        "predistribuido": null
+      },
+      "etiquetas": {
+        "precio": null,
+        "sku": null,
+        "asn": null,
+        "hu": null,
+        "rfid": null,
+        "papeleta": null,
+        "upc": null,
+        "series": true
+      },
+      "insumos": "Enviar 2 tarimas de 5 palos cada 5 pz  Se Envía 1 Playo por 4 Tarimas / Cada Unidad Debe Llevar 3 Tarimas Como Insumo Aparte De Lo Proporcional Al Armado",
+      "comentarios": "Configuración: Cada pieza se carga de forma individual (granel) agregando el insumos que le corresponde por cada 5 piezas ( 2 tarimas de 5 palos).\nUnidad Transporte: Colocar 2 sellos por unidad (1 por puerta).\nControl de insumos: En caso de no contar con el insumo requerido, el embarque será motivo de rechazo.\nControl de series: Enviar Números de Serie por correo al Team de Embarques Hisense."
     },
     {
       "nombre": "LIVERPOOL PLAN AC",
